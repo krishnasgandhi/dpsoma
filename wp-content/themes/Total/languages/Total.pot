@@ -1,0 +1,7116 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Total\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-05-29 17:31-0700\n"
+"PO-Revision-Date: 2016-08-09 12:06-0800\n"
+"Last-Translator: AJ Clarke <wpexplorer@gmail.com>\n"
+"Language-Team: WPExplorer.com\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;"
+"_c,_nc:4c,1,2;_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_ex:1,2c;_nx_noop:4c,1,2;"
+"_nx;_esc_attr__;esc_attr_x;esc_attr_e;esc_html__;esc_html_e;esc_html_x;__;_e;"
+"esc_attr__\n"
+"X-Poedit-Basepath: ..\n"
+"X-Generator: Poedit 2.2.3\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: framework/classes/tgmpa\n"
+
+#: 404.php:59
+msgid "Sorry, this page could not be found."
+msgstr ""
+
+#: 404.php:60
+msgid ""
+"The page you are looking for doesn't exist, no longer exists or has been "
+"moved."
+msgstr ""
+
+#: attachment.php:59
+msgid "Downloads"
+msgstr ""
+
+#: attachment.php:76
+msgid "Format"
+msgstr ""
+
+#: attachment.php:81
+msgid "Size"
+msgstr ""
+
+#: attachment.php:86
+msgid "Length"
+msgstr ""
+
+#: author-bio.php:52 author-bio.php:74 partials/blog/blog-entry-avatar.php:16
+msgid "Visit Author Page"
+msgstr ""
+
+#: comments.php:45
+msgid "This Post Has One Comment"
+msgstr ""
+
+#: comments.php:47
+#, php-format
+msgid "This Post Has %s Comments"
+msgstr ""
+
+#: comments.php:74
+msgid "Comments are closed."
+msgstr ""
+
+#: framework/AdminPanel.php:51
+msgid "Demo Importer"
+msgstr ""
+
+#: framework/AdminPanel.php:53 framework/AdminPanel.php:59
+#: framework/AdminPanel.php:65 framework/AdminPanel.php:95
+#: framework/AdminPanel.php:116 framework/AdminPanel.php:122
+#: framework/AdminPanel.php:128 framework/AdminPanel.php:134
+#: framework/AdminPanel.php:140 framework/AdminPanel.php:151
+#: framework/AdminPanel.php:157 framework/AdminPanel.php:163
+#: framework/AdminPanel.php:169 framework/AdminPanel.php:200
+#: framework/AdminPanel.php:206 framework/AdminPanel.php:212
+#: framework/AdminPanel.php:218 framework/AdminPanel.php:224
+#: framework/AdminPanel.php:262 framework/AdminPanel.php:271
+msgid "Core"
+msgstr ""
+
+#: framework/AdminPanel.php:54
+msgid ""
+"Enables a new admin screen at Theme Panel > Demo Importer so you can import "
+"one of the Total live demos. Demos are to be used as a \"starter\" for a new "
+"site and are best imported on a fresh WordPress installation."
+msgstr ""
+
+#: framework/AdminPanel.php:57 framework/addons/UnderConstruction.php:39
+#: framework/addons/UnderConstruction.php:40
+#: framework/addons/UnderConstruction.php:228
+msgid "Under Construction"
+msgstr ""
+
+#: framework/AdminPanel.php:60
+msgid ""
+"Enables a new admin screen at Theme Panel > Under Construction where you can "
+"select a custom page and have your entire website redirect to this page for "
+"any visitor that is not logged in. Logged in users will be able to browse "
+"the site normally."
+msgstr ""
+
+#: framework/AdminPanel.php:63
+msgid "Bundled/Recommended Plugins"
+msgstr ""
+
+#: framework/AdminPanel.php:66
+msgid ""
+"Enables a notice that displays a list of bundled or recommended plugins for "
+"the theme. It also adds an admin screen under Appearance > Install Plugins "
+"for installing and updating bundled plugins. This feature also provides "
+"updates to the bundled plugins whenever there is a theme update which "
+"includes an updated version of a bundled plugin."
+msgstr ""
+
+#: framework/AdminPanel.php:69
+msgid "Schema Markup"
+msgstr ""
+
+#: framework/AdminPanel.php:71
+msgid "SEO"
+msgstr ""
+
+#: framework/AdminPanel.php:72
+msgid ""
+"Enables basic html schema markup to the theme. This includes WebPage, "
+"WPHeader, SiteNavigationElement, WPSideBar and WPFooter."
+msgstr ""
+
+#: framework/AdminPanel.php:75
+msgid "Minify Javascript"
+msgstr ""
+
+#: framework/AdminPanel.php:77 framework/AdminPanel.php:145
+#: framework/AdminPanel.php:194 framework/AdminPanel.php:247
+#: framework/AdminPanel.php:279
+msgid "Optimizations"
+msgstr ""
+
+#: framework/AdminPanel.php:78
+msgid ""
+"When enabled the live site will load a minified and compressed version of "
+"it's javascript files. Disable this option for troubleshooting purposes."
+msgstr ""
+
+#: framework/AdminPanel.php:81
+msgid "Custom CSS"
+msgstr ""
+
+#: framework/AdminPanel.php:83 framework/AdminPanel.php:89
+#: framework/AdminPanel.php:297
+msgid "Developers"
+msgstr ""
+
+#: framework/AdminPanel.php:84
+msgid ""
+"Enables the Custom CSS admin panel for making CSS customizations via the "
+"backend. This function hooks into the core WordPress custom CSS "
+"functionality so any CSS added here will also be available in the Customizer."
+msgstr ""
+
+#: framework/AdminPanel.php:87 framework/addons/CustomActions.php:41
+#: framework/addons/CustomActions.php:42 framework/addons/CustomActions.php:102
+msgid "Custom Actions"
+msgstr ""
+
+#: framework/AdminPanel.php:90
+msgid ""
+"Enables a new admin screen at Theme Panel > Custom Actions where you can "
+"insert HTML/JS to any of the theme’s core action hooks. It’s a great way to "
+"add global content anywhere on your site. PHP input is not supported for "
+"security reasons. For more advanced modifications it is adviced to use a "
+"child theme."
+msgstr ""
+
+#: framework/AdminPanel.php:93 framework/addons/Favicons.php:64
+#: framework/addons/Favicons.php:65 framework/addons/Favicons.php:273
+msgid "Favicons"
+msgstr ""
+
+#: framework/AdminPanel.php:96
+msgid ""
+"Enables a new admin screen at Theme Panel > Favicons where you can set "
+"custom site icons for various devices. If you rather set a global site icon "
+"that gets automatically resized you can disable this function and instead go "
+"to Appearance > Customize > Site Identity and upload your custom icon under "
+"the Site Icon option."
+msgstr ""
+
+#: framework/AdminPanel.php:101 framework/AdminPanel.php:106
+#: framework/AdminPanel.php:111 framework/AdminPanel.php:288
+msgid "Post Types"
+msgstr ""
+
+#: framework/AdminPanel.php:114 framework/customizer/settings/blog.php:40
+#: framework/vendor/cpt-ui.php:192
+msgid "Post Series"
+msgstr ""
+
+#: framework/AdminPanel.php:117
+msgid ""
+"Enables a new taxonomy named Post Series to your standard posts which allows "
+"you to \"connect\" different posts together as a series. For any post in a "
+"series, the front end will display links to all other posts in the series. "
+"This is commonly used for multipart tutorials."
+msgstr ""
+
+#: framework/AdminPanel.php:120 framework/addons/HeaderBuilder.php:88
+#: framework/addons/HeaderBuilder.php:89 framework/addons/HeaderBuilder.php:376
+msgid "Header Builder"
+msgstr ""
+
+#: framework/AdminPanel.php:123
+msgid ""
+"Enables a new admin screen at Theme Panel > Header Builder where you can "
+"select any template to override the default theme header. This functionality "
+"is compatible with both WPBakery and Elementor if you want to create a page "
+"builder based header."
+msgstr ""
+
+#: framework/AdminPanel.php:126 framework/addons/FooterBuilder.php:89
+#: framework/addons/FooterBuilder.php:90 framework/addons/FooterBuilder.php:477
+msgid "Footer Builder"
+msgstr ""
+
+#: framework/AdminPanel.php:129
+msgid ""
+"Enables a new admin screen at Theme Panel > Footer Builder where you can "
+"select any template to override the default theme footer. This functionality "
+"is compatible with both WPBakery and Elementor if you want to create a page "
+"builder based header."
+msgstr ""
+
+#: framework/AdminPanel.php:132
+msgid "Custom Login Page"
+msgstr ""
+
+#: framework/AdminPanel.php:135
+msgid ""
+"Enables a new admin screen at Theme Panel > Custom Login where you tweak the "
+"default WordPress login screen such as uploading a custom logo and changin "
+"the default background and form colors."
+msgstr ""
+
+#: framework/AdminPanel.php:138 framework/addons/Custom404.php:88
+msgid "Custom 404 Page"
+msgstr ""
+
+#: framework/AdminPanel.php:143 framework/customizer/customizer-manager.php:27
+msgid "Customizer Manager"
+msgstr ""
+
+#: framework/AdminPanel.php:146
+msgid ""
+"Enables a new admin screen at Theme Panel > Customizer Manager where you can "
+"select what theme tabs are displayed in the Customizer. For example if you "
+"do not plan on using the theme Top Bar or Toggle Bar functionaility you can "
+"hide the settings completely in the Customizer to slim things down and speed "
+"things up."
+msgstr ""
+
+#: framework/AdminPanel.php:149
+msgid "Custom WordPress Gallery"
+msgstr ""
+
+#: framework/AdminPanel.php:152
+msgid ""
+"Enables a custom output for the default WordPress gallery that includes "
+"lightbox functionality and custom image cropping via the settings under "
+"Theme Panel > Image Sizes > Other. If you are using Elementor it is "
+"recommended that you disable this setting to prevent conflicts because the "
+"plugin also creates a custom output for galleries."
+msgstr ""
+
+#: framework/AdminPanel.php:155
+msgid "Custom Widget Areas"
+msgstr ""
+
+#: framework/AdminPanel.php:158
+msgid ""
+"Enables a new form under Appearance > Widgets that allows you to create new "
+"widget areas right via the dashboard. These widget areas can then be "
+"selected on a per category or page basis to override the default sidebar "
+"widget area. You can also use child theme code to display these widget areas "
+"anywhere."
+msgstr ""
+
+#: framework/AdminPanel.php:161
+msgid "Theme Widgets"
+msgstr ""
+
+#: framework/AdminPanel.php:164
+msgid "Enables over 20 custom widgets exclusive to the Total theme."
+msgstr ""
+
+#: framework/AdminPanel.php:167
+msgid "Taxonomy Thumbnails"
+msgstr ""
+
+#: framework/AdminPanel.php:170
+msgid ""
+"Enables a new field when creating and editing categories and terms under "
+"custom taxonomies so you can define a thumbnail. This thumbnail is used on "
+"the front-end as the page header background and is also used in various "
+"builder modules such as the Categories Grid and Categories Carousel modules."
+msgstr ""
+
+#: framework/AdminPanel.php:173
+msgid "Editor Formats"
+msgstr ""
+
+#: framework/AdminPanel.php:175 framework/AdminPanel.php:181
+#: framework/AdminPanel.php:188
+msgid "Editor"
+msgstr ""
+
+#: framework/AdminPanel.php:176
+msgid ""
+"Enables the \"Formats\" button with some default and custom styles that you "
+"can use when adding text via the WordPress editor."
+msgstr ""
+
+#: framework/AdminPanel.php:179
+msgid "Editor Font Family Select"
+msgstr ""
+
+#: framework/AdminPanel.php:182
+msgid ""
+"Enables the \"Font Family\" dropdown when using the WordPress editor so you "
+"can highlight text and select a custom font. When enabled it will display "
+"the default editor fonts as well as any fonts you have defined in the "
+"Customizer under the Typography tab."
+msgstr ""
+
+#: framework/AdminPanel.php:186
+msgid "Editor Shortcodes"
+msgstr ""
+
+#: framework/AdminPanel.php:189
+msgid ""
+"Enables a new \"Shortcodes\" button in the WordPress editor with some "
+"exclusive theme shortcodes including line break, icon, current year, "
+"searchform, button, divider and spacing. You can easily add new shortcodes "
+"to this dropdown via a child theme."
+msgstr ""
+
+#: framework/AdminPanel.php:192
+msgid "Remove Emoji Scripts"
+msgstr ""
+
+#: framework/AdminPanel.php:195
+msgid ""
+"By default WordPress adds scripts to the front-end of your site on all pages "
+"to render emoji icons. For most websites this is unnecessary bloat and thus "
+"is disabled by default in Total."
+msgstr ""
+
+#: framework/AdminPanel.php:198 framework/classes/ImageSizes.php:188
+#: framework/classes/ImageSizes.php:189 framework/classes/ImageSizes.php:260
+#: framework/vendor/PostTypesUnlimited.php:171 framework/vendor/cpt-ui.php:217
+msgid "Image Sizes"
+msgstr ""
+
+#: framework/AdminPanel.php:201
+msgid ""
+"Enables a new admin screen at Theme Panel > Image Sizes where you can define "
+"custom cropping for the images on your site."
+msgstr ""
+
+#: framework/AdminPanel.php:204 framework/addons/PageAnimations.php:236
+msgid "Page Animations"
+msgstr ""
+
+#: framework/AdminPanel.php:207
+msgid ""
+"Enables a new tab under Appearance > Customize > General Theme Options > "
+"Page Animations where you can enable a loading icon when people visit your "
+"website as well define load in and load out animations for your site."
+msgstr ""
+
+#: framework/AdminPanel.php:210
+msgid "Typography Options"
+msgstr ""
+
+#: framework/AdminPanel.php:213
+msgid ""
+"Enables a new tab at Appearance > Customize > Typography where you can "
+"define custom fonts and font styles for various parts of the site including "
+"the main body, menu, sidebar, footer, callout, topbar, etc."
+msgstr ""
+
+#: framework/AdminPanel.php:216
+msgid "Page Edit Links"
+msgstr ""
+
+#: framework/AdminPanel.php:219
+msgid ""
+"Enables edit links at the bottom of your posts and pages so you can quickly "
+"access the backend or front-end editor while logged into your site."
+msgstr ""
+
+#: framework/AdminPanel.php:222
+msgid "Import/Export Panel"
+msgstr ""
+
+#: framework/AdminPanel.php:225
+msgid ""
+"Enables a new admin screen at Theme Panel > Import/Export where you can "
+"quickly export or import Customizer settings from one site to the other. "
+"This is useful when switching to a child theme or if you wanted to copy a "
+"backup of your settings before making changes in the Customizer (you can "
+"copy the settings and paste them into a text file on your computer)."
+msgstr ""
+
+#: framework/AdminPanel.php:228
+msgid "WPBakery Builder Theme Mode"
+msgstr ""
+
+#: framework/AdminPanel.php:232 framework/AdminPanel.php:240
+#: framework/vendor/wpbakery/vc-config.php:281
+msgid "WPBakery Builder"
+msgstr ""
+
+#: framework/AdminPanel.php:233
+msgid ""
+"Enables \"Theme Mode\" for the WPBakery page builder plugin. This disables "
+"the License Tab under the WPbakery admin settings and hides some unnecessary "
+"notices and about pages."
+msgstr ""
+
+#: framework/AdminPanel.php:236
+msgid "WPBakery Builder Modules"
+msgstr ""
+
+#: framework/AdminPanel.php:241
+msgid ""
+"Enables over 60 custom WPBakery builder blocks exclusive to the Total theme "
+"only. These modules are located inside the Total Theme Core plugin."
+msgstr ""
+
+#: framework/AdminPanel.php:244
+msgid "Deprecated Fallbacks"
+msgstr ""
+
+#: framework/AdminPanel.php:248
+msgid ""
+"From time to time functions are removed in updates but the code stays in the "
+"theme as a fallback for child theme modifications. Disable this option to "
+"remove these fallbacks from your site."
+msgstr ""
+
+#: framework/AdminPanel.php:260
+msgid "Thumbnail Post Format Icons"
+msgstr ""
+
+#: framework/AdminPanel.php:265
+msgid ""
+"Enables the display of a format icon on the front-end. For example if you "
+"publish a blog post that is set as an \"Image\" post format, the theme will "
+"display a little image icon over the Thumbnail (featured image) on entries "
+"and in the related posts section."
+msgstr ""
+
+#: framework/AdminPanel.php:268
+msgid "WP Header Image"
+msgstr ""
+
+#: framework/AdminPanel.php:272
+msgid ""
+"Enables the WordPress core header image function under Appearance > "
+"Customize > Header Image which simply lets you set a custom background image "
+"for your theme header."
+msgstr ""
+
+#: framework/AdminPanel.php:276
+msgid "Remove Google Fonts"
+msgstr ""
+
+#: framework/AdminPanel.php:280
+msgid ""
+"Disables all Google font options from the Customizer Typography panel and "
+"Total builder modules. This feature is primarily for users in Countries "
+"where Google hosted fonts are not allowed such as China."
+msgstr ""
+
+#: framework/AdminPanel.php:284
+msgid "Remove Post Type Slugs"
+msgstr ""
+
+#: framework/AdminPanel.php:285
+msgid ""
+"Removes the slug from the Portfolio, Staff and Testimonial custom post "
+"types. For example instead of a portfolio post being at site.com/portfolio-"
+"item/post-1/ it would be located at site.com/post-1/. Slugs are used in "
+"WordPress by default to prevent conflicts, enabling this setting is not "
+"recommented in most cases."
+msgstr ""
+
+#: framework/AdminPanel.php:295
+msgid "Custom JS"
+msgstr ""
+
+#: framework/AdminPanel.php:314
+msgid "Theme Panel"
+msgstr ""
+
+#: framework/AdminPanel.php:332 framework/AdminPanel.php:333
+#: framework/addons/Typography.php:305 framework/classes/ImageSizes.php:270
+#: framework/customizer/settings/blog.php:51
+#: framework/customizer/settings/callout.php:17
+#: framework/customizer/settings/footer_bottom.php:17
+#: framework/customizer/settings/footer_widgets.php:17
+#: framework/customizer/settings/header.php:19
+#: framework/customizer/settings/layout.php:17
+#: framework/customizer/settings/sidebar.php:15
+#: framework/customizer/settings/staff.php:28
+#: framework/customizer/settings/togglebar.php:17
+#: framework/customizer/settings/topbar.php:17
+#: framework/vendor/woocommerce/customizer.php:21
+#: framework/vendor/wpbakery/vc-customizer-settings.php:17
+msgid "General"
+msgstr ""
+
+#: framework/AdminPanel.php:430
+msgid "Features"
+msgstr ""
+
+#: framework/AdminPanel.php:435
+msgid "License"
+msgstr ""
+
+#: framework/AdminPanel.php:439
+msgid "Demo Import"
+msgstr ""
+
+#: framework/AdminPanel.php:442
+msgid "Customize"
+msgstr ""
+
+#: framework/AdminPanel.php:465 framework/classes/License.php:152
+msgid "Your site is currently active as a development environment."
+msgstr ""
+
+#: framework/AdminPanel.php:480
+#: framework/lib/tgmpa/class-tgm-plugin-activation.php:2695
+msgid "Version"
+msgstr ""
+
+#: framework/AdminPanel.php:489
+msgid "Theme Options Panel"
+msgstr ""
+
+#: framework/AdminPanel.php:491
+msgid ""
+"Here you can enable or disable various core features of the theme in order "
+"to keep the site optimized for your needs."
+msgstr ""
+
+#: framework/AdminPanel.php:498
+msgid "Don't forget to <a href=\"#\">save your changes</a>"
+msgstr ""
+
+#: framework/AdminPanel.php:508
+msgid "Theme Branding"
+msgstr ""
+
+#: framework/AdminPanel.php:513
+msgid "Used in widgets and builder blocks..."
+msgstr ""
+
+#: framework/AdminPanel.php:516
+#: partials/overlays/view-lightbox-buttons-text.php:71
+msgid "View"
+msgstr ""
+
+#: framework/AdminPanel.php:519 framework/AdminPanel.php:535
+#: framework/vendor/wpbakery/shortcode-mods/vc_row.php:178
+#: framework/vendor/wpbakery/shortcode-mods/vc_section.php:152
+msgid "All"
+msgstr ""
+
+#: framework/AdminPanel.php:521
+#: framework/lib/tgmpa/class-tgm-plugin-activation.php:2463
+msgid "Active"
+msgstr ""
+
+#: framework/AdminPanel.php:523
+msgid "Inactive"
+msgstr ""
+
+#: framework/AdminPanel.php:528
+msgid "Sort"
+msgstr ""
+
+#: framework/AdminPanel.php:559
+msgid "System Status"
+msgstr ""
+
+#: framework/AdminPanel.php:568
+msgid "Memory Limit"
+msgstr ""
+
+#: framework/AdminPanel.php:570
+msgid "Recommended: 256M"
+msgstr ""
+
+#: framework/AdminPanel.php:577
+msgid "Max Execution Time"
+msgstr ""
+
+#: framework/AdminPanel.php:580
+msgid "Recommended: 300"
+msgstr ""
+
+#: framework/AdminPanel.php:589
+msgid "Max Post Size"
+msgstr ""
+
+#: framework/AdminPanel.php:592
+msgid "Recommended: 32M"
+msgstr ""
+
+#: framework/AdminPanel.php:600
+msgid "Max Input Vars"
+msgstr ""
+
+#: framework/AdminPanel.php:603
+msgid "Recommended: 1000"
+msgstr ""
+
+#: framework/AdminPanel.php:764
+msgid "Confirm Reset"
+msgstr ""
+
+#: framework/AdminPanel.php:765 framework/classes/ImportExport.php:235
+msgid "Import Options"
+msgstr ""
+
+#: framework/addons/Custom404.php:53 framework/addons/Custom404.php:54
+#: framework/addons/Custom404.php:229
+msgid "Custom 404"
+msgstr ""
+
+#: framework/addons/Custom404.php:79
+msgid "Redirect 404's"
+msgstr ""
+
+#: framework/addons/Custom404.php:97
+msgid "404 Page Title"
+msgstr ""
+
+#: framework/addons/Custom404.php:106
+msgid "404 Page Content"
+msgstr ""
+
+#: framework/addons/Custom404.php:164
+msgid "Automatically 301 redirect all 404 errors to your homepage."
+msgstr ""
+
+#: framework/addons/Custom404.php:178 framework/addons/HeaderBuilder.php:219
+#: framework/addons/PageAnimations.php:180
+#: framework/addons/PageAnimations.php:202 framework/addons/Typography.php:561
+#: framework/addons/UnderConstruction.php:161
+#: framework/addons/UnderConstruction.php:211 framework/arrays.php:569
+#: framework/arrays.php:715 framework/arrays.php:782 framework/arrays.php:842
+#: framework/arrays.php:855 framework/classes/PostTypeEditorPanel.php:405
+#: framework/customizer/controls/bg-patterns.php:41
+#: framework/customizer/controls/fa-icon-select.php:43
+#: framework/customizer/settings/callout.php:191
+#: framework/customizer/settings/header.php:631
+#: framework/helpers/overlays.php:66
+#: framework/vendor/PostTypesUnlimited.php:105
+#: framework/vendor/PostTypesUnlimited.php:116
+#: framework/vendor/PostTypesUnlimited.php:145 framework/vendor/cpt-ui.php:423
+#: framework/vendor/wpbakery/shortcode-mods/vc_row.php:239
+#: framework/vendor/wpbakery/shortcode-mods/vc_row.php:375
+#: framework/vendor/wpbakery/shortcode-mods/vc_row.php:420
+#: framework/vendor/wpbakery/shortcode-mods/vc_row.php:472
+#: framework/vendor/wpbakery/shortcode-mods/vc_section.php:174
+#: framework/vendor/wpbakery/shortcode-mods/vc_section.php:227
+#: framework/vendor/wpbakery/shortcode-mods/vc_section.php:279
+msgid "None"
+msgstr ""
+
+#: framework/addons/Custom404.php:183
+msgid "Select a custom page to replace your default 404 page content."
+msgstr ""
+
+#: framework/addons/Custom404.php:192 framework/addons/FooterBuilder.php:633
+#: framework/addons/HeaderBuilder.php:552
+#: framework/addons/UnderConstruction.php:184
+msgid "Backend Edit"
+msgstr ""
+
+#: framework/addons/Custom404.php:197 framework/addons/FooterBuilder.php:637
+#: framework/addons/HeaderBuilder.php:556
+#: framework/addons/UnderConstruction.php:189
+msgid "Frontend Edit"
+msgstr ""
+
+#: framework/addons/Custom404.php:201
+#: framework/addons/UnderConstruction.php:194
+msgid "Preview"
+msgstr ""
+
+#: framework/addons/Custom404.php:212
+msgid "Enter a custom title for your 404 page."
+msgstr ""
+
+#: framework/addons/CustomActions.php:181
+msgid "Code"
+msgstr ""
+
+#: framework/addons/CustomActions.php:182
+msgid "Enter your custom action here&hellip;"
+msgstr ""
+
+#: framework/addons/CustomActions.php:186
+msgid "Priority"
+msgstr ""
+
+#: framework/addons/CustomActions.php:206
+msgid "Save Your Actions"
+msgstr ""
+
+#: framework/addons/CustomActions.php:210
+msgid "Click the button below to save your custom actions."
+msgstr ""
+
+#: framework/addons/CustomLogin.php:74 framework/addons/CustomLogin.php:75
+#: framework/addons/CustomLogin.php:137
+msgid "Custom Login"
+msgstr ""
+
+#: framework/addons/CustomLogin.php:142 framework/hooks/hooks.php:72
+msgid "Main"
+msgstr ""
+
+#: framework/addons/CustomLogin.php:143
+#: framework/customizer/settings/blog.php:508
+#: framework/customizer/settings/callout.php:88
+#: framework/customizer/settings/callout.php:267
+#: framework/customizer/settings/footer_bottom.php:72
+#: framework/customizer/settings/footer_widgets.php:67
+#: framework/customizer/settings/footer_widgets.php:299
+#: framework/customizer/settings/general.php:450
+#: framework/customizer/settings/general.php:813
+#: framework/customizer/settings/general.php:970
+#: framework/customizer/settings/general.php:1038
+#: framework/customizer/settings/general.php:1221
+#: framework/customizer/settings/header.php:120
+#: framework/customizer/settings/header.php:695
+#: framework/customizer/settings/header.php:860
+#: framework/customizer/settings/header.php:1315
+#: framework/customizer/settings/header.php:1377
+#: framework/customizer/settings/sidebar.php:32
+#: framework/customizer/settings/sidebar.php:151
+#: framework/customizer/settings/topbar.php:109
+msgid "Background"
+msgstr ""
+
+#: framework/addons/CustomLogin.php:144
+msgid "Form"
+msgstr ""
+
+#: framework/addons/CustomLogin.php:145
+#: framework/customizer/settings/callout.php:148
+#: partials/header/header-buttons.php:21
+msgid "Button"
+msgstr ""
+
+#: framework/addons/CustomLogin.php:157
+#: framework/customizer/settings/general.php:246
+#: framework/customizer/settings/header.php:26
+#: framework/customizer/settings/togglebar.php:23
+#: framework/customizer/settings/topbar.php:24
+msgid "Enable"
+msgstr ""
+
+#: framework/addons/CustomLogin.php:165 framework/addons/Typography.php:84
+#: framework/customizer/settings/header.php:223 framework/hooks/hooks.php:57
+msgid "Logo"
+msgstr ""
+
+#: framework/addons/CustomLogin.php:169 framework/addons/CustomLogin.php:230
+#: framework/addons/Favicons.php:191 framework/addons/Favicons.php:207
+#: framework/addons/Favicons.php:223 framework/addons/Favicons.php:239
+#: framework/addons/Favicons.php:255 framework/addons/FooterBuilder.php:439
+#: framework/addons/HeaderBuilder.php:315
+msgid "Upload"
+msgstr ""
+
+#: framework/addons/CustomLogin.php:174 framework/addons/CustomLogin.php:235
+#: framework/addons/Favicons.php:196 framework/addons/Favicons.php:212
+#: framework/addons/Favicons.php:228 framework/addons/Favicons.php:244
+#: framework/addons/Favicons.php:260 framework/addons/FooterBuilder.php:444
+#: framework/addons/HeaderBuilder.php:320
+msgid "Preview Image"
+msgstr ""
+
+#: framework/addons/CustomLogin.php:177
+msgid ""
+"The WordPress login logo displays at 320px wide so please upload an image "
+"that is this size or smaller to prevent your logo from being cropped off the "
+"sides."
+msgstr ""
+
+#: framework/addons/CustomLogin.php:182
+msgid "Logo Height"
+msgstr ""
+
+#: framework/addons/CustomLogin.php:186
+msgid "Enter a value in pixels."
+msgstr ""
+
+#: framework/addons/CustomLogin.php:191
+msgid "Link Logo to Homepage?"
+msgstr ""
+
+#: framework/addons/CustomLogin.php:195
+msgid ""
+"By default the login logo in WordPress links to their website, enable this "
+"setting so that the logo links to your own site homepage."
+msgstr ""
+
+#: framework/addons/CustomLogin.php:200
+msgid "Custom Logo URL"
+msgstr ""
+
+#: framework/addons/CustomLogin.php:204
+msgid "Enter a custom URL for when clicking on the logo (optional)."
+msgstr ""
+
+#: framework/addons/CustomLogin.php:209
+msgid "Logo Screen Reader Text"
+msgstr ""
+
+#: framework/addons/CustomLogin.php:217 framework/addons/FooterBuilder.php:158
+#: framework/addons/HeaderBuilder.php:104
+#: framework/customizer/settings/general.php:82
+msgid "Background Color"
+msgstr ""
+
+#: framework/addons/CustomLogin.php:225 framework/addons/FooterBuilder.php:167
+#: framework/addons/HeaderBuilder.php:105
+#: framework/customizer/settings/general.php:512
+#: framework/customizer/settings/header.php:140
+msgid "Background Image"
+msgstr ""
+
+#: framework/addons/CustomLogin.php:243 framework/addons/FooterBuilder.php:176
+#: framework/addons/HeaderBuilder.php:106
+#: framework/customizer/settings/general.php:103
+#: framework/customizer/settings/general.php:520
+#: framework/customizer/settings/header.php:147
+msgid "Background Image Style"
+msgstr ""
+
+#: framework/addons/CustomLogin.php:249 framework/arrays.php:130
+msgid "Stretched"
+msgstr ""
+
+#: framework/addons/CustomLogin.php:250 framework/arrays.php:131
+msgid "Repeat"
+msgstr ""
+
+#: framework/addons/CustomLogin.php:251
+msgid "Center Fixed"
+msgstr ""
+
+#: framework/addons/CustomLogin.php:263
+msgid "Form Background Color"
+msgstr ""
+
+#: framework/addons/CustomLogin.php:271
+msgid "Form Background Opacity"
+msgstr ""
+
+#: framework/addons/CustomLogin.php:279
+msgid "Form Text Color"
+msgstr ""
+
+#: framework/addons/CustomLogin.php:287
+msgid "Form Input Background"
+msgstr ""
+
+#: framework/addons/CustomLogin.php:295
+msgid "Form Input Color"
+msgstr ""
+
+#: framework/addons/CustomLogin.php:303
+msgid "Form Top Margin"
+msgstr ""
+
+#: framework/addons/CustomLogin.php:311
+msgid "Form Border Radius"
+msgstr ""
+
+#: framework/addons/CustomLogin.php:319
+msgid "Form Button Background"
+msgstr ""
+
+#: framework/addons/CustomLogin.php:327
+msgid "Form Button Color"
+msgstr ""
+
+#: framework/addons/CustomLogin.php:335
+msgid "Form Button Background: Hover"
+msgstr ""
+
+#: framework/addons/Favicons.php:88
+msgid "Favicon"
+msgstr ""
+
+#: framework/addons/Favicons.php:97
+msgid "Apple iPhone Icon "
+msgstr ""
+
+#: framework/addons/Favicons.php:106
+msgid "Apple iPad Icon "
+msgstr ""
+
+#: framework/addons/Favicons.php:115
+msgid "Apple iPhone Retina Icon "
+msgstr ""
+
+#: framework/addons/Favicons.php:124
+msgid "Apple iPad Retina Icon "
+msgstr ""
+
+#: framework/addons/Favicons.php:273 framework/addons/HeaderBuilder.php:376
+#: framework/classes/ImageSizes.php:260
+#: framework/customizer/customizer-manager.php:67
+msgid "learn more"
+msgstr ""
+
+#: framework/addons/Favicons.php:277
+#, php-format
+msgid ""
+"This panel will allow you to set a custom favicon for each device. If you "
+"prefer to define a single site icon and have it crop automatically you can "
+"go to <a href=\"%s\">Appearance > Customize > Site Identity</a> and set your "
+"Site Icon via the core WordPress function."
+msgstr ""
+
+#: framework/addons/FooterBuilder.php:113
+msgid "Footer Builder page"
+msgstr ""
+
+#: framework/addons/FooterBuilder.php:122
+#: framework/customizer/customizer.php:101 framework/hooks/hooks.php:119
+msgid "Footer Bottom"
+msgstr ""
+
+#: framework/addons/FooterBuilder.php:131 framework/addons/Typography.php:204
+#: framework/customizer/customizer.php:98
+#: framework/customizer/settings/footer_widgets.php:24
+msgid "Footer Widgets"
+msgstr ""
+
+#: framework/addons/FooterBuilder.php:140
+#: framework/customizer/settings/footer_widgets.php:33
+msgid "Fixed Footer"
+msgstr ""
+
+#: framework/addons/FooterBuilder.php:149
+#: framework/customizer/settings/footer_widgets.php:42
+msgid "Footer Reveal"
+msgstr ""
+
+#: framework/addons/FooterBuilder.php:286
+msgid "None - Display Widgetized Footer"
+msgstr ""
+
+#: framework/addons/FooterBuilder.php:296
+#: framework/addons/HeaderBuilder.php:229
+#: framework/customizer/controls/dropdown-pages.php:56
+msgid "Templatera"
+msgstr ""
+
+#: framework/addons/FooterBuilder.php:320
+#: framework/addons/HeaderBuilder.php:253
+msgid "Elementor Templates"
+msgstr ""
+
+#: framework/addons/FooterBuilder.php:336
+#: framework/addons/HeaderBuilder.php:269
+#: framework/customizer/controls/dropdown-pages.php:71
+#: framework/customizer/settings/general.php:549
+msgid "Pages"
+msgstr ""
+
+#: framework/addons/FooterBuilder.php:354
+#: framework/addons/HeaderBuilder.php:287
+msgid "Create new template"
+msgstr ""
+
+#: framework/addons/FooterBuilder.php:480
+msgid ""
+"By default the footer consists of a simple widgetized area which you can "
+"control via the WordPress Customizer. For more complex layouts you can use "
+"the option below to select a template and create your own custom footer "
+"layout from scratch."
+msgstr ""
+
+#: framework/addons/FooterBuilder.php:489
+#: framework/addons/HeaderBuilder.php:388
+msgid ""
+"It appears the page you had selected has been deleted, please re-save your "
+"settings to prevent issues."
+msgstr ""
+
+#: framework/addons/HeaderBuilder.php:103
+msgid "Header Builder page"
+msgstr ""
+
+#: framework/addons/HeaderBuilder.php:107 framework/addons/Typography.php:96
+#: framework/customizer/customizer.php:70 framework/hooks/hooks.php:39
+#: functions.php:406
+msgid "Top Bar"
+msgstr ""
+
+#: framework/addons/HeaderBuilder.php:108
+#: framework/customizer/settings/header.php:426
+msgid "Sticky Header"
+msgstr ""
+
+#: framework/addons/HeaderBuilder.php:380
+msgid ""
+"Use this setting to replace the default theme header with content created "
+"with the Visual Composer. When enabled all Customizer settings for the "
+"Header will be removed. This is an advanced functionality so if this is the "
+"first time you use the theme we recommend you first test out the built-in "
+"header which can be customized at Appearance > Customize > Header."
+msgstr ""
+
+#: framework/addons/MceEditorFormats.php:37
+msgid "Theme Button"
+msgstr ""
+
+#: framework/addons/MceEditorFormats.php:42
+msgid "Highlight"
+msgstr ""
+
+#: framework/addons/MceEditorFormats.php:47
+msgid "Thin Font"
+msgstr ""
+
+#: framework/addons/MceEditorFormats.php:52 framework/arrays.php:224
+msgid "White Text"
+msgstr ""
+
+#: framework/addons/MceEditorFormats.php:57
+msgid "Check List"
+msgstr ""
+
+#: framework/addons/MceEditorFormats.php:66
+msgid "Dropcap"
+msgstr ""
+
+#: framework/addons/MceEditorFormats.php:71
+msgid "Boxed Dropcap"
+msgstr ""
+
+#: framework/addons/MceEditorFormats.php:80 framework/arrays.php:44
+msgid "Blue"
+msgstr ""
+
+#: framework/addons/MceEditorFormats.php:85 framework/arrays.php:40
+#: framework/arrays.php:151 framework/arrays.php:166 framework/arrays.php:568
+#: framework/arrays.php:867 framework/customizer/settings/header.php:1166
+msgid "Black"
+msgstr ""
+
+#: framework/addons/MceEditorFormats.php:90 framework/arrays.php:76
+msgid "Red"
+msgstr ""
+
+#: framework/addons/MceEditorFormats.php:95 framework/arrays.php:64
+msgid "Orange"
+msgstr ""
+
+#: framework/addons/MceEditorFormats.php:100 framework/arrays.php:56
+msgid "Green"
+msgstr ""
+
+#: framework/addons/MceEditorFormats.php:105 framework/arrays.php:60
+msgid "Gold"
+msgstr ""
+
+#: framework/addons/MceEditorFormats.php:110 framework/arrays.php:84
+msgid "Teal"
+msgstr ""
+
+#: framework/addons/MceEditorFormats.php:115 framework/arrays.php:72
+msgid "Purple"
+msgstr ""
+
+#: framework/addons/MceEditorFormats.php:120 framework/arrays.php:68
+msgid "Pink"
+msgstr ""
+
+#: framework/addons/MceEditorFormats.php:125 framework/arrays.php:48
+msgid "Brown"
+msgstr ""
+
+#: framework/addons/MceEditorFormats.php:130 framework/arrays.php:80
+msgid "Rosy"
+msgstr ""
+
+#: framework/addons/MceEditorFormats.php:135 framework/arrays.php:88
+#: framework/arrays.php:165 framework/arrays.php:566
+#: framework/classes/iLightbox.php:158
+#: framework/customizer/settings/header.php:1165
+msgid "White"
+msgstr ""
+
+#: framework/addons/MceEditorFormats.php:149
+msgid "Styles"
+msgstr ""
+
+#: framework/addons/MceEditorFormats.php:158
+msgid "Dropcaps"
+msgstr ""
+
+#: framework/addons/MceEditorFormats.php:167
+msgid "Color Buttons"
+msgstr ""
+
+#: framework/addons/PageAnimations.php:181 framework/arrays.php:651
+msgid "Fade In"
+msgstr ""
+
+#: framework/addons/PageAnimations.php:182
+msgid "Fade In Up"
+msgstr ""
+
+#: framework/addons/PageAnimations.php:183
+msgid "Fade In Down"
+msgstr ""
+
+#: framework/addons/PageAnimations.php:184
+msgid "Fade In Left"
+msgstr ""
+
+#: framework/addons/PageAnimations.php:185
+msgid "Fade In Right"
+msgstr ""
+
+#: framework/addons/PageAnimations.php:186
+msgid "Rotate In"
+msgstr ""
+
+#: framework/addons/PageAnimations.php:187
+msgid "Flip In X"
+msgstr ""
+
+#: framework/addons/PageAnimations.php:188
+msgid "Flip In Y"
+msgstr ""
+
+#: framework/addons/PageAnimations.php:189
+msgid "Zoom In"
+msgstr ""
+
+#: framework/addons/PageAnimations.php:203 framework/arrays.php:650
+msgid "Fade Out"
+msgstr ""
+
+#: framework/addons/PageAnimations.php:204
+msgid "Fade Out Up"
+msgstr ""
+
+#: framework/addons/PageAnimations.php:205
+msgid "Fade Out Down"
+msgstr ""
+
+#: framework/addons/PageAnimations.php:206
+msgid "Fade Out Left"
+msgstr ""
+
+#: framework/addons/PageAnimations.php:207
+msgid "Fade Out Right"
+msgstr ""
+
+#: framework/addons/PageAnimations.php:208
+msgid "Rotate Out"
+msgstr ""
+
+#: framework/addons/PageAnimations.php:209
+msgid "Flip Out X"
+msgstr ""
+
+#: framework/addons/PageAnimations.php:210
+msgid "Flip Out Y"
+msgstr ""
+
+#: framework/addons/PageAnimations.php:211
+msgid "Zoom Out"
+msgstr ""
+
+#: framework/addons/PageAnimations.php:223
+#: framework/helpers/js-localize-data.php:59
+#: framework/helpers/pagination.php:190 framework/helpers/pagination.php:245
+msgid "Loading..."
+msgstr ""
+
+#: framework/addons/PageAnimations.php:238 framework/classes/iLightbox.php:254
+#: framework/vendor/woocommerce/customizer.php:17
+#: framework/vendor/woocommerce/customizer.php:171
+#: framework/vendor/woocommerce/customizer.php:222
+#: framework/vendor/woocommerce/customizer.php:232
+msgid ""
+"You must save your options and refresh your live site to preview changes to "
+"this setting."
+msgstr ""
+
+#: framework/addons/PageAnimations.php:244
+msgid "In Animation"
+msgstr ""
+
+#: framework/addons/PageAnimations.php:253
+msgid "Out Animation"
+msgstr ""
+
+#: framework/addons/PageAnimations.php:262
+msgid "Loading Text"
+msgstr ""
+
+#: framework/addons/PageAnimations.php:264
+msgid "Replaces the loading icon."
+msgstr ""
+
+#: framework/addons/PageAnimations.php:272
+msgid "In Speed"
+msgstr ""
+
+#: framework/addons/PageAnimations.php:281
+msgid "Out Speed"
+msgstr ""
+
+#: framework/addons/PageAnimations.php:289
+#: framework/customizer/settings/callout.php:291
+#: framework/customizer/settings/footer_bottom.php:85
+#: framework/customizer/settings/footer_widgets.php:80
+#: framework/customizer/settings/footer_widgets.php:286
+#: framework/customizer/settings/general.php:781
+#: framework/customizer/settings/general.php:933
+#: framework/customizer/settings/general.php:1282
+#: framework/customizer/settings/header.php:259
+#: framework/customizer/settings/header.php:1225
+#: framework/customizer/settings/header.php:1341
+#: framework/customizer/settings/sidebar.php:139
+#: framework/customizer/settings/topbar.php:144
+#: framework/vendor/wpbakery/shortcode-mods/vc_column_text.php:90
+#: framework/vendor/wpbakery/shortcode-mods/vc_row.php:421
+#: framework/vendor/wpbakery/shortcode-mods/vc_section.php:228
+msgid "Color"
+msgstr ""
+
+#: framework/addons/PageAnimations.php:297
+msgid "Loader Inner Color"
+msgstr ""
+
+#: framework/addons/PostGallery.php:42
+msgid "WordPress Gallery"
+msgstr ""
+
+#: framework/addons/Typography.php:77
+msgid "Body"
+msgstr ""
+
+#: framework/addons/Typography.php:91
+msgid "Buttons"
+msgstr ""
+
+#: framework/addons/Typography.php:103
+msgid "Header Aside"
+msgstr ""
+
+#: framework/addons/Typography.php:107 framework/hooks/hooks.php:63
+msgid "Main Menu"
+msgstr ""
+
+#: framework/addons/Typography.php:112
+msgid "Main Menu: Dropdowns"
+msgstr ""
+
+#: framework/addons/Typography.php:117
+#: framework/customizer/settings/header.php:1067
+msgid "Mobile Menu"
+msgstr ""
+
+#: framework/addons/Typography.php:122
+#: framework/customizer/settings/general.php:371
+#: framework/vendor/woocommerce/customizer.php:353
+msgid "Page Header Title"
+msgstr ""
+
+#: framework/addons/Typography.php:129
+msgid "Page Title Subheading"
+msgstr ""
+
+#: framework/addons/Typography.php:135
+msgid "Blog Entry Title"
+msgstr ""
+
+#: framework/addons/Typography.php:139
+msgid "Blog Entry Meta"
+msgstr ""
+
+#: framework/addons/Typography.php:143
+msgid "Blog Entry Excerpt"
+msgstr ""
+
+#: framework/addons/Typography.php:147
+msgid "Blog Post Title"
+msgstr ""
+
+#: framework/addons/Typography.php:151
+msgid "Blog Post Meta"
+msgstr ""
+
+#: framework/addons/Typography.php:155
+#: framework/customizer/settings/general.php:238
+msgid "Breadcrumbs"
+msgstr ""
+
+#: framework/addons/Typography.php:162
+msgid "Headings"
+msgstr ""
+
+#: framework/addons/Typography.php:167
+#: framework/customizer/settings/general.php:1115
+msgid "Theme Heading"
+msgstr ""
+
+#: framework/addons/Typography.php:169
+msgid ""
+"Heading used in various places such as the related and comments heading. "
+msgstr ""
+
+#: framework/addons/Typography.php:173
+msgid "Sidebar Widget Heading"
+msgstr ""
+
+#: framework/addons/Typography.php:180
+msgid "Post Content"
+msgstr ""
+
+#: framework/addons/Typography.php:184
+msgid "Post H1"
+msgstr ""
+
+#: framework/addons/Typography.php:189
+msgid "Post H2"
+msgstr ""
+
+#: framework/addons/Typography.php:194
+msgid "Post H3"
+msgstr ""
+
+#: framework/addons/Typography.php:199
+msgid "Post H4"
+msgstr ""
+
+#: framework/addons/Typography.php:211
+msgid "Footer Widget Heading"
+msgstr ""
+
+#: framework/addons/Typography.php:219
+msgid "Footer Callout"
+msgstr ""
+
+#: framework/addons/Typography.php:225
+msgid "Footer Bottom Text"
+msgstr ""
+
+#: framework/addons/Typography.php:232
+msgid "Footer Bottom Menu"
+msgstr ""
+
+#: framework/addons/Typography.php:300 framework/customizer/customizer.php:63
+#: framework/vendor/wpbakery/shortcode-mods/vc_column_text.php:135
+msgid "Typography"
+msgstr ""
+
+#: framework/addons/Typography.php:317
+msgid "Font Smoothing"
+msgstr ""
+
+#: framework/addons/Typography.php:321
+msgid ""
+"Enable font-smoothing site wide. This makes fonts look a little \"skinner\". "
+msgstr ""
+
+#: framework/addons/Typography.php:333
+msgid "Load Custom Font"
+msgstr ""
+
+#: framework/addons/Typography.php:337
+msgid "Allows you to load a custom font site wide for use with custom CSS. "
+msgstr ""
+
+#: framework/addons/Typography.php:349
+msgid "Load Fonts After The Body Tag"
+msgstr ""
+
+#: framework/addons/Typography.php:362
+msgid "Font Subsets"
+msgstr ""
+
+#: framework/addons/Typography.php:381
+#: framework/vendor/wpbakery/shortcode-mods/vc_column_text.php:85
+msgid "Font Family"
+msgstr ""
+
+#: framework/addons/Typography.php:382
+msgid "Font Style"
+msgstr ""
+
+#: framework/addons/Typography.php:383 framework/arrays.php:22
+#: framework/arrays.php:36 framework/arrays.php:128 framework/arrays.php:148
+#: framework/arrays.php:162 framework/arrays.php:179 framework/arrays.php:194
+#: framework/arrays.php:209 framework/arrays.php:541 framework/arrays.php:564
+#: framework/arrays.php:580 framework/arrays.php:619 framework/arrays.php:640
+#: framework/arrays.php:662 framework/arrays.php:676 framework/arrays.php:700
+#: framework/arrays.php:714 framework/arrays.php:729 framework/arrays.php:743
+#: framework/arrays.php:798 framework/classes/iLightbox.php:240
+#: framework/customizer/controls/font-family.php:42
+#: framework/customizer/settings/blog.php:94
+#: framework/customizer/settings/blog.php:116
+#: framework/customizer/settings/blog.php:129
+#: framework/customizer/settings/blog.php:143
+#: framework/customizer/settings/blog.php:159
+#: framework/customizer/settings/blog.php:173
+#: framework/customizer/settings/blog.php:206
+#: framework/customizer/settings/footer_bottom.php:45
+#: framework/customizer/settings/footer_widgets.php:328
+#: framework/customizer/settings/general.php:154
+#: framework/customizer/settings/general.php:381
+#: framework/customizer/settings/general.php:856
+#: framework/customizer/settings/general.php:1126
+#: framework/customizer/settings/header.php:59
+#: framework/customizer/settings/header.php:75
+#: framework/customizer/settings/sidebar.php:178
+#: framework/vendor/PostTypesUnlimited.php:228
+#: framework/vendor/PostTypesUnlimited.php:361 framework/vendor/cpt-ui.php:155
+#: framework/vendor/woocommerce/customizer.php:242
+#: framework/vendor/woocommerce/customizer.php:487
+#: framework/vendor/wpbakery/shortcode-mods/vc_row.php:258
+#: framework/vendor/wpbakery/shortcode-mods/vc_row.php:451
+#: framework/vendor/wpbakery/shortcode-mods/vc_section.php:258
+#: framework/vendor/wpbakery/shortcode-mods/vc_single_image.php:143
+#: framework/vendor/wpbakery/shortcode-mods/vc_tabs_tour.php:42
+#: framework/vendor/wpbakery/vc-font-container.php:34
+msgid "Default"
+msgstr ""
+
+#: framework/addons/Typography.php:384
+msgid "Extra Light: 100"
+msgstr ""
+
+#: framework/addons/Typography.php:385
+msgid "Light: 200"
+msgstr ""
+
+#: framework/addons/Typography.php:386
+#: framework/vendor/wpbakery/shortcode-mods/vc_column_text.php:129
+msgid "Font Weight"
+msgstr ""
+
+#: framework/addons/Typography.php:387
+msgid "Note: Not all Fonts support every font weight style. "
+msgstr ""
+
+#: framework/addons/Typography.php:388
+msgid "Book: 300"
+msgstr ""
+
+#: framework/addons/Typography.php:389
+msgid "Normal: 400"
+msgstr ""
+
+#: framework/addons/Typography.php:390
+msgid "Medium: 500"
+msgstr ""
+
+#: framework/addons/Typography.php:391
+msgid "Semibold: 600"
+msgstr ""
+
+#: framework/addons/Typography.php:392
+msgid "Bold: 700"
+msgstr ""
+
+#: framework/addons/Typography.php:393
+msgid "Extra Bold: 800"
+msgstr ""
+
+#: framework/addons/Typography.php:394
+msgid "Black: 900"
+msgstr ""
+
+#: framework/addons/Typography.php:395 framework/arrays.php:677
+#: framework/arrays.php:701
+msgid "Normal"
+msgstr ""
+
+#: framework/addons/Typography.php:396 framework/arrays.php:702
+#: framework/vendor/wpbakery/shortcode-mods/vc_column_text.php:124
+msgid "Italic"
+msgstr ""
+
+#: framework/addons/Typography.php:397 framework/arrays.php:716
+msgid "Capitalize"
+msgstr ""
+
+#: framework/addons/Typography.php:398 framework/arrays.php:718
+msgid "Lowercase"
+msgstr ""
+
+#: framework/addons/Typography.php:399 framework/arrays.php:717
+msgid "Uppercase"
+msgstr ""
+
+#: framework/addons/Typography.php:400
+msgid ""
+"Please specify a unit (px, em, vm, vmax, vmin). If no unit is specified px "
+"will be used by default."
+msgstr ""
+
+#: framework/addons/Typography.php:401
+msgid "Text Transform"
+msgstr ""
+
+#: framework/addons/Typography.php:402
+#: framework/customizer/settings/general.php:897
+#: framework/customizer/settings/general.php:1087
+#: framework/vendor/wpbakery/shortcode-mods/vc_column_text.php:95
+msgid "Font Size"
+msgstr ""
+
+#: framework/addons/Typography.php:403
+msgid "Font Color"
+msgstr ""
+
+#: framework/addons/Typography.php:404
+#: framework/vendor/wpbakery/shortcode-mods/vc_column_text.php:113
+msgid "Line Height"
+msgstr ""
+
+#: framework/addons/Typography.php:405
+#: framework/vendor/wpbakery/shortcode-mods/vc_column_text.php:118
+msgid "Letter Spacing"
+msgstr ""
+
+#: framework/addons/Typography.php:406
+#: framework/customizer/settings/blog.php:520
+msgid "Margin"
+msgstr ""
+
+#: framework/addons/Typography.php:407
+msgid "Please use the following format: top right bottom left. "
+msgstr ""
+
+#: framework/addons/UnderConstruction.php:63
+msgid "Enable Under Constuction"
+msgstr ""
+
+#: framework/addons/UnderConstruction.php:72
+msgid "Under Construction Page"
+msgstr ""
+
+#: framework/addons/UnderConstruction.php:81
+msgid "Exclude Pages From Redirection"
+msgstr ""
+
+#: framework/addons/UnderConstruction.php:175
+msgid ""
+"Select your custom page for your under construction display. Every page and "
+"post will redirect to your selected page for non-logged in users."
+msgstr ""
+
+#: framework/addons/UnderConstruction.php:210
+msgid "Click to select..."
+msgstr ""
+
+#: framework/arrays.php:23 framework/customizer/settings/header.php:34
+#: framework/customizer/settings/topbar.php:62
+msgid "Full-Width"
+msgstr ""
+
+#: framework/arrays.php:24 framework/customizer/settings/layout.php:60
+msgid "Boxed"
+msgstr ""
+
+#: framework/arrays.php:52
+msgid "Grey"
+msgstr ""
+
+#: framework/arrays.php:111
+msgid "Left Logo & Right Menu"
+msgstr ""
+
+#: framework/arrays.php:112
+msgid "Bottom Menu"
+msgstr ""
+
+#: framework/arrays.php:113
+msgid "Bottom Menu Centered"
+msgstr ""
+
+#: framework/arrays.php:114
+msgid "Top Centered Menu"
+msgstr ""
+
+#: framework/arrays.php:115
+msgid "Centered Inline Logo"
+msgstr ""
+
+#: framework/arrays.php:116
+msgid "Vertical"
+msgstr ""
+
+#: framework/arrays.php:129
+#: framework/vendor/wpbakery/shortcode-mods/vc_row.php:328
+msgid "Cover"
+msgstr ""
+
+#: framework/arrays.php:132
+msgid "Fixed Top"
+msgstr ""
+
+#: framework/arrays.php:133
+msgid "Fixed Center"
+msgstr ""
+
+#: framework/arrays.php:134
+msgid "Fixed Bottom"
+msgstr ""
+
+#: framework/arrays.php:135 framework/vendor/wpbakery/vc-config.php:299
+msgid "Repeat-x"
+msgstr ""
+
+#: framework/arrays.php:136 framework/vendor/wpbakery/vc-config.php:300
+msgid "Repeat-y"
+msgstr ""
+
+#: framework/arrays.php:137
+msgid "Inherit"
+msgstr ""
+
+#: framework/arrays.php:149 framework/arrays.php:163 framework/arrays.php:196
+#: framework/arrays.php:856 framework/classes/iLightbox.php:157
+#: framework/customizer/customizer.php:369
+#: framework/customizer/settings/general.php:170
+msgid "Minimal"
+msgstr ""
+
+#: framework/arrays.php:150
+msgid "Minimal - Rounded"
+msgstr ""
+
+#: framework/arrays.php:164
+msgid "Modern"
+msgstr ""
+
+#: framework/arrays.php:167
+msgid "White Outline"
+msgstr ""
+
+#: framework/arrays.php:168
+msgid "Black Outline"
+msgstr ""
+
+#: framework/arrays.php:180 framework/arrays.php:744
+#: framework/customizer/settings/footer_bottom.php:46
+#: framework/customizer/settings/footer_widgets.php:329
+#: framework/customizer/settings/general.php:857
+#: framework/customizer/settings/header.php:1179
+#: framework/customizer/settings/sidebar.php:179
+#: framework/vendor/woocommerce/customizer.php:243
+#: framework/vendor/wpbakery/shortcode-mods/vc_row.php:345
+#: framework/vendor/wpbakery/shortcode-mods/vc_single_image.php:144
+msgid "Left"
+msgstr ""
+
+#: framework/arrays.php:181 framework/arrays.php:746
+#: framework/customizer/settings/footer_bottom.php:48
+#: framework/customizer/settings/footer_widgets.php:331
+#: framework/customizer/settings/general.php:858
+#: framework/customizer/settings/sidebar.php:181
+#: framework/vendor/woocommerce/customizer.php:245
+#: framework/vendor/wpbakery/shortcode-mods/vc_single_image.php:146
+msgid "Center"
+msgstr ""
+
+#: framework/arrays.php:182 framework/arrays.php:745
+#: framework/customizer/settings/footer_bottom.php:47
+#: framework/customizer/settings/footer_widgets.php:330
+#: framework/customizer/settings/general.php:859
+#: framework/customizer/settings/header.php:1178
+#: framework/customizer/settings/sidebar.php:180
+#: framework/vendor/woocommerce/customizer.php:244
+#: framework/vendor/wpbakery/shortcode-mods/vc_row.php:346
+#: framework/vendor/wpbakery/shortcode-mods/vc_single_image.php:145
+msgid "Right"
+msgstr ""
+
+#: framework/arrays.php:183
+msgid "Absolute"
+msgstr ""
+
+#: framework/arrays.php:195
+msgid "Slim"
+msgstr ""
+
+#: framework/arrays.php:197
+msgid "Border"
+msgstr ""
+
+#: framework/arrays.php:198
+msgid "Circle"
+msgstr ""
+
+#: framework/arrays.php:210
+msgid "Right Sidebar"
+msgstr ""
+
+#: framework/arrays.php:211
+msgid "Left Sidebar"
+msgstr ""
+
+#: framework/arrays.php:212
+msgid "No Sidebar"
+msgstr ""
+
+#: framework/arrays.php:213
+msgid "Full Screen"
+msgstr ""
+
+#: framework/arrays.php:225
+msgid "Light Text"
+msgstr ""
+
+#: framework/arrays.php:226
+msgid "Black Text"
+msgstr ""
+
+#: framework/arrays.php:227
+msgid "Default Styles"
+msgstr ""
+
+#: framework/arrays.php:239 framework/customizer/customizer.php:76
+#: framework/hooks/hooks.php:97
+msgid "Sidebar"
+msgstr ""
+
+#: framework/arrays.php:240
+msgid "Toggle"
+msgstr ""
+
+#: framework/arrays.php:241
+msgid "Full Screen Overlay"
+msgstr ""
+
+#: framework/arrays.php:242 framework/customizer/settings/header.php:438
+#: framework/customizer/settings/header.php:1020
+#: framework/vendor/woocommerce/customizer.php:57
+#: framework/vendor/woocommerce/customizer.php:443
+msgid "Disabled"
+msgstr ""
+
+#: framework/arrays.php:394
+msgid "RSS"
+msgstr ""
+
+#: framework/arrays.php:398 framework/arrays.php:487
+#: framework/helpers/social-share.php:63
+msgid "Email"
+msgstr ""
+
+#: framework/arrays.php:402
+msgid "Phone"
+msgstr ""
+
+#: framework/arrays.php:481
+msgid "Phone Number"
+msgstr ""
+
+#: framework/arrays.php:493
+msgid "Website"
+msgstr ""
+
+#: framework/arrays.php:565 framework/classes/iLightbox.php:161
+msgid "Light"
+msgstr ""
+
+#: framework/arrays.php:567
+msgid "White with Shadow"
+msgstr ""
+
+#: framework/arrays.php:581 framework/arrays.php:859
+#: framework/customizer/settings/general.php:169
+msgid "Flat"
+msgstr ""
+
+#: framework/arrays.php:582 framework/arrays.php:873
+msgid "Graphical"
+msgstr ""
+
+#: framework/arrays.php:583
+msgid "Clean"
+msgstr ""
+
+#: framework/arrays.php:584 framework/arrays.php:865
+#: framework/customizer/settings/general.php:171
+msgid "3D"
+msgstr ""
+
+#: framework/arrays.php:585
+msgid "Outline"
+msgstr ""
+
+#: framework/arrays.php:586
+msgid "Minimal Border"
+msgstr ""
+
+#: framework/arrays.php:587
+msgid "Plain Text"
+msgstr ""
+
+#: framework/arrays.php:620
+msgid "Top Left"
+msgstr ""
+
+#: framework/arrays.php:621
+msgid "Top Right"
+msgstr ""
+
+#: framework/arrays.php:622
+msgid "Top Center"
+msgstr ""
+
+#: framework/arrays.php:623
+msgid "Center Left"
+msgstr ""
+
+#: framework/arrays.php:624
+msgid "Center Right"
+msgstr ""
+
+#: framework/arrays.php:625
+msgid "Center Center"
+msgstr ""
+
+#: framework/arrays.php:626
+msgid "Bottom Left"
+msgstr ""
+
+#: framework/arrays.php:627
+msgid "Bottom Right"
+msgstr ""
+
+#: framework/arrays.php:628
+msgid "Bottom Center"
+msgstr ""
+
+#: framework/arrays.php:629
+msgid "Soft Crop"
+msgstr ""
+
+#: framework/arrays.php:641 framework/customizer/settings/header.php:492
+msgid "Opacity"
+msgstr ""
+
+#: framework/arrays.php:642 framework/arrays.php:803
+#: framework/customizer/settings/header.php:440
+msgid "Shrink"
+msgstr ""
+
+#: framework/arrays.php:643 framework/arrays.php:802
+msgid "Grow"
+msgstr ""
+
+#: framework/arrays.php:644
+msgid "Side Pan"
+msgstr ""
+
+#: framework/arrays.php:645
+msgid "Vertical Pan"
+msgstr ""
+
+#: framework/arrays.php:646
+msgid "Tilt"
+msgstr ""
+
+#: framework/arrays.php:647
+msgid "Normal - Blurr"
+msgstr ""
+
+#: framework/arrays.php:648
+msgid "Blurr - Normal"
+msgstr ""
+
+#: framework/arrays.php:649
+msgid "Sepia"
+msgstr ""
+
+#: framework/arrays.php:663
+msgid "Underline"
+msgstr ""
+
+#: framework/arrays.php:664
+msgid "Overline"
+msgstr ""
+
+#: framework/arrays.php:665
+msgid "Line Through"
+msgstr ""
+
+#: framework/arrays.php:678
+msgid "Semibold"
+msgstr ""
+
+#: framework/arrays.php:679
+msgid "Bold"
+msgstr ""
+
+#: framework/arrays.php:680
+msgid "Bolder"
+msgstr ""
+
+#: framework/arrays.php:703
+msgid "Oblique"
+msgstr ""
+
+#: framework/arrays.php:730
+msgid "Solid"
+msgstr ""
+
+#: framework/arrays.php:731
+#: framework/vendor/wpbakery/shortcode-mods/vc_row.php:423
+#: framework/vendor/wpbakery/shortcode-mods/vc_section.php:230
+msgid "Dotted"
+msgstr ""
+
+#: framework/arrays.php:732
+msgid "Dashed"
+msgstr ""
+
+#: framework/arrays.php:757
+msgid "Always Visible"
+msgstr ""
+
+#: framework/arrays.php:758
+msgid "Visible At Mobile Menu Breakpoint"
+msgstr ""
+
+#: framework/arrays.php:759
+msgid "Hidden At Mobile Menu Breakpoint"
+msgstr ""
+
+#: framework/arrays.php:760
+msgid "Hidden on Large Desktops (1280px or greater)"
+msgstr ""
+
+#: framework/arrays.php:761
+msgid "Hidden on Desktop (959px or greater)"
+msgstr ""
+
+#: framework/arrays.php:762
+msgid "Hidden on Tablets: Landscape (768px to 1024px)"
+msgstr ""
+
+#: framework/arrays.php:763
+msgid "Hidden on Tablets: Portrait (768px to 959px)"
+msgstr ""
+
+#: framework/arrays.php:764
+msgid "Hidden on Tablets (768px to 959px)"
+msgstr ""
+
+#: framework/arrays.php:765
+msgid "Hidden on Phones (767px or smaller)"
+msgstr ""
+
+#: framework/arrays.php:766
+msgid "Visible on Large Desktops (1280px or greater)"
+msgstr ""
+
+#: framework/arrays.php:767
+msgid "Visible on Desktop (959px or greater)"
+msgstr ""
+
+#: framework/arrays.php:768
+msgid "Visible on Phones (767px or smaller)"
+msgstr ""
+
+#: framework/arrays.php:769
+msgid "Visible on Tablets (768px to 959px)"
+msgstr ""
+
+#: framework/arrays.php:770
+msgid "Visible on Tablets: Landscape (768px to 1024px)"
+msgstr ""
+
+#: framework/arrays.php:771
+msgid "Visible on Tablets: Portrait (768px to 959px)"
+msgstr ""
+
+#: framework/arrays.php:783
+msgid "Top to bottom"
+msgstr ""
+
+#: framework/arrays.php:784
+msgid "Bottom to top"
+msgstr ""
+
+#: framework/arrays.php:785
+msgid "Left to right"
+msgstr ""
+
+#: framework/arrays.php:786
+msgid "Right to left"
+msgstr ""
+
+#: framework/arrays.php:787
+msgid "Appear from center"
+msgstr ""
+
+#: framework/arrays.php:799
+msgid "Shadow"
+msgstr ""
+
+#: framework/arrays.php:800
+msgid "Grow Shadow"
+msgstr ""
+
+#: framework/arrays.php:801
+msgid "Float Shadow"
+msgstr ""
+
+#: framework/arrays.php:804
+msgid "Pulse"
+msgstr ""
+
+#: framework/arrays.php:805
+msgid "Pulse Grow"
+msgstr ""
+
+#: framework/arrays.php:806
+msgid "Pulse Shrink"
+msgstr ""
+
+#: framework/arrays.php:807
+msgid "Push"
+msgstr ""
+
+#: framework/arrays.php:808
+msgid "Pop"
+msgstr ""
+
+#: framework/arrays.php:809
+msgid "Bounce In"
+msgstr ""
+
+#: framework/arrays.php:810
+msgid "Bounce Out"
+msgstr ""
+
+#: framework/arrays.php:811
+msgid "Rotate"
+msgstr ""
+
+#: framework/arrays.php:812
+msgid "Grow Rotate"
+msgstr ""
+
+#: framework/arrays.php:813
+msgid "Float"
+msgstr ""
+
+#: framework/arrays.php:814
+msgid "Sink"
+msgstr ""
+
+#: framework/arrays.php:815
+msgid "Bob"
+msgstr ""
+
+#: framework/arrays.php:816
+msgid "Hang"
+msgstr ""
+
+#: framework/arrays.php:817
+msgid "Skew"
+msgstr ""
+
+#: framework/arrays.php:818
+msgid "Skew Backward"
+msgstr ""
+
+#: framework/arrays.php:819
+msgid "Wobble Horizontal"
+msgstr ""
+
+#: framework/arrays.php:820
+msgid "Wobble Vertical"
+msgstr ""
+
+#: framework/arrays.php:821
+msgid "Wobble To Bottom Right"
+msgstr ""
+
+#: framework/arrays.php:822
+msgid "Wobble To Top Right"
+msgstr ""
+
+#: framework/arrays.php:823
+msgid "Wobble Top"
+msgstr ""
+
+#: framework/arrays.php:824
+msgid "Wobble Bottom"
+msgstr ""
+
+#: framework/arrays.php:825
+msgid "Wobble Skew"
+msgstr ""
+
+#: framework/arrays.php:826
+msgid "Buzz"
+msgstr ""
+
+#: framework/arrays.php:827
+msgid "Buzz Out"
+msgstr ""
+
+#: framework/arrays.php:828
+msgid "Glow"
+msgstr ""
+
+#: framework/arrays.php:829
+msgid "Shadow Radial"
+msgstr ""
+
+#: framework/arrays.php:830
+msgid "Box Shadow Outset"
+msgstr ""
+
+#: framework/arrays.php:831
+msgid "Box Shadow Inset"
+msgstr ""
+
+#: framework/arrays.php:843
+msgid "Grayscale"
+msgstr ""
+
+#: framework/arrays.php:854
+msgid "Skin Default"
+msgstr ""
+
+#: framework/arrays.php:857
+msgid "Minimal Rounded"
+msgstr ""
+
+#: framework/arrays.php:858
+msgid "Minimal Round"
+msgstr ""
+
+#: framework/arrays.php:860
+msgid "Flat Rounded"
+msgstr ""
+
+#: framework/arrays.php:861
+msgid "Flat Round"
+msgstr ""
+
+#: framework/arrays.php:862
+msgid "Flat Color"
+msgstr ""
+
+#: framework/arrays.php:863
+msgid "Flat Color Rounded"
+msgstr ""
+
+#: framework/arrays.php:864
+msgid "Flat Color Round"
+msgstr ""
+
+#: framework/arrays.php:866
+msgid "3D Color"
+msgstr ""
+
+#: framework/arrays.php:868
+msgid "Black Rounded"
+msgstr ""
+
+#: framework/arrays.php:869
+msgid "Black Round"
+msgstr ""
+
+#: framework/arrays.php:870
+msgid "Black with Color Hover"
+msgstr ""
+
+#: framework/arrays.php:871
+msgid "Black with Color Hover Rounded"
+msgstr ""
+
+#: framework/arrays.php:872
+msgid "Black with Color Hover Round"
+msgstr ""
+
+#: framework/arrays.php:874
+msgid "Graphical Rounded"
+msgstr ""
+
+#: framework/arrays.php:875
+msgid "Graphical Round"
+msgstr ""
+
+#: framework/arrays.php:876
+msgid "Bordered"
+msgstr ""
+
+#: framework/arrays.php:877
+msgid "Bordered Rounded"
+msgstr ""
+
+#: framework/arrays.php:878
+msgid "Bordered Round"
+msgstr ""
+
+#: framework/arrays.php:891
+msgid "Dark Wood"
+msgstr ""
+
+#: framework/arrays.php:895
+msgid "Diamonds"
+msgstr ""
+
+#: framework/arrays.php:899
+msgid "Grilled"
+msgstr ""
+
+#: framework/arrays.php:903
+msgid "Lined Paper"
+msgstr ""
+
+#: framework/arrays.php:907
+msgid "Old Wall"
+msgstr ""
+
+#: framework/arrays.php:911
+msgid "Rice Paper"
+msgstr ""
+
+#: framework/arrays.php:915
+msgid "Tree Bark"
+msgstr ""
+
+#: framework/arrays.php:919
+msgid "Triangular"
+msgstr ""
+
+#: framework/arrays.php:923
+msgid "White Plaster"
+msgstr ""
+
+#: framework/arrays.php:927
+msgid "Wild Flowers"
+msgstr ""
+
+#: framework/arrays.php:931
+msgid "Wood Pattern"
+msgstr ""
+
+#: framework/classes/Accessibility.php:41
+#: framework/classes/Accessibility.php:42
+#: framework/classes/Accessibility.php:176
+msgid "Accessibility"
+msgstr ""
+
+#: framework/classes/Accessibility.php:116
+msgid "Focus Styles"
+msgstr ""
+
+#: framework/classes/Accessibility.php:121
+msgid "Skip to content link"
+msgstr ""
+
+#: framework/classes/Accessibility.php:126
+msgid "Skip to content ID"
+msgstr ""
+
+#: framework/classes/Accessibility.php:131
+msgid "Remove Menu ID's"
+msgstr ""
+
+#: framework/classes/Accessibility.php:136
+msgid "Aria Landmarks"
+msgstr ""
+
+#: framework/classes/Accessibility.php:141
+msgid "Main Menu Aria Label"
+msgstr ""
+
+#: framework/classes/Accessibility.php:143 partials/header/header-menu.php:47
+msgid "Main menu"
+msgstr ""
+
+#: framework/classes/Accessibility.php:146
+msgid "Mobile Menu Toggle Aria Label"
+msgstr ""
+
+#: framework/classes/Accessibility.php:148
+#: framework/helpers/header-menu.php:589
+msgid "Toggle mobile menu"
+msgstr ""
+
+#: framework/classes/Accessibility.php:151
+msgid "Mobile Menu Aria Label"
+msgstr ""
+
+#: framework/classes/Accessibility.php:153
+#: partials/header/header-menu-mobile-alt.php:10
+msgid "Mobile menu"
+msgstr ""
+
+#: framework/classes/Accessibility.php:156
+msgid "Footer Callout Aria Label"
+msgstr ""
+
+#: framework/classes/Accessibility.php:160
+msgid "Footer Menu Aria Label"
+msgstr ""
+
+#: framework/classes/Accessibility.php:162
+#: partials/footer/footer-bottom-menu.php:23
+msgid "Footer menu"
+msgstr ""
+
+#: framework/classes/ImageSizes.php:62
+msgid "Lightbox Images"
+msgstr ""
+
+#: framework/classes/ImageSizes.php:69
+#: framework/customizer/settings/general.php:593
+#: framework/helpers/header-menu.php:309 framework/helpers/header-menu.php:416
+#: partials/header/header-aside.php:53
+#: partials/search/header-search-overlay.php:18
+#: partials/search/mobile-searchform.php:15
+#: partials/search/mobile-searchform.php:20 searchform.php:15
+msgid "Search"
+msgstr ""
+
+#: framework/classes/ImageSizes.php:81
+msgid "Blog Entry"
+msgstr ""
+
+#: framework/classes/ImageSizes.php:88
+msgid "Blog Post"
+msgstr ""
+
+#: framework/classes/ImageSizes.php:95
+msgid "Blog Post: Full-Width"
+msgstr ""
+
+#: framework/classes/ImageSizes.php:102
+msgid "Blog Post: Related"
+msgstr ""
+
+#: framework/classes/ImageSizes.php:263
+msgid ""
+"Define the exact cropping for all the featured images on your site. Leave "
+"the width and height empty to display the full image. Set any height to "
+"\"9999\" or empty to disable cropping and simply resize the image to the "
+"corresponding width. All image sizes defined below will be added to the list "
+"of WordPress image sizes."
+msgstr ""
+
+#: framework/classes/ImageSizes.php:271 framework/customizer/customizer.php:80
+#: framework/customizer/settings/blog.php:360 framework/helpers/title.php:49
+msgid "Blog"
+msgstr ""
+
+#: framework/classes/ImageSizes.php:275
+msgid "Other"
+msgstr ""
+
+#: framework/classes/ImageSizes.php:297
+msgid "Image Resizing"
+msgstr ""
+
+#: framework/classes/ImageSizes.php:302
+msgid "Enable on-the-fly dynamic image cropping."
+msgstr ""
+
+#: framework/classes/ImageSizes.php:303
+msgid ""
+"This removes the need for a thumbnail regeneration for images used in the "
+"theme and WPBakery plugin modules."
+msgstr ""
+
+#: framework/classes/ImageSizes.php:310
+#: framework/customizer/settings/header.php:520
+msgid "Retina"
+msgstr ""
+
+#: framework/classes/ImageSizes.php:314
+msgid "Enable retina support for your site (via retina.js)."
+msgstr ""
+
+#: framework/classes/ImageSizes.php:315
+msgid ""
+"Retina support is added only to images generated by the theme and Total "
+"builder modules."
+msgstr ""
+
+#: framework/classes/ImageSizes.php:322
+msgid "Disable Wordpress srcset Images"
+msgstr ""
+
+#: framework/classes/ImageSizes.php:326
+msgid ""
+"Check this box to disable the srcset responsive images in WordPress core."
+msgstr ""
+
+#: framework/classes/ImageSizes.php:362
+#: framework/customizer/settings/header.php:311
+#: framework/vendor/wpbakery/shortcode-mods/vc_column_text.php:63
+msgid "Width"
+msgstr ""
+
+#: framework/classes/ImageSizes.php:365
+#: framework/customizer/settings/header.php:291
+msgid "Height"
+msgstr ""
+
+#: framework/classes/ImageSizes.php:367
+msgid "Crop Location"
+msgstr ""
+
+#: framework/classes/ImportExport.php:41 framework/classes/ImportExport.php:42
+msgid "Import/Export"
+msgstr ""
+
+#: framework/classes/ImportExport.php:108
+msgid "All settings have been reset."
+msgstr ""
+
+#: framework/classes/ImportExport.php:129
+msgid "Settings imported successfully."
+msgstr ""
+
+#: framework/classes/ImportExport.php:137
+msgid "Invalid Import Data."
+msgstr ""
+
+#: framework/classes/ImportExport.php:144
+msgid ""
+"The version of PHP on your server is very outdated and can not support a "
+"proper import. Please make sure your server has been updated to the "
+"WordPress \"supported\" version of PHP."
+msgstr ""
+
+#: framework/classes/ImportExport.php:153
+msgid "No import data found."
+msgstr ""
+
+#: framework/classes/ImportExport.php:184
+msgid "Import, Export or Reset Theme Settings"
+msgstr ""
+
+#: framework/classes/ImportExport.php:186
+msgid ""
+"This will export/import/delete ALL theme_mods that means if other plugins "
+"are adding settings in the Customizer it will export/import/delete those as "
+"well."
+msgstr ""
+
+#: framework/classes/ImportExport.php:206
+msgid "Export Settings"
+msgstr ""
+
+#: framework/classes/ImportExport.php:219
+msgid "No Settings Found"
+msgstr ""
+
+#: framework/classes/ImportExport.php:224
+msgid "Highlight Options"
+msgstr ""
+
+#: framework/classes/ImportExport.php:230
+msgid "Import Settings"
+msgstr ""
+
+#: framework/classes/ImportExport.php:236
+msgid "Reset Options"
+msgstr ""
+
+#: framework/classes/ImportExport.php:237
+msgid "Cancel Reset"
+msgstr ""
+
+#: framework/classes/ImportExport.php:240
+msgid ""
+"Always make sure you have a backup of your settings before resetting, just "
+"incase! Your menu locations and widget areas will not reset and will remain "
+"intact. All customizer and addon settings will reset."
+msgstr ""
+
+#: framework/classes/License.php:60 framework/classes/License.php:61
+#: framework/classes/License.php:139
+msgid "Theme License"
+msgstr ""
+
+#: framework/classes/License.php:150
+msgid ""
+"The current URL did not match the URL of the registered license. Your "
+"license has been removed from this site but remains active on the original "
+"URL. You can now enter a new license for this site."
+msgstr ""
+
+#: framework/classes/License.php:154 framework/classes/License.php:250
+msgid "Congratulations. Your theme license is active."
+msgstr ""
+
+#: framework/classes/License.php:166
+msgid "Verify your License"
+msgstr ""
+
+#: framework/classes/License.php:168
+msgid ""
+"Enter your purchase code below and click the activate button or hit enter. "
+"You can learn how to find your purchase code <a target=\"_blank\" href="
+"\"https://www.wpexplorer-themes.com/envato-purchase-code/\">here</a>."
+msgstr ""
+
+#: framework/classes/License.php:178
+msgid "Enter your purchase code here."
+msgstr ""
+
+#: framework/classes/License.php:183
+msgid ""
+"Check this box if this is your development environment (not the final or "
+"live website)"
+msgstr ""
+
+#: framework/classes/License.php:193
+msgid "Activate your license"
+msgstr ""
+
+#: framework/classes/License.php:194
+msgid "Deactivate your license"
+msgstr ""
+
+#: framework/classes/License.php:212
+msgid ""
+"A purchase code (license) is only valid for a <strong>Single Domain</"
+"strong>. Are you already using this theme on another domain? Purchase <a "
+"target=\"_blank\" href=\"https://themeforest.net/item/total-responsive-"
+"multipurpose-wordpress-theme/6339019?"
+"ref=WPExplorer&license=regular&open_purchase_for_item_id=6339019\">new "
+"license here</a> to get your new purchase code. If you are running a multi-"
+"site network you only need to activate your license on the main site."
+msgstr ""
+
+#: framework/classes/License.php:217
+msgid "Manage Licenses"
+msgstr ""
+
+#: framework/classes/License.php:217
+msgid "Troubleshoot"
+msgstr ""
+
+#: framework/classes/License.php:258
+msgid "This license code is not valid."
+msgstr ""
+
+#: framework/classes/License.php:260
+msgid ""
+"This license is already in use. Click the \"manage licenses\" link below to "
+"log in with your Envato ID and manage your licenses."
+msgstr ""
+
+#: framework/classes/License.php:299
+msgid "The license has been deactivated successfully."
+msgstr ""
+
+#: framework/classes/License.php:351
+msgid "Please enter a license."
+msgstr ""
+
+#: framework/classes/MediaMetaFields.php:37
+msgid "Video URL"
+msgstr ""
+
+#: framework/classes/PostTypeEditorPanel.php:94
+#: framework/customizer/settings/blog.php:58
+#: framework/vendor/PostTypesUnlimited.php:189
+#: framework/vendor/tribe-events/customizer.php:23
+msgid "Main Page"
+msgstr ""
+
+#: framework/classes/PostTypeEditorPanel.php:98
+msgid "Admin Icon"
+msgstr ""
+
+#: framework/classes/PostTypeEditorPanel.php:107
+msgid "Enable Auto Archive?"
+msgstr ""
+
+#: framework/classes/PostTypeEditorPanel.php:109
+msgid ""
+"Disabled by default so you can create your archive page using a page builder."
+msgstr ""
+
+#: framework/classes/PostTypeEditorPanel.php:112
+msgid "Enable Custom Sidebar?"
+msgstr ""
+
+#: framework/classes/PostTypeEditorPanel.php:117
+msgid "Include in Search Results?"
+msgstr ""
+
+#: framework/classes/PostTypeEditorPanel.php:122
+msgid "Post Type: Name"
+msgstr ""
+
+#: framework/classes/PostTypeEditorPanel.php:126
+msgid "Post Type: Singular Name"
+msgstr ""
+
+#: framework/classes/PostTypeEditorPanel.php:130
+msgid "Post Type: Slug"
+msgstr ""
+
+#: framework/classes/PostTypeEditorPanel.php:134
+msgid "Enable Categories?"
+msgstr ""
+
+#: framework/classes/PostTypeEditorPanel.php:139
+msgid "Categories: Label"
+msgstr ""
+
+#: framework/classes/PostTypeEditorPanel.php:143
+msgid "Categories: Slug"
+msgstr ""
+
+#: framework/classes/PostTypeEditorPanel.php:147
+msgid "Enable Tags?"
+msgstr ""
+
+#: framework/classes/PostTypeEditorPanel.php:153
+msgid "Tag: Label"
+msgstr ""
+
+#: framework/classes/PostTypeEditorPanel.php:159
+msgid "Tag: Slug"
+msgstr ""
+
+#: framework/classes/PostTypeEditorPanel.php:195
+#: framework/classes/PostTypeEditorPanel.php:196
+#: framework/classes/PostTypeEditorPanel.php:329
+msgid "Settings"
+msgstr ""
+
+#: framework/classes/PostTypeEditorPanel.php:302
+msgid "Settings saved and rewrite rules flushed."
+msgstr ""
+
+#: framework/classes/breadcrumbs.php:61 framework/helpers/title.php:83
+msgid "Home"
+msgstr ""
+
+#: framework/classes/breadcrumbs.php:191
+msgid "All Events"
+msgstr ""
+
+#: framework/classes/breadcrumbs.php:525
+#, php-format
+msgid "Minute %1$s"
+msgstr ""
+
+#: framework/classes/breadcrumbs.php:568 framework/helpers/title.php:111
+#, php-format
+msgid "Daily Archives: %s"
+msgstr ""
+
+#: framework/classes/breadcrumbs.php:581
+#, php-format
+msgid "Week %1$s"
+msgstr ""
+
+#: framework/classes/breadcrumbs.php:594 framework/helpers/title.php:116
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#: framework/classes/breadcrumbs.php:600 framework/helpers/title.php:121
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#: framework/classes/breadcrumbs.php:610
+#: framework/vendor/bbpress/bbPress.php:247
+msgid "Search Results"
+msgstr ""
+
+#: framework/classes/breadcrumbs.php:617
+msgid "404 Error Page"
+msgstr ""
+
+#: framework/classes/breadcrumbs.php:624
+#: framework/vendor/tribe-events/TribeEvents.php:190
+#: framework/vendor/tribe-events/TribeEvents.php:193
+msgid "Events Calendar"
+msgstr ""
+
+#: framework/classes/breadcrumbs.php:966
+#: framework/vendor/woocommerce/woocommerce.php:209
+#: framework/vendor/woocommerce/woocommerce.php:217
+msgid "Shop"
+msgstr ""
+
+#: framework/classes/iLightbox.php:159
+#: framework/vendor/wpbakery/shortcode-mods/vc_row.php:422
+#: framework/vendor/wpbakery/shortcode-mods/vc_section.php:229
+msgid "Dark"
+msgstr ""
+
+#: framework/classes/iLightbox.php:160
+msgid "Flat Dark"
+msgstr ""
+
+#: framework/classes/iLightbox.php:162
+msgid "Mac"
+msgstr ""
+
+#: framework/classes/iLightbox.php:163
+msgid "Metro Black"
+msgstr ""
+
+#: framework/classes/iLightbox.php:164
+msgid "Metro White"
+msgstr ""
+
+#: framework/classes/iLightbox.php:165
+msgid "Parade"
+msgstr ""
+
+#: framework/classes/iLightbox.php:166
+msgid "Smooth"
+msgstr ""
+
+#: framework/classes/iLightbox.php:243
+#: framework/vendor/wpbakery/shortcode-mods/vc_single_image.php:178
+#: framework/vendor/wpbakery/shortcode-mods/vc_single_image.php:193
+#: framework/vendor/wpbakery/shortcode-mods/vc_single_image.php:201
+#: framework/vendor/wpbakery/shortcode-mods/vc_single_image.php:211
+#: framework/vendor/wpbakery/shortcode-mods/vc_single_image.php:219
+#: framework/vendor/wpbakery/shortcode-mods/vc_single_image.php:227
+#: framework/vendor/wpbakery/shortcode-mods/vc_single_image.php:237
+#: framework/vendor/wpbakery/shortcode-mods/vc_single_image.php:246
+msgid "Lightbox"
+msgstr ""
+
+#: framework/classes/iLightbox.php:251
+msgid "Skin"
+msgstr ""
+
+#: framework/classes/iLightbox.php:261
+msgid "Image Max Width"
+msgstr ""
+
+#: framework/classes/iLightbox.php:269
+msgid "Load Skin Globally"
+msgstr ""
+
+#: framework/classes/iLightbox.php:271
+msgid ""
+"Load the lightbox skin on the entire website. Enable if you are adding "
+"custom inline lightbox links via HTML."
+msgstr ""
+
+#: framework/classes/iLightbox.php:277
+msgid "Auto Lightbox"
+msgstr ""
+
+#: framework/classes/iLightbox.php:279
+msgid "Automatically add Lightbox to images inserted into the post editor."
+msgstr ""
+
+#: framework/classes/iLightbox.php:286
+msgid "Animated Effects"
+msgstr ""
+
+#: framework/classes/iLightbox.php:294
+msgid "Gallery Thumbnails"
+msgstr ""
+
+#: framework/classes/iLightbox.php:302
+msgid "Gallery Arrows"
+msgstr ""
+
+#: framework/classes/iLightbox.php:310
+msgid "Gallery Mousewheel Scroll"
+msgstr ""
+
+#: framework/classes/iLightbox.php:318
+msgid "Titles"
+msgstr ""
+
+#: framework/classes/iLightbox.php:326
+msgid "Fullscreen Button"
+msgstr ""
+
+#: framework/core-functions.php:2291
+#: framework/vendor/woocommerce/function-overrides.php:47
+#: woocommerce/loop/thumbnail/featured-image.php:38
+msgid "Placeholder Image"
+msgstr ""
+
+#: framework/core-functions.php:2650
+msgid "Rating"
+msgstr ""
+
+#: framework/customizer/controls/dropdown-pages.php:46
+#: framework/customizer/controls/dropdown-pages.php:90
+#: framework/customizer/controls/dropdown-templates.php:47
+#: framework/vendor/real-media-library.php:97
+msgid "Select"
+msgstr ""
+
+#: framework/customizer/controls/font-family.php:48
+msgid "Custom Fonts"
+msgstr ""
+
+#: framework/customizer/controls/font-family.php:59
+msgid "Standard Fonts"
+msgstr ""
+
+#: framework/customizer/controls/font-family.php:73
+msgid "Google Fonts"
+msgstr ""
+
+#: framework/customizer/customizer-manager.php:70
+msgid ""
+"The Customizer Manager can be used to hide sections from the Customizer. It "
+"will not disable or alter any theme options already set in the Customizer or "
+"sections visible on the front-end of your site."
+msgstr ""
+
+#: framework/customizer/customizer-manager.php:74
+msgid "Enable Panels"
+msgstr ""
+
+#: framework/customizer/customizer-manager.php:75
+msgid "Customizer"
+msgstr ""
+
+#: framework/customizer/customizer-manager.php:79
+msgid "Check all"
+msgstr ""
+
+#: framework/customizer/customizer-manager.php:79
+msgid "Uncheck all"
+msgstr ""
+
+#: framework/customizer/customizer.php:57
+msgid "General Theme Options"
+msgstr ""
+
+#: framework/customizer/customizer.php:60
+#: framework/customizer/settings/blog.php:104
+#: framework/customizer/settings/blog.php:338
+#: framework/customizer/settings/general.php:555
+#: framework/customizer/settings/general.php:622
+#: framework/customizer/settings/portfolio.php:36
+#: framework/customizer/settings/portfolio.php:143
+#: framework/customizer/settings/staff.php:53
+#: framework/customizer/settings/staff.php:176
+#: framework/customizer/settings/testimonials.php:25
+#: framework/vendor/PostTypesUnlimited.php:342
+#: framework/vendor/woocommerce/customizer.php:178
+#: framework/vendor/woocommerce/customizer.php:361
+msgid "Layout"
+msgstr ""
+
+#: framework/customizer/customizer.php:66
+msgid "Toggle Bar"
+msgstr ""
+
+#: framework/customizer/customizer.php:73 framework/hooks/hooks.php:47
+msgid "Header"
+msgstr ""
+
+#: framework/customizer/customizer.php:95
+msgid "Callout"
+msgstr ""
+
+#: framework/customizer/customizer.php:360
+msgid "Please use the following format: top right bottom left."
+msgstr ""
+
+#: framework/customizer/customizer.php:361
+msgid "Format: top right bottom left."
+msgstr ""
+
+#: framework/customizer/customizer.php:361
+#: framework/customizer/settings/layout.php:149
+#: framework/customizer/settings/layout.php:162
+#: framework/customizer/settings/layout.php:176
+#: framework/customizer/settings/layout.php:199
+#: framework/customizer/settings/layout.php:213
+#: framework/customizer/settings/layout.php:227
+#: framework/customizer/settings/layout.php:250
+#: framework/customizer/settings/layout.php:265
+#: framework/customizer/settings/layout.php:279
+#: framework/customizer/settings/layout.php:302
+#: framework/customizer/settings/layout.php:317
+msgid "Example:"
+msgstr ""
+
+#: framework/customizer/customizer.php:362
+msgid "Enter a value in pixels. Example: 10px."
+msgstr ""
+
+#: framework/customizer/customizer.php:363
+msgid "Leave blank to disable."
+msgstr ""
+
+#: framework/customizer/customizer.php:364
+msgid ""
+"If you enter the ID number of a page or Templatera template it will display "
+"it's content instead."
+msgstr ""
+
+#: framework/customizer/customizer.php:365 framework/vendor/cpt-ui.php:300
+msgid ""
+"Create a dynamic template using Templatera to override the default content "
+"layout."
+msgstr ""
+
+#: framework/customizer/customizer.php:370
+msgid "Colored Image Icons (Legacy)"
+msgstr ""
+
+#: framework/customizer/settings/blog.php:18
+#: framework/vendor/PostTypesUnlimited.php:266
+#: framework/vendor/PostTypesUnlimited.php:316 framework/vendor/cpt-ui.php:201
+msgid "Date"
+msgstr ""
+
+#: framework/customizer/settings/blog.php:19
+#: framework/vendor/PostTypesUnlimited.php:267
+#: framework/vendor/PostTypesUnlimited.php:317 framework/vendor/cpt-ui.php:202
+msgid "Author"
+msgstr ""
+
+#: framework/customizer/settings/blog.php:20
+#: framework/vendor/PostTypesUnlimited.php:268 framework/vendor/cpt-ui.php:203
+msgid "Categories"
+msgstr ""
+
+#: framework/customizer/settings/blog.php:21
+#: framework/customizer/settings/blog.php:352
+msgid "First Category"
+msgstr ""
+
+#: framework/customizer/settings/blog.php:22
+#: framework/customizer/settings/blog.php:46
+#: framework/customizer/settings/general.php:545
+#: framework/customizer/settings/portfolio.php:22
+#: framework/customizer/settings/staff.php:22
+#: framework/customizer/settings/testimonials.php:177
+#: framework/vendor/PostTypesUnlimited.php:269
+#: framework/vendor/PostTypesUnlimited.php:307
+#: framework/vendor/PostTypesUnlimited.php:319 framework/vendor/cpt-ui.php:196
+#: framework/vendor/cpt-ui.php:204
+msgid "Comments"
+msgstr ""
+
+#: framework/customizer/settings/blog.php:27
+#: framework/customizer/settings/general.php:542
+#: framework/customizer/settings/portfolio.php:19
+#: framework/customizer/settings/staff.php:19
+#: framework/vendor/PostTypesUnlimited.php:252
+#: framework/vendor/PostTypesUnlimited.php:298 framework/vendor/cpt-ui.php:180
+#: framework/vendor/cpt-ui.php:189
+msgid "Media"
+msgstr ""
+
+#: framework/customizer/settings/blog.php:28
+#: framework/customizer/settings/blog.php:38
+#: framework/customizer/settings/general.php:541
+#: framework/vendor/PostTypesUnlimited.php:253
+#: framework/vendor/PostTypesUnlimited.php:299 framework/vendor/cpt-ui.php:181
+#: framework/vendor/cpt-ui.php:190
+msgid "Title"
+msgstr ""
+
+#: framework/customizer/settings/blog.php:29
+#: framework/customizer/settings/blog.php:39
+#: framework/customizer/settings/blog.php:302
+#: framework/customizer/settings/blog.php:427
+#: framework/customizer/settings/staff.php:18
+#: framework/vendor/PostTypesUnlimited.php:254
+#: framework/vendor/PostTypesUnlimited.php:300 framework/vendor/cpt-ui.php:182
+#: framework/vendor/cpt-ui.php:191
+msgid "Meta"
+msgstr ""
+
+#: framework/customizer/settings/blog.php:30
+msgid "Excerpt"
+msgstr ""
+
+#: framework/customizer/settings/blog.php:31
+#: framework/customizer/settings/blog.php:252
+#: partials/blog/blog-entry-readmore.php:17
+msgid "Read More"
+msgstr ""
+
+#: framework/customizer/settings/blog.php:37
+msgid "Featured Media"
+msgstr ""
+
+#: framework/customizer/settings/blog.php:41
+#: framework/customizer/settings/callout.php:52
+#: framework/customizer/settings/general.php:543
+#: framework/customizer/settings/portfolio.php:20
+#: framework/customizer/settings/staff.php:20
+#: framework/customizer/settings/togglebar.php:32
+#: framework/customizer/settings/topbar.php:241
+#: framework/customizer/settings/topbar.php:253
+#: framework/vendor/PostTypesUnlimited.php:255
+#: framework/vendor/PostTypesUnlimited.php:302 framework/vendor/cpt-ui.php:183
+#: framework/vendor/cpt-ui.php:193
+msgid "Content"
+msgstr ""
+
+#: framework/customizer/settings/blog.php:42
+msgid "Post Tags"
+msgstr ""
+
+#: framework/customizer/settings/blog.php:43
+#: framework/customizer/settings/general.php:544
+#: framework/customizer/settings/portfolio.php:21
+#: framework/customizer/settings/staff.php:21
+#: framework/vendor/PostTypesUnlimited.php:304 framework/vendor/cpt-ui.php:195
+#: framework/vendor/woocommerce/customizer.php:539
+msgid "Social Share"
+msgstr ""
+
+#: framework/customizer/settings/blog.php:44
+#: framework/customizer/settings/blog.php:500
+msgid "Author Box"
+msgstr ""
+
+#: framework/customizer/settings/blog.php:45
+#: framework/customizer/settings/portfolio.php:23
+#: framework/customizer/settings/staff.php:23 framework/helpers/blog.php:541
+msgid "Related Posts"
+msgstr ""
+
+#: framework/customizer/settings/blog.php:60
+msgid ""
+"This setting is used for breadcrumbs when your main blog page is not the "
+"homepage."
+msgstr ""
+
+#: framework/customizer/settings/blog.php:66
+msgid "Exclude Categories From Blog"
+msgstr ""
+
+#: framework/customizer/settings/blog.php:68
+msgid ""
+"Enter the ID's of categories to exclude from the blog template or homepage "
+"blog seperated by a comma (no spaces)."
+msgstr ""
+
+#: framework/customizer/settings/blog.php:74
+msgid "Enable custom sidebar area for your Blog"
+msgstr ""
+
+#: framework/customizer/settings/blog.php:76
+msgid ""
+"After enabling you can go to the main Widgets admin dashboard to add widgets "
+"to your blog sidebar or you can refresh the Customizer to access the new "
+"widget area here."
+msgstr ""
+
+#: framework/customizer/settings/blog.php:84
+#: framework/customizer/settings/portfolio.php:28
+#: framework/customizer/settings/testimonials.php:17
+msgid "Archives & Entries"
+msgstr ""
+
+#: framework/customizer/settings/blog.php:91
+msgid "Category & Tag Description Position"
+msgstr ""
+
+#: framework/customizer/settings/blog.php:95
+#: framework/customizer/settings/general.php:269
+#: framework/vendor/woocommerce/customizer.php:209
+msgid "Under Title"
+msgstr ""
+
+#: framework/customizer/settings/blog.php:96
+#: framework/vendor/woocommerce/customizer.php:210
+msgid "Above Loop"
+msgstr ""
+
+#: framework/customizer/settings/blog.php:97
+#: framework/customizer/settings/general.php:384
+#: framework/customizer/settings/togglebar.php:78
+msgid "Hidden"
+msgstr ""
+
+#: framework/customizer/settings/blog.php:113
+#: framework/customizer/settings/general.php:166
+#: framework/customizer/settings/general.php:378
+#: framework/customizer/settings/general.php:610
+#: framework/customizer/settings/general.php:1124
+#: framework/customizer/settings/header.php:46
+#: framework/customizer/settings/header.php:435
+#: framework/customizer/settings/header.php:1017
+#: framework/customizer/settings/header.php:1161
+#: framework/customizer/settings/topbar.php:90
+#: framework/vendor/wpbakery/shortcode-mods/vc_tabs_tour.php:39
+msgid "Style"
+msgstr ""
+
+#: framework/customizer/settings/blog.php:117
+msgid "Large Image"
+msgstr ""
+
+#: framework/customizer/settings/blog.php:118
+#: framework/customizer/settings/general.php:613
+msgid "Left Thumbnail"
+msgstr ""
+
+#: framework/customizer/settings/blog.php:119
+msgid "Grid"
+msgstr ""
+
+#: framework/customizer/settings/blog.php:127
+msgid "Left Thumbnail Width"
+msgstr ""
+
+#: framework/customizer/settings/blog.php:141
+msgid "Right Content Width"
+msgstr ""
+
+#: framework/customizer/settings/blog.php:155
+#: framework/customizer/settings/portfolio.php:45
+#: framework/customizer/settings/staff.php:62
+#: framework/customizer/settings/testimonials.php:43
+msgid "Grid Style"
+msgstr ""
+
+#: framework/customizer/settings/blog.php:160
+#: framework/customizer/settings/portfolio.php:48
+#: framework/customizer/settings/staff.php:65
+#: framework/customizer/settings/testimonials.php:46
+msgid "Fit Rows"
+msgstr ""
+
+#: framework/customizer/settings/blog.php:161
+#: framework/customizer/settings/portfolio.php:49
+#: framework/customizer/settings/staff.php:66
+#: framework/customizer/settings/testimonials.php:47
+#: framework/vendor/PostTypesUnlimited.php:229
+#: framework/vendor/PostTypesUnlimited.php:362
+msgid "Masonry"
+msgstr ""
+
+#: framework/customizer/settings/blog.php:169
+msgid "Grid Columns"
+msgstr ""
+
+#: framework/customizer/settings/blog.php:185
+#: framework/customizer/settings/footer_widgets.php:164
+#: framework/customizer/settings/portfolio.php:66
+#: framework/customizer/settings/staff.php:92
+#: framework/customizer/settings/testimonials.php:54
+#: framework/vendor/woocommerce/customizer.php:197
+msgid "Gap"
+msgstr ""
+
+#: framework/customizer/settings/blog.php:194
+#: framework/customizer/settings/portfolio.php:75
+#: framework/customizer/settings/staff.php:75
+msgid "Equal Heights"
+msgstr ""
+
+#: framework/customizer/settings/blog.php:203
+msgid "Pagination Style"
+msgstr ""
+
+#: framework/customizer/settings/blog.php:207
+#: framework/customizer/settings/header.php:439
+#: framework/customizer/settings/testimonials.php:169
+msgid "Standard"
+msgstr ""
+
+#: framework/customizer/settings/blog.php:208
+#: framework/helpers/js-localize-data.php:58
+#: framework/helpers/pagination.php:244
+msgid "Load More"
+msgstr ""
+
+#: framework/customizer/settings/blog.php:209
+msgid "Infinite Scroll"
+msgstr ""
+
+#: framework/customizer/settings/blog.php:210
+#: framework/vendor/PostTypesUnlimited.php:323 framework/vendor/cpt-ui.php:251
+msgid "Next/Prev"
+msgstr ""
+
+#: framework/customizer/settings/blog.php:217
+#: framework/customizer/settings/portfolio.php:92
+#: framework/customizer/settings/staff.php:109
+msgid "Image Overlay"
+msgstr ""
+
+#: framework/customizer/settings/blog.php:226
+#: framework/customizer/settings/portfolio.php:100
+#: framework/customizer/settings/staff.php:117
+msgid "Image Hover Animation"
+msgstr ""
+
+#: framework/customizer/settings/blog.php:236
+msgid "Auto Excerpts"
+msgstr ""
+
+#: framework/customizer/settings/blog.php:245
+#: framework/customizer/settings/portfolio.php:118
+#: framework/customizer/settings/staff.php:143
+msgid "Excerpt length"
+msgstr ""
+
+#: framework/customizer/settings/blog.php:254
+msgid "Read More Button Text"
+msgstr ""
+
+#: framework/customizer/settings/blog.php:262
+msgid "Image Lightbox"
+msgstr ""
+
+#: framework/customizer/settings/blog.php:270
+msgid "Author Avatar"
+msgstr ""
+
+#: framework/customizer/settings/blog.php:278
+msgid "Display Featured Videos?"
+msgstr ""
+
+#: framework/customizer/settings/blog.php:286
+msgid "Display Featured Audio?"
+msgstr ""
+
+#: framework/customizer/settings/blog.php:294
+msgid "Display Gallery Slider?"
+msgstr ""
+
+#: framework/customizer/settings/blog.php:312
+msgid "Entry Layout Elements"
+msgstr ""
+
+#: framework/customizer/settings/blog.php:315
+#: framework/customizer/settings/blog.php:384
+#: framework/customizer/settings/general.php:140
+#: framework/customizer/settings/general.php:584
+#: framework/customizer/settings/portfolio.php:164
+#: framework/customizer/settings/staff.php:205
+msgid "Click and drag and drop elements to re-order them."
+msgstr ""
+
+#: framework/customizer/settings/blog.php:323
+#: framework/customizer/settings/portfolio.php:127
+#: framework/customizer/settings/staff.php:161
+#: framework/customizer/settings/testimonials.php:132
+msgid "Single Post"
+msgstr ""
+
+#: framework/customizer/settings/blog.php:330
+#: framework/customizer/settings/portfolio.php:134
+#: framework/customizer/settings/staff.php:168
+#: framework/customizer/settings/testimonials.php:139
+msgid "Display Main Page Title"
+msgstr ""
+
+#: framework/customizer/settings/blog.php:347
+msgid "Header Displays"
+msgstr ""
+
+#: framework/customizer/settings/blog.php:350
+msgid "Custom Text"
+msgstr ""
+
+#: framework/customizer/settings/blog.php:351
+#: framework/customizer/settings/portfolio.php:17
+#: framework/customizer/settings/staff.php:17
+msgid "Post Title"
+msgstr ""
+
+#: framework/customizer/settings/blog.php:362
+msgid "Header Custom Text"
+msgstr ""
+
+#: framework/customizer/settings/blog.php:371
+msgid "Dynamic Template"
+msgstr ""
+
+#: framework/customizer/settings/blog.php:381
+msgid "Single Layout Elements"
+msgstr ""
+
+#: framework/customizer/settings/blog.php:395
+msgid "Display Media Above Content & Sidebar"
+msgstr ""
+
+#: framework/customizer/settings/blog.php:402
+msgid "Featured Image Lightbox"
+msgstr ""
+
+#: framework/customizer/settings/blog.php:410
+msgid "Featured Image Caption"
+msgstr ""
+
+#: framework/customizer/settings/blog.php:419
+#: framework/customizer/settings/general.php:1014
+#: framework/customizer/settings/portfolio.php:172
+#: framework/customizer/settings/staff.php:213
+#: framework/customizer/settings/testimonials.php:186
+#: framework/vendor/woocommerce/customizer.php:547
+msgid "Next & Previous Links"
+msgstr ""
+
+#: framework/customizer/settings/blog.php:437
+#: framework/customizer/settings/portfolio.php:181
+#: framework/customizer/settings/staff.php:221
+msgid "Related Posts Title"
+msgstr ""
+
+#: framework/customizer/settings/blog.php:446
+#: framework/customizer/settings/portfolio.php:190
+#: framework/customizer/settings/staff.php:230
+msgid "Related Posts Count"
+msgstr ""
+
+#: framework/customizer/settings/blog.php:455
+#: framework/customizer/settings/portfolio.php:199
+#: framework/customizer/settings/staff.php:239
+msgid "Related Posts Columns"
+msgstr ""
+
+#: framework/customizer/settings/blog.php:471
+msgid "Related Posts Image Overlay"
+msgstr ""
+
+#: framework/customizer/settings/blog.php:481
+msgid "Related Posts Excerpt"
+msgstr ""
+
+#: framework/customizer/settings/blog.php:490
+msgid "Related Posts Excerpt Length"
+msgstr ""
+
+#: framework/customizer/settings/blog.php:533
+#: framework/customizer/settings/callout.php:100
+#: framework/customizer/settings/general.php:921
+#: framework/customizer/settings/general.php:1050
+#: framework/customizer/settings/general.php:1245
+msgid "Border Color"
+msgstr ""
+
+#: framework/customizer/settings/blog.php:545
+#: framework/customizer/settings/general.php:498
+#: framework/customizer/settings/general.php:909
+#: framework/customizer/settings/general.php:1269
+msgid "Border Width"
+msgstr ""
+
+#: framework/customizer/settings/blog.php:557
+#: framework/customizer/settings/topbar.php:318
+msgid "Social Style"
+msgstr ""
+
+#: framework/customizer/settings/blog.php:567
+msgid "Social Font Size"
+msgstr ""
+
+#: framework/customizer/settings/callout.php:25
+msgid "Enable Globally"
+msgstr ""
+
+#: framework/customizer/settings/callout.php:27
+#: framework/customizer/settings/footer_bottom.php:25
+#: framework/customizer/settings/footer_widgets.php:26
+#: framework/customizer/settings/togglebar.php:25
+#: framework/customizer/settings/topbar.php:26
+msgid ""
+"If you disable this option we recommend you go to the Customizer Manager and "
+"disable the section as well so the next time you work with the Customizer it "
+"will load faster."
+msgstr ""
+
+#: framework/customizer/settings/callout.php:34
+#: framework/customizer/settings/general.php:255
+#: framework/customizer/settings/header.php:169
+#: framework/customizer/settings/togglebar.php:46
+#: framework/customizer/settings/topbar.php:76
+#: framework/vendor/wpbakery/shortcode-mods/vc_column.php:136
+#: framework/vendor/wpbakery/shortcode-mods/vc_column_text.php:55
+#: framework/vendor/wpbakery/shortcode-mods/vc_row.php:196
+#: framework/vendor/wpbakery/shortcode-mods/vc_section.php:214
+#: framework/vendor/wpbakery/shortcode-mods/vc_single_image.php:133
+msgid "Visibility"
+msgstr ""
+
+#: framework/customizer/settings/callout.php:44
+msgid "Aside Content"
+msgstr ""
+
+#: framework/customizer/settings/callout.php:62
+#: framework/customizer/settings/general.php:411
+#: framework/customizer/settings/header.php:87
+#: framework/customizer/settings/topbar.php:203
+msgid "Top Padding"
+msgstr ""
+
+#: framework/customizer/settings/callout.php:75
+#: framework/customizer/settings/general.php:424
+#: framework/customizer/settings/header.php:104
+#: framework/customizer/settings/topbar.php:221
+msgid "Bottom Padding"
+msgstr ""
+
+#: framework/customizer/settings/callout.php:112
+#: framework/customizer/settings/general.php:319
+#: framework/customizer/settings/general.php:462
+#: framework/customizer/settings/sidebar.php:57
+msgid "Text Color"
+msgstr ""
+
+#: framework/customizer/settings/callout.php:124
+#: framework/customizer/settings/footer_bottom.php:101
+#: framework/customizer/settings/footer_widgets.php:116
+#: framework/customizer/settings/header.php:1409
+msgid "Links"
+msgstr ""
+
+#: framework/customizer/settings/callout.php:136
+#: framework/customizer/settings/footer_bottom.php:114
+#: framework/customizer/settings/footer_widgets.php:129
+#: framework/customizer/settings/header.php:1354
+#: framework/customizer/settings/header.php:1425
+msgid "Links: Hover"
+msgstr ""
+
+#: framework/customizer/settings/callout.php:157
+msgid "Link URL"
+msgstr ""
+
+#: framework/customizer/settings/callout.php:159
+msgid "Leave empty to disable button."
+msgstr ""
+
+#: framework/customizer/settings/callout.php:167
+msgid "Link Text"
+msgstr ""
+
+#: framework/customizer/settings/callout.php:176
+msgid "Link Target"
+msgstr ""
+
+#: framework/customizer/settings/callout.php:179
+msgid "Blank"
+msgstr ""
+
+#: framework/customizer/settings/callout.php:180
+msgid "Self"
+msgstr ""
+
+#: framework/customizer/settings/callout.php:188
+msgid "Link Rel"
+msgstr ""
+
+#: framework/customizer/settings/callout.php:192
+msgid "Nofollow"
+msgstr ""
+
+#: framework/customizer/settings/callout.php:200
+#: framework/customizer/settings/header.php:387
+msgid "Icon Select"
+msgstr ""
+
+#: framework/customizer/settings/callout.php:209
+msgid "Icon Position"
+msgstr ""
+
+#: framework/customizer/settings/callout.php:212
+msgid "After Text"
+msgstr ""
+
+#: framework/customizer/settings/callout.php:213
+msgid "Before Text"
+msgstr ""
+
+#: framework/customizer/settings/callout.php:221
+msgid "Button Style"
+msgstr ""
+
+#: framework/customizer/settings/callout.php:230
+#: framework/customizer/settings/togglebar.php:197
+msgid "Button Color"
+msgstr ""
+
+#: framework/customizer/settings/callout.php:240
+#: framework/customizer/settings/footer_bottom.php:58
+#: framework/customizer/settings/footer_widgets.php:53
+#: framework/customizer/settings/footer_widgets.php:312
+#: framework/customizer/settings/general.php:883
+#: framework/customizer/settings/general.php:1062
+#: framework/customizer/settings/general.php:1183
+#: framework/customizer/settings/sidebar.php:44
+#: framework/customizer/settings/sidebar.php:163
+msgid "Padding"
+msgstr ""
+
+#: framework/customizer/settings/callout.php:253
+#: framework/customizer/settings/general.php:731
+#: framework/customizer/settings/general.php:1196
+msgid "Border Radius"
+msgstr ""
+
+#: framework/customizer/settings/callout.php:279
+#: framework/customizer/settings/general.php:829
+#: framework/customizer/settings/general.php:982
+msgid "Background: Hover"
+msgstr ""
+
+#: framework/customizer/settings/callout.php:303
+#: framework/customizer/settings/general.php:797
+#: framework/customizer/settings/general.php:945
+#: framework/customizer/settings/header.php:1238
+msgid "Color: Hover"
+msgstr ""
+
+#: framework/customizer/settings/footer_bottom.php:23
+msgid "Bottom Footer Area"
+msgstr ""
+
+#: framework/customizer/settings/footer_bottom.php:33
+msgid "Copyright"
+msgstr ""
+
+#: framework/customizer/settings/footer_bottom.php:43
+#: framework/customizer/settings/footer_widgets.php:326
+#: framework/customizer/settings/sidebar.php:176
+#: framework/vendor/wpbakery/shortcode-mods/vc_column_text.php:80
+msgid "Text Align"
+msgstr ""
+
+#: framework/customizer/settings/footer_widgets.php:35
+msgid ""
+"This setting will not \"fix\" your footer per-se but will add a min-height "
+"to your #main container to keep your footer always at the bottom of the page."
+msgstr ""
+
+#: framework/customizer/settings/footer_widgets.php:44
+msgid ""
+"Enable the footer reveal style. The footer will be placed in a fixed postion "
+"and display on scroll. This setting is for the \"Full-Width\" layout only "
+"and desktops only."
+msgstr ""
+
+#: framework/customizer/settings/footer_widgets.php:99
+#: framework/customizer/settings/header.php:710
+#: framework/customizer/settings/header.php:1328
+#: framework/customizer/settings/header.php:1393
+#: framework/customizer/settings/topbar.php:128
+msgid "Borders"
+msgstr ""
+
+#: framework/customizer/settings/footer_widgets.php:141
+msgid "Widget Columns"
+msgstr ""
+
+#: framework/customizer/settings/footer_widgets.php:148
+#: framework/customizer/settings/portfolio.php:58
+#: framework/customizer/settings/staff.php:84
+#: framework/customizer/settings/testimonials.php:34
+msgid "Columns"
+msgstr ""
+
+#: framework/customizer/settings/footer_widgets.php:174
+#: framework/customizer/settings/general.php:437
+#: framework/customizer/settings/header.php:245
+msgid "Bottom Margin"
+msgstr ""
+
+#: framework/customizer/settings/footer_widgets.php:177
+msgid ""
+"The Bottom Margin is technically applied to each widget so you have space "
+"between widgets added in the same column. If you alter this value you should "
+"probably also change your general Footer top padding so the top/bottom "
+"spacing in your footer area match."
+msgstr ""
+
+#: framework/customizer/settings/footer_widgets.php:190
+msgid "Column 1 Width"
+msgstr ""
+
+#: framework/customizer/settings/footer_widgets.php:204
+msgid "Column 2 Width"
+msgstr ""
+
+#: framework/customizer/settings/footer_widgets.php:218
+msgid "Column 3 Width"
+msgstr ""
+
+#: framework/customizer/settings/footer_widgets.php:232
+msgid "Column 4 Width"
+msgstr ""
+
+#: framework/customizer/settings/footer_widgets.php:246
+msgid "Column 5 Width"
+msgstr ""
+
+#: framework/customizer/settings/footer_widgets.php:259
+msgid "Widget Titles"
+msgstr ""
+
+#: framework/customizer/settings/footer_widgets.php:267
+#: framework/customizer/settings/general.php:1136
+#: framework/customizer/settings/sidebar.php:121
+msgid "Tag"
+msgstr ""
+
+#: framework/customizer/settings/general.php:17
+msgid "Accent Colors"
+msgstr ""
+
+#: framework/customizer/settings/general.php:24
+msgid "Accent Color"
+msgstr ""
+
+#: framework/customizer/settings/general.php:32
+msgid "Accent Hover Color"
+msgstr ""
+
+#: framework/customizer/settings/general.php:33
+msgid ""
+"Used for various hovers on accent colors such as buttons. If left empty it "
+"will inherit the custom accent color defined above"
+msgstr ""
+
+#: framework/customizer/settings/general.php:41
+msgid "Border Accent Color"
+msgstr ""
+
+#: framework/customizer/settings/general.php:49
+msgid "Highlight Background"
+msgstr ""
+
+#: framework/customizer/settings/general.php:61
+msgid "Highlight Color"
+msgstr ""
+
+#: framework/customizer/settings/general.php:74
+msgid "Site Background"
+msgstr ""
+
+#: framework/customizer/settings/general.php:76
+msgid ""
+"Here you can alter the global site background. It is highly recommended that "
+"you first set the site layout to \"Boxed\" under the Layout options."
+msgstr ""
+
+#: framework/customizer/settings/general.php:94
+msgid "Custom Background Image"
+msgstr ""
+
+#: framework/customizer/settings/general.php:112
+msgid "Background Pattern"
+msgstr ""
+
+#: framework/customizer/settings/general.php:131
+msgid "Social Sharing"
+msgstr ""
+
+#: framework/customizer/settings/general.php:139
+msgid "Sites"
+msgstr ""
+
+#: framework/customizer/settings/general.php:151
+#: framework/customizer/settings/general.php:265
+msgid "Position"
+msgstr ""
+
+#: framework/customizer/settings/general.php:155
+msgid "Horizontal"
+msgstr ""
+
+#: framework/customizer/settings/general.php:156
+msgid "Vertical (Fixed)"
+msgstr ""
+
+#: framework/customizer/settings/general.php:172
+msgid "Rounded"
+msgstr ""
+
+#: framework/customizer/settings/general.php:173
+#: framework/customizer/settings/general.php:270
+#: framework/customizer/settings/header.php:1105
+#: framework/vendor/wpbakery/shortcode-mods/vc_row.php:181
+#: framework/vendor/wpbakery/shortcode-mods/vc_row.php:425
+#: framework/vendor/wpbakery/shortcode-mods/vc_section.php:155
+#: framework/vendor/wpbakery/shortcode-mods/vc_section.php:232
+msgid "Custom"
+msgstr ""
+
+#: framework/customizer/settings/general.php:183
+msgid "Display Horizontal Style Label"
+msgstr ""
+
+#: framework/customizer/settings/general.php:190
+#: framework/customizer/settings/general.php:893
+#: framework/customizer/settings/general.php:1088
+#: framework/customizer/settings/general.php:1205
+msgid "Value in px or em."
+msgstr ""
+
+#: framework/customizer/settings/general.php:194
+msgid "Custom Font Size"
+msgstr ""
+
+#: framework/customizer/settings/general.php:205
+#: framework/helpers/social-share.php:97
+msgid "Share This"
+msgstr ""
+
+#: framework/customizer/settings/general.php:207
+msgid "Horizontal Position Heading"
+msgstr ""
+
+#: framework/customizer/settings/general.php:217
+msgid "Twitter Handle"
+msgstr ""
+
+#: framework/customizer/settings/general.php:226
+msgid "Alternative Shortcode"
+msgstr ""
+
+#: framework/customizer/settings/general.php:228
+msgid ""
+"Override the theme default social share with your custom social sharing "
+"shortcode."
+msgstr ""
+
+#: framework/customizer/settings/general.php:268
+msgid "Absolute Right"
+msgstr ""
+
+#: framework/customizer/settings/general.php:279
+msgid "Custom Home Title"
+msgstr ""
+
+#: framework/customizer/settings/general.php:288
+msgid "Remove categories and other taxonomies from breadcrumbs?"
+msgstr ""
+
+#: framework/customizer/settings/general.php:297
+msgid "First Category Only"
+msgstr ""
+
+#: framework/customizer/settings/general.php:309
+msgid "Title Trim Length"
+msgstr ""
+
+#: framework/customizer/settings/general.php:311
+msgid ""
+"Enter the max number of words to display for your breadcrumbs post title"
+msgstr ""
+
+#: framework/customizer/settings/general.php:332
+msgid "Separator Color"
+msgstr ""
+
+#: framework/customizer/settings/general.php:345
+#: framework/customizer/settings/general.php:1075
+#: framework/customizer/settings/header.php:732
+#: framework/customizer/settings/header.php:933
+#: framework/customizer/settings/sidebar.php:89
+#: framework/customizer/settings/topbar.php:164
+msgid "Link Color"
+msgstr ""
+
+#: framework/customizer/settings/general.php:358
+#: framework/customizer/settings/header.php:744
+#: framework/customizer/settings/header.php:945
+#: framework/customizer/settings/sidebar.php:101
+#: framework/customizer/settings/topbar.php:183
+msgid "Link Color: Hover"
+msgstr ""
+
+#: framework/customizer/settings/general.php:382
+msgid "Centered"
+msgstr ""
+
+#: framework/customizer/settings/general.php:383
+msgid "Centered Minimal"
+msgstr ""
+
+#: framework/customizer/settings/general.php:397
+msgid "Hidden Page Header Title Spacing"
+msgstr ""
+
+#: framework/customizer/settings/general.php:398
+msgid ""
+"When the page header title is set to hidden there will not be any space "
+"between the header and the main content. If you want to add a default space "
+"between the header and your main content you can enter the px value here."
+msgstr ""
+
+#: framework/customizer/settings/general.php:474
+msgid "Top Border Color"
+msgstr ""
+
+#: framework/customizer/settings/general.php:486
+msgid "Bottom Border Color"
+msgstr ""
+
+#: framework/customizer/settings/general.php:530
+msgid "Fetch Background From Featured Image"
+msgstr ""
+
+#: framework/customizer/settings/general.php:531
+msgid ""
+"Check the box next to any post type where you want to display the featured "
+"image as the page header title background."
+msgstr ""
+
+#: framework/customizer/settings/general.php:564
+#: framework/customizer/settings/general.php:641
+#: framework/vendor/PostTypesUnlimited.php:177 framework/vendor/cpt-ui.php:224
+msgid "Custom Sidebar"
+msgstr ""
+
+#: framework/customizer/settings/general.php:572
+#: framework/customizer/settings/portfolio.php:152
+#: framework/customizer/settings/staff.php:193
+#: framework/customizer/settings/testimonials.php:156
+msgid "Dynamic Template (Advanced)"
+msgstr ""
+
+#: framework/customizer/settings/general.php:581
+#: framework/customizer/settings/portfolio.php:161
+#: framework/customizer/settings/staff.php:202
+msgid "Post Layout Elements"
+msgstr ""
+
+#: framework/customizer/settings/general.php:601
+msgid "Show Standard Posts Only"
+msgstr ""
+
+#: framework/customizer/settings/general.php:614
+msgid "Inherit From Blog"
+msgstr ""
+
+#: framework/customizer/settings/general.php:632
+#: framework/customizer/settings/portfolio.php:84
+#: framework/customizer/settings/staff.php:101
+#: framework/customizer/settings/testimonials.php:63
+msgid "Posts Per Page"
+msgstr ""
+
+#: framework/customizer/settings/general.php:650
+msgid "Scroll To Top"
+msgstr ""
+
+#: framework/customizer/settings/general.php:658
+msgid "Scroll Up Button"
+msgstr ""
+
+#: framework/customizer/settings/general.php:667
+#: framework/customizer/settings/general.php:872
+msgid "Arrow"
+msgstr ""
+
+#: framework/customizer/settings/general.php:693
+msgid "Button Size"
+msgstr ""
+
+#: framework/customizer/settings/general.php:715
+msgid "Icon Size"
+msgstr ""
+
+#: framework/customizer/settings/general.php:747
+msgid "Right Position"
+msgstr ""
+
+#: framework/customizer/settings/general.php:748
+#: framework/customizer/settings/general.php:765
+#: framework/customizer/settings/header.php:1076
+#: framework/customizer/settings/layout.php:34
+#: framework/customizer/settings/layout.php:82
+#: framework/vendor/woocommerce/customizer.php:386
+#: framework/vendor/woocommerce/customizer.php:399
+msgid "Default:"
+msgstr ""
+
+#: framework/customizer/settings/general.php:764
+msgid "Bottom Position"
+msgstr ""
+
+#: framework/customizer/settings/general.php:845
+msgid "Pagination"
+msgstr ""
+
+#: framework/customizer/settings/general.php:854
+#: framework/vendor/wpbakery/shortcode-mods/vc_column_text.php:71
+msgid "Align"
+msgstr ""
+
+#: framework/customizer/settings/general.php:869
+msgid "Arrow Style"
+msgstr ""
+
+#: framework/customizer/settings/general.php:871
+msgid "Angle"
+msgstr ""
+
+#: framework/customizer/settings/general.php:873
+msgid "Caret"
+msgstr ""
+
+#: framework/customizer/settings/general.php:874
+msgid "Chevron"
+msgstr ""
+
+#: framework/customizer/settings/general.php:957
+msgid "Color: Active"
+msgstr ""
+
+#: framework/customizer/settings/general.php:994
+msgid "Background: Active"
+msgstr ""
+
+#: framework/customizer/settings/general.php:1006
+msgid "Load More Text"
+msgstr ""
+
+#: framework/customizer/settings/general.php:1022
+msgid "From Same Category"
+msgstr ""
+
+#: framework/customizer/settings/general.php:1030
+msgid "Reverse Order"
+msgstr ""
+
+#: framework/customizer/settings/general.php:1100
+msgid "Custom Next Text"
+msgstr ""
+
+#: framework/customizer/settings/general.php:1107
+msgid "Custom Prev Text"
+msgstr ""
+
+#: framework/customizer/settings/general.php:1117
+msgid ""
+"Heading used in various places such as the related and comments heading."
+msgstr ""
+
+#: framework/customizer/settings/general.php:1127
+msgid "Plain"
+msgstr ""
+
+#: framework/customizer/settings/general.php:1128
+msgid "Bottom Border With Color"
+msgstr ""
+
+#: framework/customizer/settings/general.php:1156
+msgid "Forms"
+msgstr ""
+
+#: framework/customizer/settings/general.php:1164
+msgid "Label Color"
+msgstr ""
+
+#: framework/customizer/settings/general.php:1175
+msgid "Inputs"
+msgstr ""
+
+#: framework/customizer/settings/general.php:1209
+msgid "Font-Size"
+msgstr ""
+
+#: framework/customizer/settings/general.php:1233
+msgid "Focus: Background"
+msgstr ""
+
+#: framework/customizer/settings/general.php:1257
+msgid "Focus: Border Color"
+msgstr ""
+
+#: framework/customizer/settings/general.php:1294
+msgid "Focus: Color"
+msgstr ""
+
+#: framework/customizer/settings/general.php:1306
+msgid "Tables"
+msgstr ""
+
+#: framework/customizer/settings/general.php:1314
+msgid "Table Header Background"
+msgstr ""
+
+#: framework/customizer/settings/general.php:1326
+msgid "Table Header Color"
+msgstr ""
+
+#: framework/customizer/settings/general.php:1338
+msgid "Th Color"
+msgstr ""
+
+#: framework/customizer/settings/general.php:1350
+msgid "Cells Border Color"
+msgstr ""
+
+#: framework/customizer/settings/general.php:1362
+msgid "Cell Padding"
+msgstr ""
+
+#: framework/customizer/settings/general.php:1376
+msgid "Links & Buttons"
+msgstr ""
+
+#: framework/customizer/settings/general.php:1384
+msgid "Links Color"
+msgstr ""
+
+#: framework/customizer/settings/general.php:1396
+msgid "Links Color: Hover"
+msgstr ""
+
+#: framework/customizer/settings/general.php:1408
+msgid "Theme Button Padding"
+msgstr ""
+
+#: framework/customizer/settings/general.php:1421
+msgid "Theme Button Border Radius"
+msgstr ""
+
+#: framework/customizer/settings/general.php:1433
+msgid "Theme Button Background"
+msgstr ""
+
+#: framework/customizer/settings/general.php:1445
+msgid "Theme Button Background: Hover"
+msgstr ""
+
+#: framework/customizer/settings/general.php:1457
+msgid "Theme Button Color"
+msgstr ""
+
+#: framework/customizer/settings/general.php:1469
+msgid "Theme Button Color: Hover"
+msgstr ""
+
+#: framework/customizer/settings/general.php:1481
+msgid "Post Gallery Slider"
+msgstr ""
+
+#: framework/customizer/settings/general.php:1488
+#: framework/customizer/settings/togglebar.php:91
+msgid "Animation"
+msgstr ""
+
+#: framework/customizer/settings/general.php:1491
+msgid "Slide"
+msgstr ""
+
+#: framework/customizer/settings/general.php:1492
+#: framework/customizer/settings/togglebar.php:94
+msgid "Fade"
+msgstr ""
+
+#: framework/customizer/settings/general.php:1500
+msgid "Custom Animation Speed"
+msgstr ""
+
+#: framework/customizer/settings/general.php:1502
+#: framework/vendor/woocommerce/customizer.php:420
+msgid "Enter a value in milliseconds."
+msgstr ""
+
+#: framework/customizer/settings/general.php:1509
+msgid "Auto Play?"
+msgstr ""
+
+#: framework/customizer/settings/general.php:1517
+msgid "Loop?"
+msgstr ""
+
+#: framework/customizer/settings/general.php:1525
+msgid "Thumbnails?"
+msgstr ""
+
+#: framework/customizer/settings/general.php:1533
+msgid "Arrows?"
+msgstr ""
+
+#: framework/customizer/settings/general.php:1541
+msgid "Arrows on Hover?"
+msgstr ""
+
+#: framework/customizer/settings/general.php:1549
+msgid "Dots?"
+msgstr ""
+
+#: framework/customizer/settings/header.php:56
+msgid "Vertical Header Style"
+msgstr ""
+
+#: framework/customizer/settings/header.php:60
+#: framework/vendor/wpbakery/shortcode-mods/vc_row.php:473
+#: framework/vendor/wpbakery/shortcode-mods/vc_section.php:280
+msgid "Fixed"
+msgstr ""
+
+#: framework/customizer/settings/header.php:73
+msgid "Vertical Header Width (in pixels)"
+msgstr ""
+
+#: framework/customizer/settings/header.php:157
+msgid "Aside"
+msgstr ""
+
+#: framework/customizer/settings/header.php:182
+msgid "Vertical Align Aside Content"
+msgstr ""
+
+#: framework/customizer/settings/header.php:195
+msgid "Header Aside Search"
+msgstr ""
+
+#: framework/customizer/settings/header.php:207
+msgid "Header Aside Content"
+msgstr ""
+
+#: framework/customizer/settings/header.php:231
+msgid "Top Margin"
+msgstr ""
+
+#: framework/customizer/settings/header.php:272
+msgid "Hover Color"
+msgstr ""
+
+#: framework/customizer/settings/header.php:283
+msgid "Image Logo"
+msgstr ""
+
+#: framework/customizer/settings/header.php:293
+msgid "Used for retina and image height attribute tag."
+msgstr ""
+
+#: framework/customizer/settings/header.php:301
+msgid "Apply Height"
+msgstr ""
+
+#: framework/customizer/settings/header.php:303
+msgid ""
+"Check this box to apply your logo height to the image. Useful for displaying "
+"large logos at a smaller size. <strong>Important:</strong> If you have "
+"enabled the shrink sticky header style you need to alter your height value "
+"under the Sticky Header settings."
+msgstr ""
+
+#: framework/customizer/settings/header.php:312
+msgid "Used for image width attribute tag."
+msgstr ""
+
+#: framework/customizer/settings/header.php:321
+msgid "Retina Image Logo"
+msgstr ""
+
+#: framework/customizer/settings/header.php:331
+msgid "Logo Max Width: Desktop"
+msgstr ""
+
+#: framework/customizer/settings/header.php:333
+msgid "Screens 960px wide and greater."
+msgstr ""
+
+#: framework/customizer/settings/header.php:346
+msgid "Logo Max Width: Tablet Portrait"
+msgstr ""
+
+#: framework/customizer/settings/header.php:348
+msgid "Screens 768px-959px wide."
+msgstr ""
+
+#: framework/customizer/settings/header.php:361
+msgid "Logo Max Width: Phone"
+msgstr ""
+
+#: framework/customizer/settings/header.php:363
+msgid "Screens smaller than 767px wide."
+msgstr ""
+
+#: framework/customizer/settings/header.php:379
+msgid "Logo Icon"
+msgstr ""
+
+#: framework/customizer/settings/header.php:397
+msgid "Logo Icon Color"
+msgstr ""
+
+#: framework/customizer/settings/header.php:410
+msgid "Logo Icon Right Margin"
+msgstr ""
+
+#: framework/customizer/settings/header.php:441
+msgid "CSS3 Animated Shrink (Best with Image Logo)"
+msgstr ""
+
+#: framework/customizer/settings/header.php:450
+msgid "Sticky Start Position"
+msgstr ""
+
+#: framework/customizer/settings/header.php:453
+msgid ""
+"By default, the header becomes sticky as soon as you reach the header while "
+"scrolling. You can use this field to enter a number (in pixels) to offset "
+"the point at which the header becomes sticky (based on the top of the page) "
+"or the classname or ID of another element so that the header becomes sticky "
+"when it reaches that point (example: #my-custom-div)."
+msgstr ""
+
+#: framework/customizer/settings/header.php:461
+msgid "Logo Start Height"
+msgstr ""
+
+#: framework/customizer/settings/header.php:463
+msgid ""
+"In order to properly animate the header with CSS3 it is important to apply a "
+"fixed height to the header logo by default."
+msgstr ""
+
+#: framework/customizer/settings/header.php:472
+msgid "Logo Shrunk Height"
+msgstr ""
+
+#: framework/customizer/settings/header.php:475
+msgid ""
+"Your shrink header height will be set to your Logo Shrunk Height plus 20px "
+"for a top and bottom padding of 10px."
+msgstr ""
+
+#: framework/customizer/settings/header.php:482
+msgid "Mobile Support"
+msgstr ""
+
+#: framework/customizer/settings/header.php:509
+msgid "Custom Logo"
+msgstr ""
+
+#: framework/customizer/settings/header.php:513
+msgid ""
+"If this custom logo is a different size, for best results go to the Logo "
+"section and apply a custom height to your logo."
+msgstr ""
+
+#: framework/customizer/settings/header.php:520
+msgid "Custom Logo Retina"
+msgstr ""
+
+#: framework/customizer/settings/header.php:530
+msgid "Custom Logo Retina Height"
+msgstr ""
+
+#: framework/customizer/settings/header.php:546
+#: framework/customizer/settings/header.php:1139
+#: partials/header/header-menu-mobile-fixed-top.php:20
+#: partials/header/header-menu-mobile-navbar.php:19
+msgid "Menu"
+msgstr ""
+
+#: framework/customizer/settings/header.php:553
+msgid "Top Level Dropdown Icon"
+msgstr ""
+
+#: framework/customizer/settings/header.php:561
+msgid "Second+ Level Dropdown Icon"
+msgstr ""
+
+#: framework/customizer/settings/header.php:569
+msgid "Disable Menu Inner Borders"
+msgstr ""
+
+#: framework/customizer/settings/header.php:581
+msgid "Center Menu Items"
+msgstr ""
+
+#: framework/customizer/settings/header.php:594
+msgid "Dropdown Top Border"
+msgstr ""
+
+#: framework/customizer/settings/header.php:606
+msgid "Flush Dropdowns"
+msgstr ""
+
+#: framework/customizer/settings/header.php:618
+msgid "Dropdown Style"
+msgstr ""
+
+#: framework/customizer/settings/header.php:628
+msgid "Dropdown Dropshadow Style"
+msgstr ""
+
+#: framework/customizer/settings/header.php:632
+msgid "One"
+msgstr ""
+
+#: framework/customizer/settings/header.php:633
+msgid "Two"
+msgstr ""
+
+#: framework/customizer/settings/header.php:634
+msgid "Three"
+msgstr ""
+
+#: framework/customizer/settings/header.php:635
+msgid "Four"
+msgstr ""
+
+#: framework/customizer/settings/header.php:636
+msgid "Five"
+msgstr ""
+
+#: framework/customizer/settings/header.php:645
+msgid "Menu Items Left Margin"
+msgstr ""
+
+#: framework/customizer/settings/header.php:646
+#: framework/customizer/settings/header.php:664
+msgid ""
+"Can be used to increase the spacing between your items. Value in pixels."
+msgstr ""
+
+#: framework/customizer/settings/header.php:663
+msgid "Menu Items Left/Right Padding"
+msgstr ""
+
+#: framework/customizer/settings/header.php:687
+msgid "Styling: Main"
+msgstr ""
+
+#: framework/customizer/settings/header.php:711
+msgid "Not all menus have borders, but this setting is for those that do"
+msgstr ""
+
+#: framework/customizer/settings/header.php:757
+#: framework/customizer/settings/header.php:971
+msgid "Link Color: Current Menu Item"
+msgstr ""
+
+#: framework/customizer/settings/header.php:772
+msgid "Link Background"
+msgstr ""
+
+#: framework/customizer/settings/header.php:784
+#: framework/customizer/settings/header.php:957
+msgid "Link Background: Hover"
+msgstr ""
+
+#: framework/customizer/settings/header.php:797
+#: framework/customizer/settings/header.php:983
+msgid "Link Background: Current Menu Item"
+msgstr ""
+
+#: framework/customizer/settings/header.php:811
+msgid "Link Inner Background"
+msgstr ""
+
+#: framework/customizer/settings/header.php:823
+msgid "Link Inner Background: Hover"
+msgstr ""
+
+#: framework/customizer/settings/header.php:836
+msgid "Link Inner Background: Current Menu Item"
+msgstr ""
+
+#: framework/customizer/settings/header.php:850
+msgid "Styling: Dropdowns"
+msgstr ""
+
+#: framework/customizer/settings/header.php:873
+msgid "Pointer Background"
+msgstr ""
+
+#: framework/customizer/settings/header.php:885
+msgid "Pointer Border"
+msgstr ""
+
+#: framework/customizer/settings/header.php:898
+msgid "Dropdown Borders"
+msgstr ""
+
+#: framework/customizer/settings/header.php:914
+msgid "Top Border"
+msgstr ""
+
+#: framework/customizer/settings/header.php:959
+msgid "Select your custom hex color."
+msgstr ""
+
+#: framework/customizer/settings/header.php:996
+msgid "Megamenu Subtitle Color"
+msgstr ""
+
+#: framework/customizer/settings/header.php:1010
+msgid "Menu Search"
+msgstr ""
+
+#: framework/customizer/settings/header.php:1021
+msgid "Drop Down"
+msgstr ""
+
+#: framework/customizer/settings/header.php:1022
+msgid "Site Overlay"
+msgstr ""
+
+#: framework/customizer/settings/header.php:1023
+msgid "Header Replace"
+msgstr ""
+
+#: framework/customizer/settings/header.php:1025
+msgid "Vertical header styles only support the disabled and overlay styles."
+msgstr ""
+
+#: framework/customizer/settings/header.php:1032
+msgid "Drop Down Top Border"
+msgstr ""
+
+#: framework/customizer/settings/header.php:1048
+msgid "Sticky Menu"
+msgstr ""
+
+#: framework/customizer/settings/header.php:1055
+msgid "Sticky Header Menu"
+msgstr ""
+
+#: framework/customizer/settings/header.php:1074
+msgid "Mobile Menu Breakpoint"
+msgstr ""
+
+#: framework/customizer/settings/header.php:1088
+msgid "Mobile Menu Search"
+msgstr ""
+
+#: framework/customizer/settings/header.php:1097
+msgid "Toggle Button Style"
+msgstr ""
+
+#: framework/customizer/settings/header.php:1101
+msgid "Right Aligned Icon Button(s)"
+msgstr ""
+
+#: framework/customizer/settings/header.php:1102
+msgid "Under The Logo Icon Button(s)"
+msgstr ""
+
+#: framework/customizer/settings/header.php:1103
+msgid "Navbar"
+msgstr ""
+
+#: framework/customizer/settings/header.php:1104
+msgid "Fixed Site Top"
+msgstr ""
+
+#: framework/customizer/settings/header.php:1107
+msgid ""
+"If you select \"custom\" the theme will load the needed code for your mobile "
+"menu which you can then open/close by adding any link to the page with the "
+"classname \"mobile-menu-toggle\"."
+msgstr ""
+
+#: framework/customizer/settings/header.php:1114
+msgid "Menu Position"
+msgstr ""
+
+#: framework/customizer/settings/header.php:1118
+msgid "Header Bottom"
+msgstr ""
+
+#: framework/customizer/settings/header.php:1119
+msgid "Top of site"
+msgstr ""
+
+#: framework/customizer/settings/header.php:1127
+msgid "Toggle Background"
+msgstr ""
+
+#: framework/customizer/settings/header.php:1141
+msgid "Toggle Text"
+msgstr ""
+
+#: framework/customizer/settings/header.php:1151
+msgid "Mobile Menu Style"
+msgstr ""
+
+#: framework/customizer/settings/header.php:1174
+msgid "Direction"
+msgstr ""
+
+#: framework/customizer/settings/header.php:1187
+msgid "Displace"
+msgstr ""
+
+#: framework/customizer/settings/header.php:1190
+msgid ""
+"Enable to display/push the site content over when opening the sidebar mobile "
+"menu."
+msgstr ""
+
+#: framework/customizer/settings/header.php:1198
+msgid "Icons Styling"
+msgstr ""
+
+#: framework/customizer/settings/header.php:1306
+msgid "Sidebar Menu Styling"
+msgstr ""
+
+#: framework/customizer/settings/header.php:1368
+msgid "Toggle Menu Styling"
+msgstr ""
+
+#: framework/customizer/settings/layout.php:24
+msgid "Responsiveness"
+msgstr ""
+
+#: framework/customizer/settings/layout.php:32
+#: framework/vendor/wpbakery/shortcode-mods/vc_row.php:236
+msgid "Max Width"
+msgstr ""
+
+#: framework/customizer/settings/layout.php:46
+msgid "Content Layout"
+msgstr ""
+
+#: framework/customizer/settings/layout.php:49
+msgid ""
+"Select your default content layout for your site. You can always browse to "
+"different tabs in the Customizer such as the blog tab to alter your layout "
+"specifically for your blog archives and posts."
+msgstr ""
+
+#: framework/customizer/settings/layout.php:56
+msgid "Site Layout Style"
+msgstr ""
+
+#: framework/customizer/settings/layout.php:59
+msgid "Full Width"
+msgstr ""
+
+#: framework/customizer/settings/layout.php:68
+msgid "Boxed Layout Drop-Shadow"
+msgstr ""
+
+#: framework/customizer/settings/layout.php:81
+msgid "Outer Margin"
+msgstr ""
+
+#: framework/customizer/settings/layout.php:98
+msgid "Inner Background"
+msgstr ""
+
+#: framework/customizer/settings/layout.php:113
+msgid "Enable Site Frame Border"
+msgstr ""
+
+#: framework/customizer/settings/layout.php:115
+msgid ""
+"If enabled it will add a 10px fixed color frame around your site content."
+msgstr ""
+
+#: framework/customizer/settings/layout.php:122
+msgid "Site Frame Border Color"
+msgstr ""
+
+#: framework/customizer/settings/layout.php:139
+msgid "Desktop Widths"
+msgstr ""
+
+#: framework/customizer/settings/layout.php:141
+msgid ""
+"For screens greater than or equal to 960px. Accepts both pixels or "
+"percentage values."
+msgstr ""
+
+#: framework/customizer/settings/layout.php:147
+#: framework/customizer/settings/layout.php:197
+#: framework/customizer/settings/layout.php:248
+msgid "Main Container Width"
+msgstr ""
+
+#: framework/customizer/settings/layout.php:160
+#: framework/customizer/settings/layout.php:211
+#: framework/customizer/settings/layout.php:263
+msgid "Content with Sidebar Width"
+msgstr ""
+
+#: framework/customizer/settings/layout.php:174
+#: framework/customizer/settings/layout.php:225
+#: framework/customizer/settings/layout.php:277
+msgid "Sidebar Width"
+msgstr ""
+
+#: framework/customizer/settings/layout.php:189
+msgid "Medium Screens Widths"
+msgstr ""
+
+#: framework/customizer/settings/layout.php:191
+msgid ""
+"For screens between 960px - 1280px. Such as landscape tablets and small "
+"monitors/laptops. Accepts both pixels or percentage values."
+msgstr ""
+
+#: framework/customizer/settings/layout.php:240
+msgid "Tablet Widths"
+msgstr ""
+
+#: framework/customizer/settings/layout.php:242
+msgid ""
+"For screens between 768px - 959px. Such as portrait tablet. Accepts both "
+"pixels or percentage values."
+msgstr ""
+
+#: framework/customizer/settings/layout.php:292
+msgid "Mobile Phone Widths"
+msgstr ""
+
+#: framework/customizer/settings/layout.php:294
+msgid ""
+"For screens between 0 - 767px. Accepts both pixels or percentage values."
+msgstr ""
+
+#: framework/customizer/settings/layout.php:300
+msgid "Portrait: Main Container Width"
+msgstr ""
+
+#: framework/customizer/settings/layout.php:315
+msgid "Landscape: Main Container Width"
+msgstr ""
+
+#: framework/customizer/settings/portfolio.php:18
+msgid "Post Meta"
+msgstr ""
+
+#: framework/customizer/settings/portfolio.php:30
+#: framework/customizer/settings/staff.php:47
+#: framework/customizer/settings/testimonials.php:19
+msgid "The following options are for the post type category and tag archives."
+msgstr ""
+
+#: framework/customizer/settings/portfolio.php:50
+#: framework/customizer/settings/staff.php:67
+msgid "No Margins"
+msgstr ""
+
+#: framework/customizer/settings/portfolio.php:110
+#: framework/customizer/settings/staff.php:127
+msgid "Show Details?"
+msgstr ""
+
+#: framework/customizer/settings/portfolio.php:179
+#: framework/helpers/portfolio.php:268
+msgid "Related Projects"
+msgstr ""
+
+#: framework/customizer/settings/portfolio.php:209
+#: framework/customizer/settings/staff.php:249
+msgid "Related Posts Content"
+msgstr ""
+
+#: framework/customizer/settings/sidebar.php:22
+msgid "Widget Icons"
+msgstr ""
+
+#: framework/customizer/settings/sidebar.php:24
+msgid ""
+"Certain widgets include little icons such as the recent posts widget. Here "
+"you can toggle the icons on or off."
+msgstr ""
+
+#: framework/customizer/settings/sidebar.php:73
+msgid "Li & Calendar Borders"
+msgstr ""
+
+#: framework/customizer/settings/sidebar.php:113
+msgid "Widget Title"
+msgstr ""
+
+#: framework/customizer/settings/staff.php:35
+msgid "Default Social Style"
+msgstr ""
+
+#: framework/customizer/settings/staff.php:45
+msgid "Archives"
+msgstr ""
+
+#: framework/customizer/settings/staff.php:77
+msgid ""
+"Displays the content containers (with the title and excerpt) in equal "
+"heights. Will NOT work with the \"Masonry\" layouts."
+msgstr ""
+
+#: framework/customizer/settings/staff.php:135
+msgid "Display Position?"
+msgstr ""
+
+#: framework/customizer/settings/staff.php:145
+msgid "Enter 0 or leave blank to disable"
+msgstr ""
+
+#: framework/customizer/settings/staff.php:152
+msgid "Display Social Links?"
+msgstr ""
+
+#: framework/customizer/settings/staff.php:185
+msgid "Display Position Under Title"
+msgstr ""
+
+#: framework/customizer/settings/testimonials.php:70
+msgid "Entry Title"
+msgstr ""
+
+#: framework/customizer/settings/testimonials.php:79
+msgid "Entry Image Size"
+msgstr ""
+
+#: framework/customizer/settings/testimonials.php:80
+msgid "Default size is 45px."
+msgstr ""
+
+#: framework/customizer/settings/testimonials.php:93
+msgid "Entry Background"
+msgstr ""
+
+#: framework/customizer/settings/testimonials.php:105
+msgid "Entry Pointer Background"
+msgstr ""
+
+#: framework/customizer/settings/testimonials.php:117
+msgid "Entry Color"
+msgstr ""
+
+#: framework/customizer/settings/testimonials.php:147
+#: framework/vendor/PostTypesUnlimited.php:286 framework/vendor/cpt-ui.php:241
+#: framework/vendor/tribe-events/customizer.php:40
+msgid "Single Layout"
+msgstr ""
+
+#: framework/customizer/settings/testimonials.php:165
+msgid "Single Style"
+msgstr ""
+
+#: framework/customizer/settings/testimonials.php:168
+#: framework/helpers/post-types.php:111
+msgid "Testimonial"
+msgstr ""
+
+#: framework/customizer/settings/togglebar.php:59
+msgid "Display"
+msgstr ""
+
+#: framework/customizer/settings/togglebar.php:62
+#: framework/vendor/wpbakery/shortcode-mods/vc_row.php:418
+#: framework/vendor/wpbakery/shortcode-mods/vc_row.php:433
+#: framework/vendor/wpbakery/shortcode-mods/vc_row.php:441
+#: framework/vendor/wpbakery/shortcode-mods/vc_row.php:450
+#: framework/vendor/wpbakery/shortcode-mods/vc_section.php:225
+#: framework/vendor/wpbakery/shortcode-mods/vc_section.php:240
+#: framework/vendor/wpbakery/shortcode-mods/vc_section.php:248
+#: framework/vendor/wpbakery/shortcode-mods/vc_section.php:257
+msgid "Overlay"
+msgstr ""
+
+#: framework/customizer/settings/togglebar.php:63
+msgid "Inline"
+msgstr ""
+
+#: framework/customizer/settings/togglebar.php:75
+msgid "Default State"
+msgstr ""
+
+#: framework/customizer/settings/togglebar.php:79
+msgid "Visible"
+msgstr ""
+
+#: framework/customizer/settings/togglebar.php:95
+msgid "Fade & Slide Down"
+msgstr ""
+
+#: framework/customizer/settings/togglebar.php:104
+msgid "Button Icon"
+msgstr ""
+
+#: framework/customizer/settings/togglebar.php:116
+msgid "Button Icon: Active"
+msgstr ""
+
+#: framework/customizer/settings/togglebar.php:129
+msgid "Content Background"
+msgstr ""
+
+#: framework/customizer/settings/togglebar.php:145
+msgid "Content Border"
+msgstr ""
+
+#: framework/customizer/settings/togglebar.php:162
+msgid "Content Color"
+msgstr ""
+
+#: framework/customizer/settings/togglebar.php:181
+msgid "Button Background"
+msgstr ""
+
+#: framework/customizer/settings/togglebar.php:213
+msgid "Button Hover Background"
+msgstr ""
+
+#: framework/customizer/settings/togglebar.php:229
+msgid "Button Hover Color"
+msgstr ""
+
+#: framework/customizer/settings/topbar.php:34
+msgid "Sticky"
+msgstr ""
+
+#: framework/customizer/settings/topbar.php:36
+#: framework/customizer/settings/topbar.php:50
+msgid ""
+"Disabled in Customizer for optimization reasons. Please save and test live "
+"site."
+msgstr ""
+
+#: framework/customizer/settings/topbar.php:48
+msgid "Sticky Mobile Support"
+msgstr ""
+
+#: framework/customizer/settings/topbar.php:64
+msgid "Not used in Boxed style layout."
+msgstr ""
+
+#: framework/customizer/settings/topbar.php:93
+msgid "Left Content & Right Social"
+msgstr ""
+
+#: framework/customizer/settings/topbar.php:94
+msgid "Left Social & Right Content"
+msgstr ""
+
+#: framework/customizer/settings/topbar.php:95
+msgid "Centered Content & Social"
+msgstr ""
+
+#: framework/customizer/settings/topbar.php:270
+#: framework/customizer/settings/topbar.php:291
+msgid "Social"
+msgstr ""
+
+#: framework/customizer/settings/topbar.php:277
+msgid "Social Alternative"
+msgstr ""
+
+#: framework/customizer/settings/topbar.php:279
+msgid "Replaces the social links with your custom output."
+msgstr ""
+
+#: framework/customizer/settings/topbar.php:304
+msgid "Social Link Target"
+msgstr ""
+
+#: framework/customizer/settings/topbar.php:307
+msgid "New Window"
+msgstr ""
+
+#: framework/customizer/settings/topbar.php:308
+msgid "Same Window"
+msgstr ""
+
+#: framework/customizer/settings/topbar.php:329
+msgid "Social Links Color"
+msgstr ""
+
+#: framework/customizer/settings/topbar.php:330
+#: framework/customizer/settings/topbar.php:344
+msgid "Applied only when the social style is set to \"none\"."
+msgstr ""
+
+#: framework/customizer/settings/topbar.php:343
+msgid "Social Links Hover Color"
+msgstr ""
+
+#: framework/helpers/excerpts.php:87
+msgid "This is a password protected post."
+msgstr ""
+
+#: framework/helpers/excerpts.php:171 partials/cpt/cpt-entry-readmore.php:23
+msgid "Read more"
+msgstr ""
+
+#: framework/helpers/header-menu.php:418
+msgid "Type then hit enter to search..."
+msgstr ""
+
+#: framework/helpers/header-menu.php:598
+msgid "Open Mobile Menu"
+msgstr ""
+
+#: framework/helpers/js-localize-data.php:60
+msgid "Failed to load posts."
+msgstr ""
+
+#: framework/helpers/overlays.php:67
+msgid "Hover Button"
+msgstr ""
+
+#: framework/helpers/overlays.php:68
+msgid "Magnifying Glass Hover"
+msgstr ""
+
+#: framework/helpers/overlays.php:69
+msgid "Plus Icon Hover"
+msgstr ""
+
+#: framework/helpers/overlays.php:70
+msgid "Plus Icon #2 Hover"
+msgstr ""
+
+#: framework/helpers/overlays.php:71
+msgid "Plus Icon #3 Hover"
+msgstr ""
+
+#: framework/helpers/overlays.php:72
+msgid "View/Lightbox Icons Hover"
+msgstr ""
+
+#: framework/helpers/overlays.php:73
+msgid "View/Lightbox Text Hover"
+msgstr ""
+
+#: framework/helpers/overlays.php:74
+msgid "Title Centered"
+msgstr ""
+
+#: framework/helpers/overlays.php:75
+msgid "Title Centered Boxed"
+msgstr ""
+
+#: framework/helpers/overlays.php:76
+msgid "Title Bottom"
+msgstr ""
+
+#: framework/helpers/overlays.php:77
+msgid "Title Bottom See Through"
+msgstr ""
+
+#: framework/helpers/overlays.php:78
+msgid "Title Push Up"
+msgstr ""
+
+#: framework/helpers/overlays.php:79
+msgid "Title + Excerpt Hover"
+msgstr ""
+
+#: framework/helpers/overlays.php:80
+msgid "Title + Category Hover"
+msgstr ""
+
+#: framework/helpers/overlays.php:81
+msgid "Title + Category Visible"
+msgstr ""
+
+#: framework/helpers/overlays.php:82
+msgid "Title + Date Hover"
+msgstr ""
+
+#: framework/helpers/overlays.php:83
+msgid "Title + Date Visible"
+msgstr ""
+
+#: framework/helpers/overlays.php:84
+msgid "Categories + Title Bottom Visible"
+msgstr ""
+
+#: framework/helpers/overlays.php:85
+msgid "Slide-Up Title White"
+msgstr ""
+
+#: framework/helpers/overlays.php:86
+msgid "Slide-Up Title Black"
+msgstr ""
+
+#: framework/helpers/overlays.php:87 framework/helpers/overlays.php:88
+msgid "Category Tag"
+msgstr ""
+
+#: framework/helpers/overlays.php:89
+msgid "Secondary Image Swap"
+msgstr ""
+
+#: framework/helpers/overlays.php:90
+msgid "Secondary Image Swap & Title"
+msgstr ""
+
+#: framework/helpers/overlays.php:91
+msgid "Video Icon"
+msgstr ""
+
+#: framework/helpers/overlays.php:94
+msgid "Title + Price Hover"
+msgstr ""
+
+#: framework/helpers/page-header.php:358
+msgid "This author has written"
+msgstr ""
+
+#: framework/helpers/page-header.php:358
+msgid "articles"
+msgstr ""
+
+#: framework/helpers/pagination.php:33 framework/helpers/pagination.php:91
+msgid "Previous"
+msgstr ""
+
+#: framework/helpers/pagination.php:34 framework/helpers/pagination.php:94
+msgid "Next"
+msgstr ""
+
+#: framework/helpers/pagination.php:35 framework/helpers/pagination.php:106
+msgid "Page"
+msgstr ""
+
+#: framework/helpers/pagination.php:152 framework/helpers/pagination.php:216
+msgid "Newer Posts"
+msgstr ""
+
+#: framework/helpers/pagination.php:158 framework/helpers/pagination.php:217
+msgid "Older Posts"
+msgstr ""
+
+#: framework/helpers/post-types.php:26
+msgid "Portfolio"
+msgstr ""
+
+#: framework/helpers/post-types.php:37
+msgid "Portfolio Item"
+msgstr ""
+
+#: framework/helpers/post-types.php:63
+msgid "Staff"
+msgstr ""
+
+#: framework/helpers/post-types.php:74
+msgid "Staff Member"
+msgstr ""
+
+#: framework/helpers/post-types.php:100
+msgid "Testimonials"
+msgstr ""
+
+#: framework/helpers/social-share.php:39
+msgid "Tweet"
+msgstr ""
+
+#: framework/helpers/social-share.php:45 framework/helpers/social-share.php:57
+msgid "Share"
+msgstr ""
+
+#: framework/helpers/social-share.php:51
+msgid "Pin It"
+msgstr ""
+
+#: framework/helpers/social-share.php:185
+#: framework/helpers/social-share.php:186
+msgid "I wanted you to see this link"
+msgstr ""
+
+#: framework/helpers/title.php:76
+msgid "Recent Posts"
+msgstr ""
+
+#: framework/helpers/title.php:89
+msgid "Search results for:"
+msgstr ""
+
+#: framework/helpers/title.php:145
+msgid "404: Page Not Found"
+msgstr ""
+
+#: framework/hooks/hooks.php:23
+msgid "Outer Wrap"
+msgstr ""
+
+#: framework/hooks/hooks.php:30
+msgid "Wrap"
+msgstr ""
+
+#: framework/hooks/hooks.php:81
+msgid "Primary Wrap"
+msgstr ""
+
+#: framework/hooks/hooks.php:88
+msgid "Content Wrap"
+msgstr ""
+
+#: framework/hooks/hooks.php:107 functions.php:410
+msgid "Footer"
+msgstr ""
+
+#: framework/hooks/hooks.php:127
+msgid "Page Header"
+msgstr ""
+
+#: framework/lib/tgmpa/class-tgm-plugin-activation.php:339
+msgid "Install Required Plugins"
+msgstr ""
+
+#: framework/lib/tgmpa/class-tgm-plugin-activation.php:340
+msgid "Install Plugins"
+msgstr ""
+
+#: framework/lib/tgmpa/class-tgm-plugin-activation.php:342
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: framework/lib/tgmpa/class-tgm-plugin-activation.php:344
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: framework/lib/tgmpa/class-tgm-plugin-activation.php:345
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: framework/lib/tgmpa/class-tgm-plugin-activation.php:348
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/lib/tgmpa/class-tgm-plugin-activation.php:354
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/lib/tgmpa/class-tgm-plugin-activation.php:360
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/lib/tgmpa/class-tgm-plugin-activation.php:366
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/lib/tgmpa/class-tgm-plugin-activation.php:372
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/lib/tgmpa/class-tgm-plugin-activation.php:378
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/lib/tgmpa/class-tgm-plugin-activation.php:383
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/lib/tgmpa/class-tgm-plugin-activation.php:388
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/lib/tgmpa/class-tgm-plugin-activation.php:393
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/lib/tgmpa/class-tgm-plugin-activation.php:397
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: framework/lib/tgmpa/class-tgm-plugin-activation.php:398
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: framework/lib/tgmpa/class-tgm-plugin-activation.php:399
+#: framework/lib/tgmpa/class-tgm-plugin-activation.php:3304
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: framework/lib/tgmpa/class-tgm-plugin-activation.php:400
+#: framework/lib/tgmpa/class-tgm-plugin-activation.php:3097
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/lib/tgmpa/class-tgm-plugin-activation.php:402
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: framework/lib/tgmpa/class-tgm-plugin-activation.php:404
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: framework/lib/tgmpa/class-tgm-plugin-activation.php:406
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: framework/lib/tgmpa/class-tgm-plugin-activation.php:407
+msgid "Dismiss this notice"
+msgstr ""
+
+#: framework/lib/tgmpa/class-tgm-plugin-activation.php:408
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: framework/lib/tgmpa/class-tgm-plugin-activation.php:409
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: framework/lib/tgmpa/class-tgm-plugin-activation.php:615
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: framework/lib/tgmpa/class-tgm-plugin-activation.php:616
+msgid "Update Required"
+msgstr ""
+
+#: framework/lib/tgmpa/class-tgm-plugin-activation.php:731
+msgid "Set the parent_slug config variable instead."
+msgstr ""
+
+#: framework/lib/tgmpa/class-tgm-plugin-activation.php:1038
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: framework/lib/tgmpa/class-tgm-plugin-activation.php:1038
+#: framework/lib/tgmpa/class-tgm-plugin-activation.php:1048
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: framework/lib/tgmpa/class-tgm-plugin-activation.php:1048
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: framework/lib/tgmpa/class-tgm-plugin-activation.php:1237
+#: framework/lib/tgmpa/class-tgm-plugin-activation.php:3093
+msgid "and"
+msgstr ""
+
+#: framework/lib/tgmpa/class-tgm-plugin-activation.php:2106
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: framework/lib/tgmpa/class-tgm-plugin-activation.php:2415
+msgid "Required"
+msgstr ""
+
+#: framework/lib/tgmpa/class-tgm-plugin-activation.php:2418
+msgid "Recommended"
+msgstr ""
+
+#: framework/lib/tgmpa/class-tgm-plugin-activation.php:2434
+msgid "WordPress Repository"
+msgstr ""
+
+#: framework/lib/tgmpa/class-tgm-plugin-activation.php:2437
+msgid "External Source"
+msgstr ""
+
+#: framework/lib/tgmpa/class-tgm-plugin-activation.php:2440
+msgid "Pre-Packaged"
+msgstr ""
+
+#: framework/lib/tgmpa/class-tgm-plugin-activation.php:2457
+msgid "Not Installed"
+msgstr ""
+
+#: framework/lib/tgmpa/class-tgm-plugin-activation.php:2461
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: framework/lib/tgmpa/class-tgm-plugin-activation.php:2469
+msgid "Required Update not Available"
+msgstr ""
+
+#: framework/lib/tgmpa/class-tgm-plugin-activation.php:2472
+msgid "Requires Update"
+msgstr ""
+
+#: framework/lib/tgmpa/class-tgm-plugin-activation.php:2475
+msgid "Update recommended"
+msgstr ""
+
+#: framework/lib/tgmpa/class-tgm-plugin-activation.php:2484
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: framework/lib/tgmpa/class-tgm-plugin-activation.php:2530
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/lib/tgmpa/class-tgm-plugin-activation.php:2534
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/lib/tgmpa/class-tgm-plugin-activation.php:2538
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/lib/tgmpa/class-tgm-plugin-activation.php:2542
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/lib/tgmpa/class-tgm-plugin-activation.php:2624
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: framework/lib/tgmpa/class-tgm-plugin-activation.php:2632
+msgid "Installed version:"
+msgstr ""
+
+#: framework/lib/tgmpa/class-tgm-plugin-activation.php:2640
+msgid "Minimum required version:"
+msgstr ""
+
+#: framework/lib/tgmpa/class-tgm-plugin-activation.php:2652
+msgid "Available version:"
+msgstr ""
+
+#: framework/lib/tgmpa/class-tgm-plugin-activation.php:2675
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: framework/lib/tgmpa/class-tgm-plugin-activation.php:2689
+msgid "Plugin"
+msgstr ""
+
+#: framework/lib/tgmpa/class-tgm-plugin-activation.php:2690
+msgid "Source"
+msgstr ""
+
+#: framework/lib/tgmpa/class-tgm-plugin-activation.php:2691
+msgid "Type"
+msgstr ""
+
+#: framework/lib/tgmpa/class-tgm-plugin-activation.php:2696
+msgid "Status"
+msgstr ""
+
+#: framework/lib/tgmpa/class-tgm-plugin-activation.php:2745
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: framework/lib/tgmpa/class-tgm-plugin-activation.php:2750
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#: framework/lib/tgmpa/class-tgm-plugin-activation.php:2756
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: framework/lib/tgmpa/class-tgm-plugin-activation.php:2828
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: framework/lib/tgmpa/class-tgm-plugin-activation.php:2861
+msgid "Install"
+msgstr ""
+
+#: framework/lib/tgmpa/class-tgm-plugin-activation.php:2867
+msgid "Update"
+msgstr ""
+
+#: framework/lib/tgmpa/class-tgm-plugin-activation.php:2870
+msgid "Activate"
+msgstr ""
+
+#: framework/lib/tgmpa/class-tgm-plugin-activation.php:2901
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: framework/lib/tgmpa/class-tgm-plugin-activation.php:2903
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: framework/lib/tgmpa/class-tgm-plugin-activation.php:2944
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: framework/lib/tgmpa/class-tgm-plugin-activation.php:2946
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: framework/lib/tgmpa/class-tgm-plugin-activation.php:3053
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: framework/lib/tgmpa/class-tgm-plugin-activation.php:3079
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: framework/lib/tgmpa/class-tgm-plugin-activation.php:3303
+msgid "Plugin activation failed."
+msgstr ""
+
+#: framework/lib/tgmpa/class-tgm-plugin-activation.php:3647
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: framework/lib/tgmpa/class-tgm-plugin-activation.php:3650
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: framework/lib/tgmpa/class-tgm-plugin-activation.php:3652
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: framework/lib/tgmpa/class-tgm-plugin-activation.php:3656
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: framework/lib/tgmpa/class-tgm-plugin-activation.php:3658
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: framework/lib/tgmpa/class-tgm-plugin-activation.php:3659
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: framework/lib/tgmpa/class-tgm-plugin-activation.php:3661
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: framework/lib/tgmpa/class-tgm-plugin-activation.php:3664
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: framework/lib/tgmpa/class-tgm-plugin-activation.php:3666
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: framework/lib/tgmpa/class-tgm-plugin-activation.php:3667
+msgid "All installations have been completed."
+msgstr ""
+
+#: framework/lib/tgmpa/class-tgm-plugin-activation.php:3669
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: framework/lib/tgmpa/class-tgm-plugin-activation.php:3674
+msgid "Show Details"
+msgstr ""
+
+#: framework/lib/tgmpa/class-tgm-plugin-activation.php:3674
+msgid "Hide Details"
+msgstr ""
+
+#: framework/vendor/OCDI.php:197
+msgid ""
+"Sliders could not be imported because the download_url function does not "
+"exist."
+msgstr ""
+
+#: framework/vendor/OCDI.php:203
+msgid ""
+"Sliders could not be imported because the Revolution slider plugin is "
+"disabled."
+msgstr ""
+
+#: framework/vendor/OCDI.php:224 framework/vendor/OCDI.php:236
+msgid "Slider error:"
+msgstr ""
+
+#: framework/vendor/Polylang.php:53
+msgid "PolyLang Switcher"
+msgstr ""
+
+#: framework/vendor/PostTypesUnlimited.php:159
+#: framework/vendor/PostTypesUnlimited.php:336
+msgid "Theme Settings"
+msgstr ""
+
+#: framework/vendor/PostTypesUnlimited.php:165 framework/vendor/cpt-ui.php:229
+msgid "Post Settings Metabox"
+msgstr ""
+
+#: framework/vendor/PostTypesUnlimited.php:168
+msgid "Enable the post settings metabox in the editor for this post type."
+msgstr ""
+
+#: framework/vendor/PostTypesUnlimited.php:174 framework/vendor/cpt-ui.php:221
+msgid "Enable image size settings for this post type."
+msgstr ""
+
+#: framework/vendor/PostTypesUnlimited.php:180 framework/vendor/cpt-ui.php:226
+msgid ""
+"Enter a name to create a custom sidebar for the post type archive, single "
+"posts and attached taxonomies."
+msgstr ""
+
+#: framework/vendor/PostTypesUnlimited.php:183 framework/vendor/cpt-ui.php:235
+msgid "Post Gallery"
+msgstr ""
+
+#: framework/vendor/PostTypesUnlimited.php:186
+msgid "Enable the post gallery for this post type."
+msgstr ""
+
+#: framework/vendor/PostTypesUnlimited.php:192
+msgid "Used for breadcrumbs."
+msgstr ""
+
+#: framework/vendor/PostTypesUnlimited.php:196 framework/vendor/cpt-ui.php:262
+msgid "Main Taxonomy"
+msgstr ""
+
+#: framework/vendor/PostTypesUnlimited.php:199
+msgid "Used for breadcrumbs, post meta categories and related items."
+msgstr ""
+
+#: framework/vendor/PostTypesUnlimited.php:203 framework/vendor/cpt-ui.php:282
+msgid "Archive Page Header Title"
+msgstr ""
+
+#: framework/vendor/PostTypesUnlimited.php:206
+msgid "Custom title for the post type archive page header."
+msgstr ""
+
+#: framework/vendor/PostTypesUnlimited.php:209 framework/vendor/cpt-ui.php:267
+msgid "Archive Layout"
+msgstr ""
+
+#: framework/vendor/PostTypesUnlimited.php:212
+#: framework/vendor/PostTypesUnlimited.php:289
+#: framework/vendor/PostTypesUnlimited.php:345
+msgid "Select your custom layout."
+msgstr ""
+
+#: framework/vendor/PostTypesUnlimited.php:216
+#: framework/vendor/PostTypesUnlimited.php:349 framework/vendor/cpt-ui.php:272
+msgid "Archive Grid Columns"
+msgstr ""
+
+#: framework/vendor/PostTypesUnlimited.php:219
+#: framework/vendor/PostTypesUnlimited.php:352
+msgid "Select your preferred columns for your entries."
+msgstr ""
+
+#: framework/vendor/PostTypesUnlimited.php:223
+#: framework/vendor/PostTypesUnlimited.php:356
+msgid "Archive Grid Style"
+msgstr ""
+
+#: framework/vendor/PostTypesUnlimited.php:226
+#: framework/vendor/PostTypesUnlimited.php:359
+msgid "Select your preferred grid style."
+msgstr ""
+
+#: framework/vendor/PostTypesUnlimited.php:233
+#: framework/vendor/PostTypesUnlimited.php:366
+msgid "Archive Grid Gap"
+msgstr ""
+
+#: framework/vendor/PostTypesUnlimited.php:236
+#: framework/vendor/PostTypesUnlimited.php:369
+msgid "Select your preferred spacing between items in the grid."
+msgstr ""
+
+#: framework/vendor/PostTypesUnlimited.php:240 framework/vendor/cpt-ui.php:277
+msgid "Archive Posts Per Page"
+msgstr ""
+
+#: framework/vendor/PostTypesUnlimited.php:243
+msgid ""
+"How many posts do you want to display before showing the post pagination? "
+"Enter -1 to display all of them without pagination."
+msgstr ""
+
+#: framework/vendor/PostTypesUnlimited.php:246 framework/vendor/cpt-ui.php:287
+msgid "Entry Blocks"
+msgstr ""
+
+#: framework/vendor/PostTypesUnlimited.php:249
+#: framework/vendor/PostTypesUnlimited.php:263
+msgid "Select the blocks you want to display for your post type entries."
+msgstr ""
+
+#: framework/vendor/PostTypesUnlimited.php:256 framework/vendor/cpt-ui.php:184
+msgid "Readmore"
+msgstr ""
+
+#: framework/vendor/PostTypesUnlimited.php:260 framework/vendor/cpt-ui.php:292
+msgid "Entry Meta"
+msgstr ""
+
+#: framework/vendor/PostTypesUnlimited.php:273
+msgid "Single Post Dynamic Template"
+msgstr ""
+
+#: framework/vendor/PostTypesUnlimited.php:276
+msgid "Select a template to be used for your singular post design."
+msgstr ""
+
+#: framework/vendor/PostTypesUnlimited.php:280 framework/vendor/cpt-ui.php:246
+msgid "Single Page Header title"
+msgstr ""
+
+#: framework/vendor/PostTypesUnlimited.php:283 framework/vendor/cpt-ui.php:248
+msgid "Use {{title}} to display the current post title"
+msgstr ""
+
+#: framework/vendor/PostTypesUnlimited.php:293 framework/vendor/cpt-ui.php:303
+msgid "Single Blocks"
+msgstr ""
+
+#: framework/vendor/PostTypesUnlimited.php:301
+msgid "Post Series (if enabled via child theme)"
+msgstr ""
+
+#: framework/vendor/PostTypesUnlimited.php:303 framework/vendor/cpt-ui.php:194
+msgid "Page Links"
+msgstr ""
+
+#: framework/vendor/PostTypesUnlimited.php:305
+msgid "Author Bio"
+msgstr ""
+
+#: framework/vendor/PostTypesUnlimited.php:306
+msgid "Related"
+msgstr ""
+
+#: framework/vendor/PostTypesUnlimited.php:311 framework/vendor/cpt-ui.php:308
+msgid "Single Meta"
+msgstr ""
+
+#: framework/vendor/PostTypesUnlimited.php:318
+msgid "Categories (Main Taxonomy)"
+msgstr ""
+
+#: framework/vendor/PostTypesUnlimited.php:327
+msgid "Enable the next and previous pagination on the singular post."
+msgstr ""
+
+#: framework/vendor/PostTypesUnlimited.php:373
+msgid "Description Position"
+msgstr ""
+
+#: framework/vendor/PostTypesUnlimited.php:376
+msgid "Select your position for your term descriptions."
+msgstr ""
+
+#: framework/vendor/PostTypesUnlimited.php:378
+msgid "As Subheading"
+msgstr ""
+
+#: framework/vendor/PostTypesUnlimited.php:379
+msgid "Before Your Posts"
+msgstr ""
+
+#: framework/vendor/PostTypesUnlimited.php:383
+msgid "Page Header Thumbnail"
+msgstr ""
+
+#: framework/vendor/PostTypesUnlimited.php:387
+msgid "Display your term thumbnail as the page header background by default."
+msgstr ""
+
+#: framework/vendor/PostTypesUnlimited.php:522 framework/vendor/cpt-ui.php:703
+msgid "Archive"
+msgstr ""
+
+#: framework/vendor/PostTypesUnlimited.php:529 framework/vendor/cpt-ui.php:710
+msgid "Post"
+msgstr ""
+
+#: framework/vendor/PostTypesUnlimited.php:536
+msgid "Post Related Items"
+msgstr ""
+
+#: framework/vendor/TablePress.php:45
+msgid "Table"
+msgstr ""
+
+#: framework/vendor/TablePress.php:46
+msgid "Insert a TablePress table"
+msgstr ""
+
+#: framework/vendor/TablePress.php:52
+msgid "Search tables by name and select your table of choice."
+msgstr ""
+
+#: framework/vendor/WPML.php:82
+msgid "WPML Switcher"
+msgstr ""
+
+#: framework/vendor/bbpress/bbPress.php:96
+msgid "bbPress Sidebar"
+msgstr ""
+
+#: framework/vendor/bbpress/bbPress.php:287
+#: framework/vendor/bbpress/customizer.php:17
+msgid "bbPress"
+msgstr ""
+
+#: framework/vendor/bbpress/customizer.php:23
+msgid "Forum Archive Layout"
+msgstr ""
+
+#: framework/vendor/bbpress/customizer.php:32
+msgid "Single Forum Layout"
+msgstr ""
+
+#: framework/vendor/bbpress/customizer.php:41
+msgid "Topics Archive Layout"
+msgstr ""
+
+#: framework/vendor/bbpress/customizer.php:50
+msgid "Single Topic Layout"
+msgstr ""
+
+#: framework/vendor/bbpress/customizer.php:59
+msgid "User Page Layout"
+msgstr ""
+
+#: framework/vendor/cpt-ui.php:167 framework/vendor/cpt-ui.php:172
+msgid "False"
+msgstr ""
+
+#: framework/vendor/cpt-ui.php:168 framework/vendor/cpt-ui.php:171
+msgid "True"
+msgstr ""
+
+#: framework/vendor/cpt-ui.php:176
+msgid ""
+"If you are using a translation plugin you should use theme filters instead "
+"to alter this text. Please refer to the online documentation and snippets."
+msgstr ""
+
+#: framework/vendor/cpt-ui.php:210
+msgid "Total Settings"
+msgstr ""
+
+#: framework/vendor/cpt-ui.php:214
+msgid "Enable Total settings for this post type."
+msgstr ""
+
+#: framework/vendor/cpt-ui.php:257
+msgid "Main Page ID"
+msgstr ""
+
+#: framework/vendor/cpt-ui.php:297
+msgid "Dynamic Singular Template ID"
+msgstr ""
+
+#: framework/vendor/cpt-ui.php:361
+msgid "Toggle panel: Total Settings"
+msgstr ""
+
+#: framework/vendor/cpt-ui.php:366
+msgid "Total Theme"
+msgstr ""
+
+#: framework/vendor/real-media-library.php:53
+msgid "Real Media Library Folder"
+msgstr ""
+
+#: framework/vendor/real-media-library.php:55
+msgid "Gallery"
+msgstr ""
+
+#: framework/vendor/real-media-library.php:72
+msgid "Count"
+msgstr ""
+
+#: framework/vendor/real-media-library.php:75
+msgid ""
+"How many images to grab from this folder. Enter -1 to display all of them."
+msgstr ""
+
+#: framework/vendor/sensei.php:108
+msgid "Sensie Sidebar"
+msgstr ""
+
+#: framework/vendor/sensei.php:211 framework/vendor/sensei.php:276
+msgid "Course Results"
+msgstr ""
+
+#: framework/vendor/tribe-events/TribeEvents.php:195
+msgid "Events List"
+msgstr ""
+
+#: framework/vendor/tribe-events/TribeEvents.php:197
+msgid "Single Day Events"
+msgstr ""
+
+#: framework/vendor/tribe-events/TribeEvents.php:236
+msgid "Events Sidebar"
+msgstr ""
+
+#: framework/vendor/tribe-events/TribeEvents.php:293
+#: framework/vendor/tribe-events/customizer.php:17
+msgid "Tribe Events"
+msgstr ""
+
+#: framework/vendor/tribe-events/customizer.php:31
+msgid "Archives Layout"
+msgstr ""
+
+#: framework/vendor/tribe-events/customizer.php:49
+msgid "Display Event Details in Page Header"
+msgstr ""
+
+#: framework/vendor/woocommerce/classes/ProductEntry.php:100
+msgid "Out of Stock"
+msgstr ""
+
+#: framework/vendor/woocommerce/classes/Thumbnails.php:106
+msgid "Product Entry"
+msgstr ""
+
+#: framework/vendor/woocommerce/classes/Thumbnails.php:113
+msgid "Product Post"
+msgstr ""
+
+#: framework/vendor/woocommerce/classes/Thumbnails.php:120
+msgid "Product Post Gallery Thumbnail"
+msgstr ""
+
+#: framework/vendor/woocommerce/classes/Thumbnails.php:127
+msgid "Category Thumbnail"
+msgstr ""
+
+#: framework/vendor/woocommerce/classes/Thumbnails.php:134
+msgid "Widgets & Cart Thumbnail"
+msgstr ""
+
+#: framework/vendor/woocommerce/customizer.php:16
+msgid ""
+"You must save your options and refresh your live site to preview changes to "
+"this setting. You may have to also add or remove an item from the cart to "
+"clear the WooCommerce cache."
+msgstr ""
+
+#: framework/vendor/woocommerce/customizer.php:28
+msgid "Use WooCommerce Native Image Sizing"
+msgstr ""
+
+#: framework/vendor/woocommerce/customizer.php:30
+msgid ""
+"By default the Total theme makes use of it's own image resizing functions "
+"for WooCommerce, if you rather use the native WooCommerce image sizing "
+"functions you can do so by enabling this setting."
+msgstr ""
+
+#: framework/vendor/woocommerce/customizer.php:37
+msgid "Custom WooCommerce Sidebar"
+msgstr ""
+
+#: framework/vendor/woocommerce/customizer.php:45
+msgid "Use product searchform for header search"
+msgstr ""
+
+#: framework/vendor/woocommerce/customizer.php:54
+msgid "Menu Cart: Display"
+msgstr ""
+
+#: framework/vendor/woocommerce/customizer.php:58
+msgid "Icon"
+msgstr ""
+
+#: framework/vendor/woocommerce/customizer.php:59
+msgid "Icon And Cart Total"
+msgstr ""
+
+#: framework/vendor/woocommerce/customizer.php:60
+msgid "Icon And Cart Count"
+msgstr ""
+
+#: framework/vendor/woocommerce/customizer.php:70
+msgid "Enable \"bubble\" design for cart count"
+msgstr ""
+
+#: framework/vendor/woocommerce/customizer.php:83
+msgid "Shop Icon"
+msgstr ""
+
+#: framework/vendor/woocommerce/customizer.php:86
+msgid "Shopping Cart"
+msgstr ""
+
+#: framework/vendor/woocommerce/customizer.php:87
+msgid "Shopping Bag"
+msgstr ""
+
+#: framework/vendor/woocommerce/customizer.php:88
+msgid "Shopping Basket"
+msgstr ""
+
+#: framework/vendor/woocommerce/customizer.php:98
+msgid "Menu Cart: Style"
+msgstr ""
+
+#: framework/vendor/woocommerce/customizer.php:101
+msgid "Drop-Down"
+msgstr ""
+
+#: framework/vendor/woocommerce/customizer.php:102
+msgid "Open Cart Overlay"
+msgstr ""
+
+#: framework/vendor/woocommerce/customizer.php:103
+msgid "Go To Store"
+msgstr ""
+
+#: framework/vendor/woocommerce/customizer.php:104
+msgid "Custom Link"
+msgstr ""
+
+#: framework/vendor/woocommerce/customizer.php:113
+msgid "Menu Cart: Custom Link"
+msgstr ""
+
+#: framework/vendor/woocommerce/customizer.php:123
+msgid "Show Original Price on Sale Items"
+msgstr ""
+
+#: framework/vendor/woocommerce/customizer.php:137
+msgid "Shop & Archives"
+msgstr ""
+
+#: framework/vendor/woocommerce/customizer.php:144
+msgid "Shop Title"
+msgstr ""
+
+#: framework/vendor/woocommerce/customizer.php:152
+msgid "Disable Default Shop Output?"
+msgstr ""
+
+#: framework/vendor/woocommerce/customizer.php:161
+msgid "Display Added to Cart Popup on Shop Archives?"
+msgstr ""
+
+#: framework/vendor/woocommerce/customizer.php:169
+msgid "Shop Posts Per Page"
+msgstr ""
+
+#: framework/vendor/woocommerce/customizer.php:187
+msgid "Shop Columns"
+msgstr ""
+
+#: framework/vendor/woocommerce/customizer.php:206
+msgid "Category Description Position"
+msgstr ""
+
+#: framework/vendor/woocommerce/customizer.php:220
+msgid "Shop Sort"
+msgstr ""
+
+#: framework/vendor/woocommerce/customizer.php:230
+msgid "Enable Shop Result Count?"
+msgstr ""
+
+#: framework/vendor/woocommerce/customizer.php:239
+msgid "Entry Alignment"
+msgstr ""
+
+#: framework/vendor/woocommerce/customizer.php:257
+msgid "Entry Equal Heights?"
+msgstr ""
+
+#: framework/vendor/woocommerce/customizer.php:259
+msgid ""
+"Enabling this setting will display all the add to cart buttons in the same "
+"spot for each entry. Disabled in the Customizer to prevent conflicts."
+msgstr ""
+
+#: framework/vendor/woocommerce/customizer.php:266
+msgid "Entry Media Style"
+msgstr ""
+
+#: framework/vendor/woocommerce/customizer.php:269
+#: framework/wp-filters/dashboard-thumbnails.php:21
+msgid "Featured Image"
+msgstr ""
+
+#: framework/vendor/woocommerce/customizer.php:270
+msgid "Image Swap"
+msgstr ""
+
+#: framework/vendor/woocommerce/customizer.php:271
+msgid "Gallery Slider"
+msgstr ""
+
+#: framework/vendor/woocommerce/customizer.php:280
+msgid "Enable Entry Title?"
+msgstr ""
+
+#: framework/vendor/woocommerce/customizer.php:294
+msgid "Enable Entry Rating?"
+msgstr ""
+
+#: framework/vendor/woocommerce/customizer.php:308
+msgid "Enable Entry Price?"
+msgstr ""
+
+#: framework/vendor/woocommerce/customizer.php:322
+msgid "Enable Add to Cart Button?"
+msgstr ""
+
+#: framework/vendor/woocommerce/customizer.php:336
+msgid "Always Visible Add to Cart Button?"
+msgstr ""
+
+#: framework/vendor/woocommerce/customizer.php:346
+msgid "Single Product"
+msgstr ""
+
+#: framework/vendor/woocommerce/customizer.php:351
+msgid "Store"
+msgstr ""
+
+#: framework/vendor/woocommerce/customizer.php:371
+msgid "Post Rating"
+msgstr ""
+
+#: framework/vendor/woocommerce/customizer.php:384
+msgid "Product Gallery Width"
+msgstr ""
+
+#: framework/vendor/woocommerce/customizer.php:397
+msgid "Product Summary Width"
+msgstr ""
+
+#: framework/vendor/woocommerce/customizer.php:410
+msgid "Product Gallery Slider"
+msgstr ""
+
+#: framework/vendor/woocommerce/customizer.php:418
+msgid "Product Gallery Slider Animation Speed"
+msgstr ""
+
+#: framework/vendor/woocommerce/customizer.php:431
+msgid "Product Gallery Zoom"
+msgstr ""
+
+#: framework/vendor/woocommerce/customizer.php:440
+msgid "Product Gallery Lightbox"
+msgstr ""
+
+#: framework/vendor/woocommerce/customizer.php:444
+msgid "Theme Lightbox"
+msgstr ""
+
+#: framework/vendor/woocommerce/customizer.php:445
+msgid "WooCommerce Lightbox"
+msgstr ""
+
+#: framework/vendor/woocommerce/customizer.php:455
+msgid "Lightbox Titles"
+msgstr ""
+
+#: framework/vendor/woocommerce/customizer.php:467
+msgid "Gallery Thumbnails Columns"
+msgstr ""
+
+#: framework/vendor/woocommerce/customizer.php:484
+msgid "Product Tabs Position"
+msgstr ""
+
+#: framework/vendor/woocommerce/customizer.php:488
+msgid "Next to Image"
+msgstr ""
+
+#: framework/vendor/woocommerce/customizer.php:497
+msgid "Up-Sells Count"
+msgstr ""
+
+#: framework/vendor/woocommerce/customizer.php:505
+msgid "Up-Sells Columns"
+msgstr ""
+
+#: framework/vendor/woocommerce/customizer.php:514
+msgid "Related Items Count"
+msgstr ""
+
+#: framework/vendor/woocommerce/customizer.php:522
+msgid "Related Products Columns"
+msgstr ""
+
+#: framework/vendor/woocommerce/customizer.php:531
+msgid "Product Meta"
+msgstr ""
+
+#: framework/vendor/woocommerce/customizer.php:555
+msgid "Disable Tabs on Mobile?"
+msgstr ""
+
+#: framework/vendor/woocommerce/customizer.php:564
+#: framework/vendor/woocommerce/menu-cart.php:146
+#: framework/vendor/woocommerce/menu-cart.php:212
+msgid "Cart"
+msgstr ""
+
+#: framework/vendor/woocommerce/customizer.php:571
+msgid "Cross-Sells Count"
+msgstr ""
+
+#: framework/vendor/woocommerce/customizer.php:579
+msgid "Cross-Sells Columns"
+msgstr ""
+
+#: framework/vendor/woocommerce/customizer.php:589
+msgid "Checkout"
+msgstr ""
+
+#: framework/vendor/woocommerce/customizer.php:596
+msgid "Single Column Checkout"
+msgstr ""
+
+#: framework/vendor/woocommerce/customizer.php:604
+msgid "Order Review Placement"
+msgstr ""
+
+#: framework/vendor/woocommerce/customizer.php:607
+msgid "Right Column (below additonal information)"
+msgstr ""
+
+#: framework/vendor/woocommerce/customizer.php:608
+msgid "After Columns (below billing and additional information)"
+msgstr ""
+
+#: framework/vendor/woocommerce/customizer.php:618
+msgid "Styling"
+msgstr ""
+
+#: framework/vendor/woocommerce/customizer.php:626
+msgid "On Sale Tag Background"
+msgstr ""
+
+#: framework/vendor/woocommerce/customizer.php:638
+msgid "On Sale Tag Color"
+msgstr ""
+
+#: framework/vendor/woocommerce/customizer.php:650
+msgid "On Sale Tag Border Radius"
+msgstr ""
+
+#: framework/vendor/woocommerce/customizer.php:663
+msgid "On Sale Tag Padding"
+msgstr ""
+
+#: framework/vendor/woocommerce/customizer.php:676
+msgid "Product Entry Title Color"
+msgstr ""
+
+#: framework/vendor/woocommerce/customizer.php:690
+msgid "Product Entry Title Color: Hover"
+msgstr ""
+
+#: framework/vendor/woocommerce/customizer.php:704
+msgid "Global Price Color"
+msgstr ""
+
+#: framework/vendor/woocommerce/customizer.php:720
+msgid "Product Entry Price Color"
+msgstr ""
+
+#: framework/vendor/woocommerce/customizer.php:735
+msgid "Single Product Price Color"
+msgstr ""
+
+#: framework/vendor/woocommerce/customizer.php:749
+msgid "Star Ratings Color"
+msgstr ""
+
+#: framework/vendor/woocommerce/customizer.php:764
+msgid "Product Tabs Active Border Color"
+msgstr ""
+
+#: framework/vendor/woocommerce/woocommerce.php:133
+msgid "WooCommerce (Total)"
+msgstr ""
+
+#: framework/vendor/woocommerce/woocommerce.php:205
+msgid "Shop results for:"
+msgstr ""
+
+#: framework/vendor/woocommerce/woocommerce.php:222
+msgid "Order Received"
+msgstr ""
+
+#: framework/vendor/woocommerce/woocommerce.php:282
+msgid "was added to your shopping cart."
+msgstr ""
+
+#: framework/vendor/woocommerce/woocommerce.php:303
+msgid "Sale"
+msgstr ""
+
+#: framework/vendor/woocommerce/woocommerce.php:484
+msgid "WooCommerce Entry Title"
+msgstr ""
+
+#: framework/vendor/woocommerce/woocommerce.php:489
+msgid "WooCommerce Product Title"
+msgstr ""
+
+#: framework/vendor/woocommerce/woocommerce.php:494
+msgid "WooCommerce Tabs Title"
+msgstr ""
+
+#: framework/vendor/woocommerce/woocommerce.php:499
+msgid "WooCommerce Up-Sells & Related Title"
+msgstr ""
+
+#: framework/vendor/woocommerce/woocommerce.php:512
+msgid "Leave a customer review"
+msgstr ""
+
+#: framework/vendor/wpbakery/shortcode-mods/vc_column.php:72
+#: framework/vendor/wpbakery/shortcode-mods/vc_column.php:77
+#: framework/vendor/wpbakery/shortcode-mods/vc_column.php:82
+#: framework/vendor/wpbakery/shortcode-mods/vc_column.php:87
+#: framework/vendor/wpbakery/shortcode-mods/vc_row.php:93
+#: framework/vendor/wpbakery/shortcode-mods/vc_row.php:102
+#: framework/vendor/wpbakery/shortcode-mods/vc_row.php:111
+#: framework/vendor/wpbakery/shortcode-mods/vc_row.php:379
+#: framework/vendor/wpbakery/shortcode-mods/vc_row.php:390
+#: framework/vendor/wpbakery/shortcode-mods/vc_row.php:400
+#: framework/vendor/wpbakery/shortcode-mods/vc_row.php:410
+#: framework/vendor/wpbakery/shortcode-mods/vc_section.php:80
+#: framework/vendor/wpbakery/shortcode-mods/vc_section.php:89
+#: framework/vendor/wpbakery/shortcode-mods/vc_section.php:98
+#: framework/vendor/wpbakery/shortcode-mods/vc_section.php:178
+#: framework/vendor/wpbakery/shortcode-mods/vc_section.php:189
+#: framework/vendor/wpbakery/shortcode-mods/vc_section.php:199
+#: framework/vendor/wpbakery/shortcode-mods/vc_section.php:209
+msgid "Video"
+msgstr ""
+
+#: framework/vendor/wpbakery/shortcode-mods/vc_column.php:92
+#: framework/vendor/wpbakery/shortcode-mods/vc_column.php:97
+#: framework/vendor/wpbakery/shortcode-mods/vc_column.php:102
+#: framework/vendor/wpbakery/shortcode-mods/vc_row.php:137
+#: framework/vendor/wpbakery/shortcode-mods/vc_row.php:145
+#: framework/vendor/wpbakery/shortcode-mods/vc_row.php:150
+#: framework/vendor/wpbakery/shortcode-mods/vc_row.php:315
+#: framework/vendor/wpbakery/shortcode-mods/vc_row.php:326
+#: framework/vendor/wpbakery/shortcode-mods/vc_row.php:348
+#: framework/vendor/wpbakery/shortcode-mods/vc_row.php:360
+#: framework/vendor/wpbakery/shortcode-mods/vc_section.php:117
+#: framework/vendor/wpbakery/shortcode-mods/vc_section.php:121
+#: framework/vendor/wpbakery/shortcode-mods/vc_section.php:125
+msgid "Parallax"
+msgstr ""
+
+#: framework/vendor/wpbakery/shortcode-mods/vc_column.php:144
+msgid "CSS Animation Delay"
+msgstr ""
+
+#: framework/vendor/wpbakery/shortcode-mods/vc_column.php:150
+msgid ""
+"Enter a value in seconds for a custom animation delay. By adding a different "
+"delay for different modules in a row you can have them load in one after the "
+"other."
+msgstr ""
+
+#: framework/vendor/wpbakery/shortcode-mods/vc_column.php:155
+#: framework/vendor/wpbakery/shortcode-mods/vc_row.php:229
+msgid "Typography Style"
+msgstr ""
+
+#: framework/vendor/wpbakery/shortcode-mods/vc_column.php:162
+#: framework/vendor/wpbakery/shortcode-mods/vc_row.php:212
+msgid "Minimum Height"
+msgstr ""
+
+#: framework/vendor/wpbakery/shortcode-mods/vc_column.php:164
+msgid "You can enter a minimum height for this row."
+msgstr ""
+
+#: framework/vendor/wpbakery/shortcode-mods/vc_column_text.php:65
+msgid ""
+"Enter a custom width instead of using breaks to slim down your content "
+"width. "
+msgstr ""
+
+#: framework/vendor/wpbakery/shortcode-mods/vc_column_text.php:102
+msgid "Auto Responsive Font Size"
+msgstr ""
+
+#: framework/vendor/wpbakery/shortcode-mods/vc_column_text.php:107
+msgid "Minimum Font Size"
+msgstr ""
+
+#: framework/vendor/wpbakery/shortcode-mods/vc_row.php:86
+msgid "Outer Column Gap"
+msgstr ""
+
+#: framework/vendor/wpbakery/shortcode-mods/vc_row.php:87
+msgid ""
+"Alters the outer column gap to be used when adding backgrounds to your "
+"columns. To increase the default space between the columns without "
+"backgrounds use the \"Outer Column Gap\" setting instead."
+msgstr ""
+
+#: framework/vendor/wpbakery/shortcode-mods/vc_row.php:139
+msgid "Advanced Parallax"
+msgstr ""
+
+#: framework/vendor/wpbakery/shortcode-mods/vc_row.php:174
+#: framework/vendor/wpbakery/shortcode-mods/vc_section.php:148
+msgid "User Access"
+msgstr ""
+
+#: framework/vendor/wpbakery/shortcode-mods/vc_row.php:179
+#: framework/vendor/wpbakery/shortcode-mods/vc_section.php:153
+msgid "Logged in"
+msgstr ""
+
+#: framework/vendor/wpbakery/shortcode-mods/vc_row.php:180
+#: framework/vendor/wpbakery/shortcode-mods/vc_section.php:154
+msgid "Logged out"
+msgstr ""
+
+#: framework/vendor/wpbakery/shortcode-mods/vc_row.php:187
+#: framework/vendor/wpbakery/shortcode-mods/vc_section.php:160
+msgid "Custom User Access"
+msgstr ""
+
+#: framework/vendor/wpbakery/shortcode-mods/vc_row.php:189
+#: framework/vendor/wpbakery/shortcode-mods/vc_section.php:162
+msgid "Enter your callback function name here."
+msgstr ""
+
+#: framework/vendor/wpbakery/shortcode-mods/vc_row.php:204
+#: framework/vendor/wpbakery/shortcode-mods/vc_section.php:307
+msgid "Local Scroll ID"
+msgstr ""
+
+#: framework/vendor/wpbakery/shortcode-mods/vc_row.php:206
+#: framework/vendor/wpbakery/shortcode-mods/vc_section.php:309
+msgid "Unique identifier for local scrolling links."
+msgstr ""
+
+#: framework/vendor/wpbakery/shortcode-mods/vc_row.php:213
+msgid ""
+"Adds a minimum height to the row so you can have a row without any content "
+"but still display it at a certain height. Such as a background with a video "
+"or image background but without any content."
+msgstr ""
+
+#: framework/vendor/wpbakery/shortcode-mods/vc_row.php:219
+msgid "Equal Column Heights"
+msgstr ""
+
+#: framework/vendor/wpbakery/shortcode-mods/vc_row.php:222
+msgid "No"
+msgstr ""
+
+#: framework/vendor/wpbakery/shortcode-mods/vc_row.php:223
+msgid "Yes"
+msgstr ""
+
+#: framework/vendor/wpbakery/shortcode-mods/vc_row.php:249
+msgid ""
+"The max width is done by setting a percentage margin on the left and right "
+"of your row. You can visit the Design Options tab to enter custom percentage "
+"margins yourself if you prefer"
+msgstr ""
+
+#: framework/vendor/wpbakery/shortcode-mods/vc_row.php:255
+msgid "Inner Column Gap"
+msgstr ""
+
+#: framework/vendor/wpbakery/shortcode-mods/vc_row.php:269
+msgid "Alter the inner column spacing."
+msgstr ""
+
+#: framework/vendor/wpbakery/shortcode-mods/vc_row.php:274
+#: framework/vendor/wpbakery/shortcode-mods/vc_row.php:557
+msgid "Remove Bottom Column Margin"
+msgstr ""
+
+#: framework/vendor/wpbakery/shortcode-mods/vc_row.php:277
+#: framework/vendor/wpbakery/shortcode-mods/vc_row.php:560
+msgid ""
+"Enable to remove the default bottom margin on all the columns inside this "
+"row."
+msgstr ""
+
+#: framework/vendor/wpbakery/shortcode-mods/vc_row.php:281
+msgid "Full-Width Columns On Tablets"
+msgstr ""
+
+#: framework/vendor/wpbakery/shortcode-mods/vc_row.php:285
+msgid "Enable to make all columns inside this row full-width for tablets."
+msgstr ""
+
+#: framework/vendor/wpbakery/shortcode-mods/vc_row.php:289
+#: framework/vendor/wpbakery/shortcode-mods/vc_row.php:565
+msgid "Float Columns Right"
+msgstr ""
+
+#: framework/vendor/wpbakery/shortcode-mods/vc_row.php:293
+#: framework/vendor/wpbakery/shortcode-mods/vc_row.php:569
+msgid ""
+"Most useful when you want to alternate content such as an image to the right "
+"and content to the left but display the image at the top on mobile."
+msgstr ""
+
+#: framework/vendor/wpbakery/shortcode-mods/vc_row.php:298
+msgid "Offset Overlay Header"
+msgstr ""
+
+#: framework/vendor/wpbakery/shortcode-mods/vc_row.php:302
+msgid ""
+"Check this box to add an offset spacing before this row equal to the height "
+"of your header to prevent issues with the header Overlay when enabled."
+msgstr ""
+
+#: framework/vendor/wpbakery/shortcode-mods/vc_row.php:310
+msgid "Enable parallax for mobile devices"
+msgstr ""
+
+#: framework/vendor/wpbakery/shortcode-mods/vc_row.php:314
+msgid ""
+"Parallax effects would most probably cause slowdowns when your site is "
+"viewed in mobile devices. By default it is disabled."
+msgstr ""
+
+#: framework/vendor/wpbakery/shortcode-mods/vc_row.php:324
+msgid "Parallax Style"
+msgstr ""
+
+#: framework/vendor/wpbakery/shortcode-mods/vc_row.php:329
+msgid "Fixed and Repeat"
+msgstr ""
+
+#: framework/vendor/wpbakery/shortcode-mods/vc_row.php:330
+msgid "Fixed and No-Repeat"
+msgstr ""
+
+#: framework/vendor/wpbakery/shortcode-mods/vc_row.php:340
+msgid "Parallax Direction"
+msgstr ""
+
+#: framework/vendor/wpbakery/shortcode-mods/vc_row.php:343
+msgid "Up"
+msgstr ""
+
+#: framework/vendor/wpbakery/shortcode-mods/vc_row.php:344
+msgid "Down"
+msgstr ""
+
+#: framework/vendor/wpbakery/shortcode-mods/vc_row.php:357
+msgid "Parallax Speed"
+msgstr ""
+
+#: framework/vendor/wpbakery/shortcode-mods/vc_row.php:359
+msgid ""
+"The movement speed, value should be between 0.1 and 1.0. A lower number "
+"means slower scrolling speed. Be mindful of the background size and the "
+"dimensions of your background image when setting this value. Faster "
+"scrolling means that the image will move faster, make sure that your "
+"background image has enough width or height for the offset."
+msgstr ""
+
+#: framework/vendor/wpbakery/shortcode-mods/vc_row.php:372
+#: framework/vendor/wpbakery/shortcode-mods/vc_section.php:170
+msgid "Video Background"
+msgstr ""
+
+#: framework/vendor/wpbakery/shortcode-mods/vc_row.php:376
+#: framework/vendor/wpbakery/shortcode-mods/vc_section.php:175
+msgid "Youtube"
+msgstr ""
+
+#: framework/vendor/wpbakery/shortcode-mods/vc_row.php:377
+#: framework/vendor/wpbakery/shortcode-mods/vc_section.php:176
+msgid "Self Hosted"
+msgstr ""
+
+#: framework/vendor/wpbakery/shortcode-mods/vc_row.php:380
+#: framework/vendor/wpbakery/shortcode-mods/vc_section.php:179
+msgid ""
+"Video backgrounds do not display on mobile because mobile devices do not "
+"allow the auto playing of videos it is recommended to apply a standard "
+"background image or color as a fallback for mobile devices."
+msgstr ""
+
+#: framework/vendor/wpbakery/shortcode-mods/vc_row.php:384
+#: framework/vendor/wpbakery/shortcode-mods/vc_section.php:183
+msgid "Video URL: MP4 URL"
+msgstr ""
+
+#: framework/vendor/wpbakery/shortcode-mods/vc_row.php:394
+#: framework/vendor/wpbakery/shortcode-mods/vc_section.php:193
+msgid "Video URL: WEBM URL"
+msgstr ""
+
+#: framework/vendor/wpbakery/shortcode-mods/vc_row.php:404
+#: framework/vendor/wpbakery/shortcode-mods/vc_section.php:203
+msgid "Video URL: OGV URL"
+msgstr ""
+
+#: framework/vendor/wpbakery/shortcode-mods/vc_row.php:416
+#: framework/vendor/wpbakery/shortcode-mods/vc_section.php:223
+msgid "Background Overlay"
+msgstr ""
+
+#: framework/vendor/wpbakery/shortcode-mods/vc_row.php:424
+#: framework/vendor/wpbakery/shortcode-mods/vc_section.php:231
+msgid "Diagonal Lines"
+msgstr ""
+
+#: framework/vendor/wpbakery/shortcode-mods/vc_row.php:431
+#: framework/vendor/wpbakery/shortcode-mods/vc_section.php:246
+msgid "Background Overlay Color"
+msgstr ""
+
+#: framework/vendor/wpbakery/shortcode-mods/vc_row.php:439
+#: framework/vendor/wpbakery/shortcode-mods/vc_section.php:238
+msgid "Custom Overlay Pattern"
+msgstr ""
+
+#: framework/vendor/wpbakery/shortcode-mods/vc_row.php:447
+#: framework/vendor/wpbakery/shortcode-mods/vc_section.php:254
+msgid "Background Overlay Opacity"
+msgstr ""
+
+#: framework/vendor/wpbakery/shortcode-mods/vc_row.php:456
+#: framework/vendor/wpbakery/shortcode-mods/vc_section.php:263
+msgid "Use Featured Image as Background?"
+msgstr ""
+
+#: framework/vendor/wpbakery/shortcode-mods/vc_row.php:459
+#: framework/vendor/wpbakery/shortcode-mods/vc_section.php:266
+msgid ""
+"Enable this option to use the current post featured image as the row "
+"background."
+msgstr ""
+
+#: framework/vendor/wpbakery/shortcode-mods/vc_row.php:460
+#: framework/vendor/wpbakery/shortcode-mods/vc_row.php:468
+#: framework/vendor/wpbakery/shortcode-mods/vc_row.php:483
+#: framework/vendor/wpbakery/shortcode-mods/vc_row.php:493
+#: framework/vendor/wpbakery/shortcode-mods/vc_section.php:107
+#: framework/vendor/wpbakery/shortcode-mods/vc_section.php:267
+#: framework/vendor/wpbakery/shortcode-mods/vc_section.php:275
+#: framework/vendor/wpbakery/shortcode-mods/vc_section.php:290
+#: framework/vendor/wpbakery/shortcode-mods/vc_section.php:299
+msgid "Design Options"
+msgstr ""
+
+#: framework/vendor/wpbakery/shortcode-mods/vc_row.php:466
+#: framework/vendor/wpbakery/shortcode-mods/vc_section.php:273
+msgid "Fixed Background Style"
+msgstr ""
+
+#: framework/vendor/wpbakery/shortcode-mods/vc_row.php:474
+#: framework/vendor/wpbakery/shortcode-mods/vc_section.php:281
+msgid "Fixed top"
+msgstr ""
+
+#: framework/vendor/wpbakery/shortcode-mods/vc_row.php:475
+#: framework/vendor/wpbakery/shortcode-mods/vc_section.php:282
+msgid "Fixed bottom"
+msgstr ""
+
+#: framework/vendor/wpbakery/shortcode-mods/vc_row.php:481
+#: framework/vendor/wpbakery/shortcode-mods/vc_section.php:288
+msgid "Background Position"
+msgstr ""
+
+#: framework/vendor/wpbakery/shortcode-mods/vc_row.php:484
+#: framework/vendor/wpbakery/shortcode-mods/vc_section.php:291
+msgid "Enter your custom background position. Example: \"center center\""
+msgstr ""
+
+#: framework/vendor/wpbakery/shortcode-mods/vc_row.php:491
+#: framework/vendor/wpbakery/shortcode-mods/vc_section.php:297
+msgid "Z-Index"
+msgstr ""
+
+#: framework/vendor/wpbakery/shortcode-mods/vc_row.php:494
+#: framework/vendor/wpbakery/shortcode-mods/vc_section.php:300
+msgid ""
+"Note: Adding z-index values on rows containing negative top/bottom margins "
+"will allow you to overlay the rows, however, this can make it hard to access "
+"the page builder tools in the frontend editor and you may need to use the "
+"backend editor to modify the overlapped rows."
+msgstr ""
+
+#: framework/vendor/wpbakery/shortcode-mods/vc_row.php:501
+msgid "Center Row Content (deprecated)"
+msgstr ""
+
+#: framework/vendor/wpbakery/shortcode-mods/vc_row.php:506
+msgid ""
+"Use this option is used to center the inner content horizontally in your row "
+"when using the \"Full Screen\" layout for your post/page. This was added "
+"prior to the stretch row setting it is now best to use the no-sidebar layout "
+"and the stretch row function to achive full-screen sections. If enable "
+"certain settings such as the \"Content position\" may not work correctly."
+msgstr ""
+
+#: framework/vendor/wpbakery/shortcode-mods/vc_single_image.php:54
+msgid "Link"
+msgstr ""
+
+#: framework/vendor/wpbakery/shortcode-mods/vc_single_image.php:97
+msgid "Local"
+msgstr ""
+
+#: framework/vendor/wpbakery/shortcode-mods/vc_single_image.php:140
+msgid "Image alignment"
+msgstr ""
+
+#: framework/vendor/wpbakery/shortcode-mods/vc_single_image.php:148
+msgid "Select image alignment."
+msgstr ""
+
+#: framework/vendor/wpbakery/shortcode-mods/vc_single_image.php:153
+msgid "Over Image Caption"
+msgstr ""
+
+#: framework/vendor/wpbakery/shortcode-mods/vc_single_image.php:155
+msgid "Use this field to add a caption to any single image with a link."
+msgstr ""
+
+#: framework/vendor/wpbakery/shortcode-mods/vc_single_image.php:160
+msgid "Image Filter"
+msgstr ""
+
+#: framework/vendor/wpbakery/shortcode-mods/vc_single_image.php:162
+msgid "Select an image filter style."
+msgstr ""
+
+#: framework/vendor/wpbakery/shortcode-mods/vc_single_image.php:167
+msgid "Image Hover"
+msgstr ""
+
+#: framework/vendor/wpbakery/shortcode-mods/vc_single_image.php:169
+msgid ""
+"Select your preferred image hover effect. Please note this will only work if "
+"the image links to a URL or a large version of itself. Please note these "
+"effects may not work in all browsers."
+msgstr ""
+
+#: framework/vendor/wpbakery/shortcode-mods/vc_single_image.php:175
+msgid "Video, SWF, Flash, URL Lightbox"
+msgstr ""
+
+#: framework/vendor/wpbakery/shortcode-mods/vc_single_image.php:177
+#: framework/vendor/wpbakery/shortcode-mods/vc_single_image.php:210
+msgid ""
+"Enter the URL to a video, SWF file, flash file or a website URL to open in "
+"lightbox."
+msgstr ""
+
+#: framework/vendor/wpbakery/shortcode-mods/vc_single_image.php:183
+msgid "Lightbox Type"
+msgstr ""
+
+#: framework/vendor/wpbakery/shortcode-mods/vc_single_image.php:186
+msgid "Auto Detect - Slow"
+msgstr ""
+
+#: framework/vendor/wpbakery/shortcode-mods/vc_single_image.php:187
+msgid "URL"
+msgstr ""
+
+#: framework/vendor/wpbakery/shortcode-mods/vc_single_image.php:188
+msgid "Youtube, Vimeo, Embed or Iframe"
+msgstr ""
+
+#: framework/vendor/wpbakery/shortcode-mods/vc_single_image.php:189
+msgid "HTML5"
+msgstr ""
+
+#: framework/vendor/wpbakery/shortcode-mods/vc_single_image.php:190
+msgid "Quicktime"
+msgstr ""
+
+#: framework/vendor/wpbakery/shortcode-mods/vc_single_image.php:192
+msgid ""
+"Auto detect depends on the iLightbox API, so by choosing your type it speeds "
+"things up and you also allows for HTTPS support."
+msgstr ""
+
+#: framework/vendor/wpbakery/shortcode-mods/vc_single_image.php:199
+msgid "Video Overlay Icon?"
+msgstr ""
+
+#: framework/vendor/wpbakery/shortcode-mods/vc_single_image.php:208
+msgid "HTML5 Webm URL"
+msgstr ""
+
+#: framework/vendor/wpbakery/shortcode-mods/vc_single_image.php:217
+msgid "Lightbox Title"
+msgstr ""
+
+#: framework/vendor/wpbakery/shortcode-mods/vc_single_image.php:224
+msgid "Lightbox Dimensions"
+msgstr ""
+
+#: framework/vendor/wpbakery/shortcode-mods/vc_single_image.php:226
+msgid ""
+"Enter a custom width and height for your lightbox pop-up window. Use format "
+"widthxheight. Example: 900x600."
+msgstr ""
+
+#: framework/vendor/wpbakery/shortcode-mods/vc_single_image.php:234
+msgid "Custom Image Lightbox"
+msgstr ""
+
+#: framework/vendor/wpbakery/shortcode-mods/vc_single_image.php:236
+msgid "Select a custom image to open in lightbox format"
+msgstr ""
+
+#: framework/vendor/wpbakery/shortcode-mods/vc_single_image.php:243
+msgid "Gallery Lightbox"
+msgstr ""
+
+#: framework/vendor/wpbakery/shortcode-mods/vc_single_image.php:245
+msgid "Select images to create a lightbox Gallery."
+msgstr ""
+
+#: framework/vendor/wpbakery/shortcode-mods/vc_tabs_tour.php:43
+msgid "Alternative #1"
+msgstr ""
+
+#: framework/vendor/wpbakery/shortcode-mods/vc_tabs_tour.php:44
+msgid "Alternative #2"
+msgstr ""
+
+#: framework/vendor/wpbakery/shortcode-mods/vc_toggle.php:36
+msgid "FAQ/Toggle"
+msgstr ""
+
+#: framework/vendor/wpbakery/vc-customizer-settings.php:24
+msgid "Column Bottom Margin"
+msgstr ""
+
+#: framework/vendor/wpbakery/vc-customizer-settings.php:25
+msgid ""
+"Having a default bottom margin makes it easier for your website to be "
+"responsive so on mobile devices when columns stack they will automatically "
+"have space between them."
+msgstr ""
+
+#: framework/vendor/wpbakery/vc-customizer-settings.php:51
+msgid "Tabs Alternative 2 Border Color"
+msgstr ""
+
+#: framework/vendor/wpbakery/vc-customizer-settings.php:63
+msgid "Carousel Arrows Highlight Color"
+msgstr ""
+
+#: framework/vendor/wpbakery/vc-customizer-settings.php:81
+msgid "Grid Filter: Active Link Color"
+msgstr ""
+
+#: framework/vendor/wpbakery/vc-customizer-settings.php:82
+#: framework/vendor/wpbakery/vc-customizer-settings.php:98
+#: framework/vendor/wpbakery/vc-customizer-settings.php:114
+msgid "Legacy Option"
+msgstr ""
+
+#: framework/vendor/wpbakery/vc-customizer-settings.php:97
+msgid "Grid Filter: Active Link Background"
+msgstr ""
+
+#: framework/vendor/wpbakery/vc-customizer-settings.php:113
+msgid "Grid Filter: Active Link Border"
+msgstr ""
+
+#: framework/vendor/wpbakery/vc-customizer-settings.php:130
+msgid "Recent News Date: Background"
+msgstr ""
+
+#: framework/vendor/wpbakery/vc-customizer-settings.php:142
+msgid "Recent News Date: Color"
+msgstr ""
+
+#: framework/vendor/wpbakery/vc-disable-updater.php:30
+#, php-format
+msgid ""
+"Activating the WPBakery Builder plugin is 100% optional and NOT required to "
+"function correctly with the theme."
+msgstr ""
+
+#: framework/wp-actions/widgets-init.php:24
+msgid "Main Sidebar"
+msgstr ""
+
+#: framework/wp-actions/widgets-init.php:29
+msgid "Pages Sidebar"
+msgstr ""
+
+#: framework/wp-actions/widgets-init.php:34
+msgid "Blog Sidebar"
+msgstr ""
+
+#: framework/wp-actions/widgets-init.php:39
+msgid "Search Results Sidebar"
+msgstr ""
+
+#: framework/wp-actions/widgets-init.php:44
+msgid "WooCommerce Sidebar"
+msgstr ""
+
+#: framework/wp-actions/widgets-init.php:114
+msgid "Footer Column 1"
+msgstr ""
+
+#: framework/wp-actions/widgets-init.php:126
+msgid "Footer Column 2"
+msgstr ""
+
+#: framework/wp-actions/widgets-init.php:140
+msgid "Footer Column 3"
+msgstr ""
+
+#: framework/wp-actions/widgets-init.php:154
+msgid "Footer Column 4"
+msgstr ""
+
+#: framework/wp-actions/widgets-init.php:168
+msgid "Footer Column 5"
+msgstr ""
+
+#: functions.php:407
+msgid "Main/Header"
+msgstr ""
+
+#: functions.php:408
+msgid "Mobile Menu Alternative"
+msgstr ""
+
+#: functions.php:409
+msgid "Mobile Icons"
+msgstr ""
+
+#: index.php:88
+msgid "No Posts found."
+msgstr ""
+
+#: partials/accessibility/skip-to-content.php:19
+msgid "skip to Main Content"
+msgstr ""
+
+#: partials/blog/blog-entry-meta.php:115 partials/blog/blog-single-meta.php:75
+#: partials/meta/meta.php:60 partials/portfolio/portfolio-single-meta.php:56
+#: partials/staff/staff-single-meta.php:55
+msgid "0 Comments"
+msgstr ""
+
+#: partials/blog/blog-entry-meta.php:115 partials/blog/blog-single-meta.php:75
+#: partials/meta/meta.php:60 partials/portfolio/portfolio-single-meta.php:56
+#: partials/staff/staff-single-meta.php:55
+msgid "1 Comment"
+msgstr ""
+
+#: partials/blog/blog-entry-meta.php:115 partials/blog/blog-single-meta.php:75
+#: partials/meta/meta.php:60 partials/portfolio/portfolio-single-meta.php:56
+#: partials/staff/staff-single-meta.php:55
+msgid "% Comments"
+msgstr ""
+
+#: partials/blog/media/blog-single.php:29
+msgid "Enlarge Image"
+msgstr ""
+
+#: partials/cart/cart-overlay.php:11
+#: partials/search/header-search-overlay.php:16
+#: partials/search/header-search-replace.php:17
+msgid "Close search"
+msgstr ""
+
+#: partials/cpt/cpt-single-related.php:69
+msgid "Related Items"
+msgstr ""
+
+#: partials/header/header-aside.php:34
+msgid "search"
+msgstr ""
+
+#: partials/next-prev.php:53
+msgid "previous post"
+msgstr ""
+
+#: partials/next-prev.php:57
+msgid "next post"
+msgstr ""
+
+#: partials/overlays/hover-button.php:50
+msgid "View Post"
+msgstr ""
+
+#: partials/overlays/view-lightbox-buttons-text.php:62
+msgid "Zoom"
+msgstr ""
+
+#: partials/password-protection-form.php:30
+msgid "Password Protected"
+msgstr ""
+
+#: partials/password-protection-form.php:31
+msgid ""
+"This content is password protected. To view it please enter your password "
+"below:"
+msgstr ""
+
+#: partials/password-protection-form.php:32 templates/login.php:73
+msgid "Password"
+msgstr ""
+
+#: partials/password-protection-form.php:32 searchform.php:27
+msgid "Submit"
+msgstr ""
+
+#: partials/post-edit.php:17
+msgid "Edit This Page"
+msgstr ""
+
+#: partials/post-edit.php:19
+msgid "Edit This Post"
+msgstr ""
+
+#: partials/post-edit.php:27
+msgid "Hide Post Edit Links"
+msgstr ""
+
+#: partials/post-series.php:58
+msgid "Post Series:"
+msgstr ""
+
+#: partials/scroll-top.php:19
+msgid "Back To Top"
+msgstr ""
+
+#: partials/search/mobile-searchform.php:27
+msgid "Submit search"
+msgstr ""
+
+#: partials/search/search-no-results.php:16
+msgid "Sorry, no results were found for this query."
+msgstr ""
+
+#: partials/staff/staff-single-related.php:75
+msgid "Related Staff"
+msgstr ""
+
+#: single-elementor_library.php:33 single-templatera.php:38
+msgid ""
+"You are currently editing a section of your site via a page builder "
+"template. Hover over the section of the site you are editing to make your "
+"changes. This is where you site content will go."
+msgstr ""
+
+#: templates/login.php:63
+msgid "You are currently logged in."
+msgstr ""
+
+#: templates/login.php:63
+msgid "Logout?"
+msgstr ""
+
+#: templates/login.php:72
+msgid "Username"
+msgstr ""
+
+#: templates/login.php:74
+msgid "Remember Me"
+msgstr ""
+
+#: templates/login.php:75
+msgid "Log In"
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:26
+msgid "You must be logged in to checkout."
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:53
+#: woocommerce/checkout/form-checkout.php:77
+msgid "Your order"
+msgstr ""
+
+#: woocommerce/single-product/meta.php:26
+msgid "N/A"
+msgstr ""
+
+#: woocommerce/single-product/meta.php:34
+msgid "SKU:"
+msgstr ""
+
+#: woocommerce/single-product/meta.php:38
+msgid "Category:"
+msgid_plural "Categories:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/single-product/meta.php:40
+msgid "Tag:"
+msgid_plural "Tags:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/single-product/rating.php:40
+#, php-format
+msgid "%s review"
+msgid_plural "%s reviews"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/single-product/rating.php:42
+msgid "be the first to review"
+msgstr ""
